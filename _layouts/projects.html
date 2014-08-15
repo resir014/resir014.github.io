@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="masthead">
+  <h2 class="masthead-title">
+    <a href="{{ site.baseurl }}projects">/projects</a>
+    <small>projects by @resir014</small>
+  </h2>
+</div>
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <img class="project-thumbnail" src="{{ page.picture_url }}" />
+
+  <a class="project-link" href="{{ page.project_link }}" target="_blank">&gt; Visit the project.</a>
+
+  {{ content }}
+</div>

@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+name:             Resi Respati (&#64;resir014)
+title:            resir014
+tagline:          Thoughts on life.
+url:              http://resir014.github.io
+baseurl:          /
+exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]
+author:
+  name:           Resi Respati
+  url:            https://twitter.com/resir014
+  email:          resir014@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/resir014/resir014.github.io
+
+# Collections
+collections:
+  projects:
+    output:       true
+    permalink:    /:collection/:path/
