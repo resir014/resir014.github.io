@@ -457,7 +457,7 @@ tbody tr:nth-child(odd) th {
   display: none;
 }
 #navbar-checkbox:checked + .navbar-container {
-  height: 170px;
+  height: 210px;
 }
 #navbar-checkbox:checked + .navbar-container .navbar-links {
   display: block;
