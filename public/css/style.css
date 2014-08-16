@@ -261,10 +261,6 @@ tbody tr:nth-child(odd) th {
  */
 
 #intro {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 4rem 16.66667%;
   background-color: #212121;
   color: #eee;
   overflow: hidden;
@@ -279,10 +275,16 @@ tbody tr:nth-child(odd) th {
 }
 
 .intro-content {
-  display: table-cell;
+  display: table;
+  position: absolute;
   width: 100%;
-  text-align: center;
+  height: 100%;
+}
+
+.intro-wrapper {
+  display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 .intro-title {
