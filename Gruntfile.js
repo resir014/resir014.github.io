@@ -25,7 +25,7 @@ module.exports = function (grunt) {
 
       shell: {
         jekyll: {
-          command: 'jekyll build'
+          command: 'jekyll build --drafts'
         }
       },
 
@@ -36,7 +36,8 @@ module.exports = function (grunt) {
         jekyllSources: {
           files: [
             '*.html', '*.md', '*.yml', 'public/css/**.css', '_posts/**',
-            '_includes/**', 'atom.xml', '**/*.md'
+            '_projects/**', '_includes/**', '_layouts/**', 'atom.xml',
+            '**/*.md'
           ],
           tasks: ['shell:jekyll']
         }
