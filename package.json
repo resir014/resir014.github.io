@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "resir014.github.io",
+  "version": "1.0.0",
+  "description": "The personal GitHub page for resir014.",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resir014/resir014.github.io.git"
+  },
+  "author": {
+    "name": "Resi Respati",
+    "email": "resir014@gmail.com",
+    "url": "https://twitter.com/resir014"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://en.wikipedia.org/wiki/MIT_License"
+  },
+  "bugs": {
+    "url": "https://github.com/resir014/resir014.github.io/issues"
+  },
+  "homepage": "https://github.com/resir014/resir014.github.io",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-csscomb": "~3.0.0",
+    "grunt-open": "~0.2.3",
+    "grunt-shell": "~1.0.1",
+    "load-grunt-tasks": "~0.6.0"
+  }
+}
