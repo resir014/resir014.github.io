@@ -59,19 +59,23 @@ module.exports = function (grunt) {
 
     });
 
-    grunt.registerTask('build', [
+    grunt.registerTask('clean', [
       'autoprefixer:build', 'csscomb:build'
     ]);
 
     grunt.registerTask('server', [
+      'shell:jekyll',
       'connect:server',
       'open:server',
       'watch'
     ]);
 
+    // jekyll build task
+    grunt.registerTask('build', ['shell:jekyll']);
+
     // livereload task
     grunt.registerTask('serve', ['server']);
 
     // default task
-    grunt.registerTask('default', 'build');
+    grunt.registerTask('default', 'clean');
 }
