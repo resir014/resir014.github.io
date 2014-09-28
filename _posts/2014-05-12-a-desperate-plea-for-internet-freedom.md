@@ -8,7 +8,7 @@ So I woke up one day, pulled my laptop out for my daily dose of Reddit when I wa
 
 <img src="http://37.media.tumblr.com/0dc32275aaf9ff6ad169fd2c49e7f466/tumblr_n4l808VNJc1qapvx8o1_1280.jpg" alt="Photo" />
 
-Yes. As of 25 April 2014, Reddit and Imgur was blocked by my ISP as part of compliance with the [TRUST+ Positif](http://trustpositif.kominfo.go.id/) program, or more commonly known as the Internet Sehat (Healthy Internet) program. I was, indeed, annoyed by my ISP's actions, but they only use a low-level DNS blocking, so I switched over to using Google Public DNS and it worked again. Though unfortunately with mobile network forcing all kinds of connection through their own DNS, I can no longer access them from my phone at all.
+Yes. As of 25 April 2014, Reddit and Imgur was blocked by my ISP as part of compliance with the [TRUST+ Positif](http://trustpositif.kominfo.go.id/) program, or more commonly known as the Internet Positif (Positive Internet) program. I was, indeed, annoyed by my ISP's actions, but they only use a low-level DNS blocking, so I switched over to using Google Public DNS and it worked again. Though unfortunately with mobile network forcing all kinds of connection through their own DNS, I can no longer access them from my phone at all.
 
 This program was incited by Indonesia's current Communications & Information Ministry, [Tifatul Sembiring](http://en.wikipedia.org/wiki/Tifatul_Sembiring). He &mdash; or as I will further refer to him as "Tiffy" &mdash; has a pretty huge Islamist background (more on this later), and so by his powers as the Communications Ministry he decided to launch a "porn filter" program, where ISPs are required to block these so-called "abusive" websites, which, according to them, contain one of the following:
 
@@ -20,7 +20,7 @@ This program was incited by Indonesia's current Communications & Information Min
 
 Of course, this was made for our own good, right? So we can safely browse the Internet without fear of malicious websites attacking our computers? Well, it's more than that.
 
-The Internet Sehat program mostly work on submission report, and although they have a team which reviews these sites one by one, most likely they didn't even check the contents of the page. One of the first websites blocked by the Internet Sehat program was Gaya Nusantara, the first, oldest website for the Indonesian LGBT community.
+The Internet Positif program mostly work on submission report, and although they have a team which reviews these sites one by one, most likely they didn't even check the contents of the page. One of the first websites blocked by the Internet Positif program was Gaya Nusantara, the first, oldest website for the Indonesian LGBT community.
 
 And herein lies the huge flaw behind the entire program.
 
@@ -48,7 +48,7 @@ Like seriously. What is their logic behind this? Does this mean that YouTube, Bl
 
 Do they even actually check these websites one by one before outright blocking the entirety of it? Do they just enter a website, then type out "porn" on the search box, then block it when it brings out any results?
 
-That's pretty much like a government requesting to shut down an entire supermarket because someone complained that there are rats wandering around on the vegetables aisle.
+That's pretty much like a government requesting to shut down an entire supermarket because someone complained that there are rats wandering around on the food section.
 
 And where's the transparency? I never seen them bring out any valid reasoning as to why they were blocking these sites. This has a large probability that it could get misused, and start to abuse their power in controlling the online media that they started blocking websites they don't want you to see.
 
@@ -79,3 +79,5 @@ That pretty much sums up how our Internet has become. Now I stand before you, be
 **Update 3:** A local Al Jazeera cameraman [posted a video](http://www.youtube.com/watch?v=BD4jDRXoCac) expressing his anger on the blockage of Vimeo.
 
 **Update 4:** Vimeo has said that they have received the official request sent by the Ministry and are working to resolve the issue.
+
+**Update 5:** Changed the name "Internet Sehat" to "Internet Positif" to avoid confusion with the [https://twitter.com/internetsehat](Internet Sehat), a non-profit organisation promoting safe browsing on the Internet. Internet Positif is purely a government program.
