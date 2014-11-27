@@ -6,9 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-name:             Resi Respati (&#64;resir014)
-title:            resir014
-tagline:          Thoughts on life.
+name:             "@resir014"
+title:            "resir014"
 url:              http://resir014.github.io
 baseurl:          /
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]

@@ -1,8 +1,9 @@
 ---
-layout: projects
+layout: project
 title: FandomFest
+category: webdesign
 details: Local gathering of fandom communities in Jakarta.
-project_link: http://fandom-fest.com
+link: http://fandom-fest.com
 picture_url: http://resir014.github.io/public/images/fandom-fest-screenshot.png
 ---
 
@@ -16,3 +17,5 @@ Fandom Festival will be a 2-day event held in Jakarta for people with shared int
 * First time developing a website using Jekyll.
 * Based on Bootstrap. This thing's fucking awesome.
 * Editors used: Brackets.
+
+<a class="project-link" href="{{ project.link }}" target="_blank">&gt; Visit the project.</a>

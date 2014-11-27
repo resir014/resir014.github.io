@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span class="page-meta">Filed under: {{ page.category }}</span>
+
+  {% if page.picture_url %}
+  <img class="project-thumbnail" src="{{ page.picture_url }}" />
+  {% endif %}
+
+  {{ content }}
+</div>

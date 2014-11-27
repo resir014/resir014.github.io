@@ -5,30 +5,18 @@
 
   <body>
 
-    <div class="navbar">
-      <input type="checkbox" id="navbar-checkbox" class="navbar-checkbox" />
-      <div class="container navbar-container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <label class="navbar-toggle" for="navbar-checkbox">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </label>
-        </div>
-
-        <div class="navbar-links">
-          <ul>
-            <li><a href="{{ site.baseurl }}">home</a></li>
-            <li><a href="{{ site.baseurl }}blog">blog</a></li>
-            <li><a href="{{ site.baseurl }}about">about</a></li>
-            <li><a href="{{ site.baseurl }}projects">projects</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home">{{ site.name }}</a>
+        </h3>
+        <ul class="nav">
+          <li><a href="{{ site.baseurl }}">home</a></li>
+          <li><a href="{{ site.baseurl }}blog">blog</a></li>
+          <li><a href="{{ site.baseurl }}about">about</a></li>
+          <li><a href="{{ site.baseurl }}projects">projects</a></li>
+        </ul>
+      </div>
 
       {{ content }}
 
