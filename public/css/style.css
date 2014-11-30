@@ -172,6 +172,32 @@ pre code {
   border-radius: 0;
 }
 
+/* Twitter tweet embeds */
+iframe.twitter-tweet.twitter-tweet-rendered {
+  margin: 1rem auto !important;
+}
+
+/* Video wrapper */
+.video-wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 56.25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed,
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -530,33 +556,6 @@ a.pagination-item:hover {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
-}
-
-/*
- * Video Wrapper
- *
- * Source: http://alistapart.com/article/creating-intrinsic-ratios-for-video/
- */
-
-.video-wrapper {
-  position: relative;
-  height: 0;
-  padding-top: 0;
-  padding-bottom: 56.25%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-.video-wrapper iframe,
-.video-wrapper object,
-.video-wrapper embed,
-.video-wrapper video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /*
