@@ -17,5 +17,3 @@ Fandom Festival will be a 2-day event held in Jakarta for people with shared int
 * First time developing a website using Jekyll.
 * Based on Bootstrap. This thing's fucking awesome.
 * Editors used: Brackets.
-
-<a class="project-link" href="{{ project.link }}" target="_blank">&gt; Visit the project.</a>
