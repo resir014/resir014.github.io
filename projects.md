@@ -5,36 +5,36 @@ title: Projects
 
 ## web design
 
+<dl>
 {% for project in site.projects %}
 {% if project.category == "webdesign" %}
-<dl>
   <dt><a href="{{ project.url }}">{{ project.title }}</a></dt>
   <dd>{{ project.details }}</dd>
-</dl>
 {% endif %}
 {% endfor %}
+</dl>
 
 ## blogs
 
+<dl>
 {% for project in site.projects %}
 {% if project.category == "blogs" %}
-<dl>
   <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
-</dl>
 {% endif %}
 {% endfor %}
+</dl>
 
 ## github stuffs
 
+<dl>
 {% for project in site.projects %}
 {% if project.category == "github" %}
-<dl>
   <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
-</dl>
 {% endif %}
 {% endfor %}
+</dl>
 
 ## random works
 
