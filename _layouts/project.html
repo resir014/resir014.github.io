@@ -11,4 +11,8 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  {% if page.link %}
+  <a class="project-link" href="{{ page.link }}" target="_blank">&gt; Visit the project.</a>
+  {% endif %}
 </div>
