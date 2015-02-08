@@ -19,7 +19,7 @@ title: Projects
 {% for project in site.projects %}
 {% if project.category == "blogs" %}
 <dl>
-  <dt><a href="{{ project.url }}">{{ project.title }}</a></dt>
+  <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
 </dl>
 {% endif %}
@@ -30,7 +30,7 @@ title: Projects
 {% for project in site.projects %}
 {% if project.category == "github" %}
 <dl>
-  <dt><a href="{{ project.url }}">{{ project.title }}</a></dt>
+  <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
 </dl>
 {% endif %}
