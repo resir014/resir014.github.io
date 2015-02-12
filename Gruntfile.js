@@ -29,8 +29,8 @@ module.exports = function (grunt) {
       watch: {
         jekyllSources: {
           files: [
-            '*.html', '*.md', '*.yml', 'public/**', '_posts/**',
-            '_projects/**', '_includes/**', '_layouts/**', '_drafts',
+            '*.html', '*.md', '*.yml', 'public', '_posts',
+            '_projects', '_includes', '_layouts', '_drafts',
             'atom.xml'
           ],
           tasks: ['shell:jekyll']
@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       browserSync: {
         serve: {
           bsFiles: {
-            src: ['_site/**']
+            src: ['_site']
           },
           options: {
             watchTask: true,
