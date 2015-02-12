@@ -20,16 +20,13 @@ module.exports = function (grunt) {
         }
       },
 
-      shell: {
-        jekyll: {
-          command: 'jekyll build --drafts'
+      jekyll: {
+        serve: {
+          dest: '_site'
         }
       },
 
       watch: {
-        options: {
-          livereload: true
-        },
         jekyllSources: {
           files: [
             '*.html', '*.md', '*.yml', 'public/**', '_posts/**',
@@ -40,17 +37,17 @@ module.exports = function (grunt) {
         }
       },
 
-      connect: {
-        server: {
+      browserSync: {
+        serve: {
+          bsFiles: {
+            src: ['_site/**']
+          },
           options: {
-            base: '_site/',
-            port: 9001
+            watchTask: true,
+            server: {
+              baseDir: '_site'
+            }
           }
-        }
-      },
-      open: {
-        server: {
-          path: 'http://localhost:<%= connect.server.options.port %>/'
         }
       }
 
@@ -60,18 +57,11 @@ module.exports = function (grunt) {
       'autoprefixer:build', 'csscomb:build'
     ]);
 
-    grunt.registerTask('server', [
-      'shell:jekyll',
-      'connect:server',
-      'open:server',
-      'watch'
-    ]);
-
     // jekyll build task
-    grunt.registerTask('build', ['shell:jekyll']);
+    grunt.registerTask('build', ['jekyll']);
 
     // livereload task
-    grunt.registerTask('serve', ['server']);
+    grunt.registerTask('serve', ['build', 'browserSync', 'watch']);
 
     // default task
     grunt.registerTask('default', 'clean');
