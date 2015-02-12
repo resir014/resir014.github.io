@@ -5,9 +5,6 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
       autoprefixer: {
-        options: {
-          browsers: ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
-        },
         build: {
           src: 'public/css/style.css'
         }
