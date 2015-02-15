@@ -33,7 +33,7 @@ module.exports = function (grunt) {
             '_projects', '_includes', '_layouts', '_drafts',
             'atom.xml'
           ],
-          tasks: ['shell:jekyll']
+          tasks: ['jekyll:serve']
         }
       },
 
