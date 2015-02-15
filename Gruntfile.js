@@ -29,18 +29,18 @@ module.exports = function (grunt) {
       watch: {
         jekyllSources: {
           files: [
-            '*.html', '*.md', '*.yml', 'public', '_posts',
-            '_projects', '_includes', '_layouts', '_drafts',
+            '*.html', '*.md', '*.yml', 'public/**', '_posts/**',
+            '_projects/**', '_includes/**', '_layouts/**', '_drafts/**',
             'atom.xml'
           ],
-          tasks: ['jekyll:serve']
+          tasks: ['build']
         }
       },
 
       browserSync: {
         serve: {
           bsFiles: {
-            src: ['_site']
+            src: ['_site/**']
           },
           options: {
             watchTask: true,
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', ['jekyll']);
 
     // livereload task
-    grunt.registerTask('serve', ['build', 'browserSync', 'watch']);
+    grunt.registerTask('serve', ['browserSync', 'watch']);
 
     // default task
     grunt.registerTask('default', 'clean');
