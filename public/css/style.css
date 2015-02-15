@@ -1,7 +1,13 @@
 /*! resir014.github.io | Based on Poole: https://github.com/poole/poole */
 
+/* ==========================================================================
+   Modified Poole theme
+   ========================================================================== */
+
 /*
- * Global Styles
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
  */
 
 * {
@@ -281,99 +287,6 @@ tbody tr:nth-child(odd) th {
 }
 
 /*
- * Home Page
- */
-
-#intro {
-  overflow: hidden;
-  color: #eee;
-  background-color: #0c1a23;
-}
-#intro a {
-  color: #eee;
-  text-decoration: none;
-}
-#intro a:hover,
-#intro a:focus {
-  color: #eee;
-}
-
-.intro-content {
-  position: absolute;
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-
-.intro-wrapper {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.intro-logo {
-  margin: 1rem 0;
-}
-.intro-logo a {
-  position: relative;
-  display: block;
-  font-size: 85%;
-  font-weight: 300;
-  line-height: 40px;
-}
-.intro-logo img {
-  width: 7rem;
-  margin: 0 auto;
-  border-radius: 0;
-}
-
-.intro-title {
-  margin: 1rem 0;
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.intro-divider {
-  max-width: 16em;
-  margin: 1rem auto;
-  border: 0;
-  border-top: 1px solid #263238;
-}
-
-.intro-links {
-  font-weight: 300;
-  list-style: none;
-}
-.intro-links a:hover,
-.intro-links a:focus {
-  color: #268bd2;
-}
-.intro-links ul {
-  padding: 0;
-}
-.intro-links li {
-  display: inline-block;
-  padding: .5rem .75rem;
-}
-
-.intro-social-links {
-  margin-top: 2rem;
-  font-size: 1.3rem;
-}
-.intro-social-links h4 {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin: 0;
-  color: #eee;
-}
-.intro-social-links a {
-  padding: 0;
-  margin: 0 .5rem;
-  text-decoration: none;
-}
-
-/*
  * Masthead
  *
  * Super small header above the content for site name and navigation links.
@@ -394,51 +307,6 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: .5rem;
-}
-
-/* Navigation links */
-.nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.nav li {
-  display: inline-block;
-}
-.nav li + li {
-  margin-left: .5rem;
-}
-
-/*
- * Bloglist
- *
- * Lists of posts displayed on /blog.
- */
-
-.blog {
-  margin-bottom: 4em;
-}
-.blog-posts {
-  padding-left: 0;
-  list-style: none;
-}
-.blog-posts h4 {
-  margin: 0;
-}
-.blog-posts li {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-.blog-posts li small {
-  font-size: 75%;
-  color: #999;
-}
-.blog-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none;
-}
-.blog-posts li a:hover small {
-  color: inherit;
 }
 
 /*
@@ -499,17 +367,6 @@ tbody tr:nth-child(odd) th {
 }
 
 /*
- * Projects
- *
- * Styles specific to Project pages.
- */
-
-.project-thumbnail {
-  border: 2px solid #c0c0c0;
-}
-
-
-/*
  * Pagination
  *
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
@@ -557,6 +414,190 @@ a.pagination-item:hover {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+/* ==========================================================================
+   Custom add-on styles
+   ========================================================================== */
+
+/* Splash page
+   ========================================================================== */
+
+/*
+ * Global styles
+ *
+ * Essential styles used on the splash page.
+ */
+
+#intro {
+  overflow: hidden;
+  color: #eee;
+  background-color: #0c1a23;
+}
+#intro a {
+  color: #eee;
+  text-decoration: none;
+}
+#intro a:hover,
+#intro a:focus {
+  color: #eee;
+}
+
+/*
+ * Wrapper
+ *
+ * Center the splash page content both horizontally and vertically.
+ */
+
+.intro-content {
+  position: absolute;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.intro-wrapper {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+ * Splash page content
+ *
+ * Make the logo display centered
+ */
+
+/* Logo */
+
+.intro-logo {
+  margin: 1rem 0;
+}
+.intro-logo a {
+  position: relative;
+  display: block;
+  font-size: 85%;
+  font-weight: 300;
+  line-height: 40px;
+}
+.intro-logo img {
+  width: 7rem;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.intro-title {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.intro-divider {
+  max-width: 16em;
+  margin: 1rem auto;
+  border: 0;
+  border-top: 1px solid #263238;
+}
+
+/*
+ * Splash page links
+ */
+
+.intro-links {
+  font-weight: 300;
+  list-style: none;
+}
+.intro-links a:hover,
+.intro-links a:focus {
+  color: #268bd2;
+}
+.intro-links ul {
+  padding: 0;
+}
+.intro-links li {
+  display: inline-block;
+  padding: .5rem .75rem;
+}
+
+/* Social links */
+
+.intro-social-links {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.intro-social-links h4 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 0;
+  color: #eee;
+}
+.intro-social-links a {
+  padding: 0;
+  margin: 0 .5rem;
+  text-decoration: none;
+}
+
+/* Poole add-ons
+   ========================================================================== */
+
+/*
+ * Navigation
+ *
+ * Navigation links below the masthead.
+ */
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+}
+.nav li + li {
+  margin-left: .5rem;
+}
+
+/*
+ * Post list
+ *
+ * Lists of posts displayed on `/blog`.
+ */
+
+.blog {
+  margin-bottom: 4em;
+}
+.blog-posts {
+  padding-left: 0;
+  list-style: none;
+}
+.blog-posts h4 {
+  margin: 0;
+}
+.blog-posts li {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.blog-posts li small {
+  font-size: 75%;
+  color: #999;
+}
+.blog-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.blog-posts li a:hover small {
+  color: inherit;
+}
+
+/*
+ * Projects
+ *
+ * Styles specific to Project pages.
+ */
+
+.project-thumbnail {
+  border: 2px solid #c0c0c0;
 }
 
 /*
