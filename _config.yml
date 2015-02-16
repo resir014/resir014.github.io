@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-name:             "@resir014"
-title:            "resir014"
+title:            resir014
+tagline:          I make things.
 url:              http://resir014.github.io
 baseurl:          /
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]
