@@ -157,6 +157,10 @@ pre code {
 }
 
 /* Gist via GitHub Pages */
+.gist {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
 }
