@@ -9,6 +9,8 @@ permalink:        pretty
 title:            resir014
 tagline:          I make things.
 url:              http://resir014.github.io
+paginate:         1
+paginate_path:    "/blog/page/:num/"
 baseurl:          /
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]
 author:
