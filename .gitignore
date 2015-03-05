@@ -1,8 +1,12 @@
-# Ignore docs files
+# Ignore Jekyll folders
 _gh_pages
 _site
 _drafts
+
+# Rubygems
+Gemfile.lock
 .ruby-version
+.ruby-gemset
 
 # Numerous always-ignore extensions
 *.diff
