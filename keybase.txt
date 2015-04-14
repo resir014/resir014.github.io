@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/resir014
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://resir014.github.io
+  * I am resir014 (https://keybase.io/resir014) on keybase.
+  * I have a public key with fingerprint 0929 C31A C2B0 AF63 C6E3  D9DF BB70 B066 307F 92FD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0929c31ac2b0af63c6e3d9dfbb70b066307f92fd",
+            "host": "keybase.io",
+            "key_id": "bb70b066307f92fd",
+            "kid": "01016bd6a082965162bf85c6e298620c08a44bbca74e131eddba929639a22dd98bd30a",
+            "uid": "88ed1b67f2f7e8cd1aadf66dcd3dc119",
+            "username": "resir014"
+        },
+        "service": {
+            "hostname": "resir014.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429025477,
+    "expire_in": 157680000,
+    "prev": "472698c9f44d8d3f6b13f2a51aa9adccefee9480f2682d0ac1fcb38278aa59be",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM5AnicbVJtUFRlFN4FRKUYICcmsy3mTpAEMvdr78eqEEoRqDVlfpQrcN/7vhcu
+wu66e1l3owVF0xQjRaKRIgzFpkChL5xRpmZBImvY2VpJgmkUMHdcwqjBKVCie6n+
+NL1/zrznPM9zznPmXIwO10XpL9g6JLyydlb/jTe7TLdpBdlbjgErdGOmcmwHmg+S
+bClEdptdtiiYCcN5khcpQhBJgAsSQ4kMoiAPJQBYHOAMQ+GsxJMSxFKxIqtDY6gy
+QHCgNNmq5tRPvgzV7P/gd8wXcAInGAAZAedInjESDAkkzqi2IXmOIXER5wSaBkAU
+WBoRFIEgBII6E0PxAklCyHMAUrigypXNy3EcggRgWImUWMSJkBAEKDEMFCEFRYLg
+NaAD2S1CKVLRduSQ7ThBY55UTM06ZRFpK9Cc/AeRVigrRWXgb1c2u1WxitYStV6k
+KDaHSeMrbptG2IVA/j9S+UC2QHWbKsOJ7A7ZasFMhIoUFVnTJmiSx0kjzbKpGHLZ
+ZDvKlzWEkWU4XH1aH+RUJWmWZHhO5CWahhykJAYQlEQKRtUbL0BRRBJCPM3hEslw
+JMQFkZBEQHEkywmCkQcI08zttFgxE62OKRSqkg650CIoZXaEebq95gidPkoXuSBM
+uwdd1OLYf69k6lTM7MO537Ykrzq9rsLf3Wi19NbGZC88Y7qcgX79snPPNsPj6X0d
+eF3xuRGyQz958Iexuw7X7t+DfYaroYpWLLonPf7IaqrtubZg3tn2VzZjr3dhM/am
+Q8tfMk/4SxfnFfin+1IMVYlLGptecyV3V0zMBU5ORt4T23y40Wds9Rknilb2J01H
+PdWw/Yzr3mJyI7pVEf8eM5VDvJt4Irwv03Pr2vQDXPH9F9br9mTV1CccH4rzjq0Z
+jB5MuzTy0E9C25Njb3/Q4t5bXhVzfTYDLArVnL3xdGlSWKggpKxZ5KvP2pfxo3t8
+YyQ3HDpy/Ur/6Lq6m8sCifueOO8LfiVM1n4m3pycufpRVd2jw8Mlb1Yl1bMpawN3
+G3z7R3oMCckvN+yVm6nMpurDSz/PYta+EPFG4K2Z9RuW33FFmjlwwDy+ueTY1qOZ
+u7Pz7qtZ+Ux/0BRgghHtv+jnkk4P5BRkDSQsqVRstQe8m55fUWyOrf7TEx83+6y7
+q7WFOyVtaaiP7xn4Orzz+w2VHulkQYJ31Ds3eHEaN5/wJ6x+7PZMhMnQdZ7dtXPL
+H68eapKWLdQtiOuNy2w7OGp88f1zkWHO8cHAtew7NbntnqEHB372x36R/eF37/yW
+nlLtfMR1dOpKSrPt0vjWY+6cpR8rxk8bbnT6Vx3n9c6OrrqKxsvbmurai223P+H4
+3qHc7Vya7y/pm7H5
+=Lsd8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/resir014
+
+==================================================================
