@@ -1,71 +1,88 @@
 module.exports = function (grunt) {
-    // load all grunt tasks matching the `grunt-*` pattern
-    require('load-grunt-tasks')(grunt);
+  // load all grunt tasks matching the `grunt-*` pattern
+  require('load-grunt-tasks')(grunt);
 
-    grunt.initConfig({
+  grunt.initConfig({
 
-      autoprefixer: {
-        build: {
-          src: 'public/css/style.css'
-        }
-      },
+    autoprefixer: {
+      build: {
+        src: 'public/css/main.css'
+      }
+    },
 
-      csscomb: {
-        options: {
-          config: 'public/css/.csscomb.json'
+    browserSync: {
+      serve: {
+        bsFiles: {
+          src: ['_site/**']
         },
-        build: {
-          src: 'public/css/style.css',
-          dest: 'public/css/style.css'
-        }
-      },
-
-      jekyll: {
         options: {
-          drafts: true
-        },
-        serve: {
-          dest: '_site'
-        }
-      },
-
-      watch: {
-        jekyllSources: {
-          files: [
-            '*.html', '*.md', '*.yml', 'public/**', '_posts/**',
-            '_projects/**', '_includes/**', '_layouts/**', '_drafts/**',
-            'atom.xml'
-          ],
-          tasks: ['build']
-        }
-      },
-
-      browserSync: {
-        serve: {
-          bsFiles: {
-            src: ['_site/**']
-          },
-          options: {
-            watchTask: true,
-            server: {
-              baseDir: '_site'
-            }
+          watchTask: true,
+          server: {
+            baseDir: '_site'
           }
         }
       }
+    },
 
-    });
+    csscomb: {
+      options: {
+        config: 'public/css/.csscomb.json'
+      },
+      build: {
+        expand: true,
+        cwd: 'public/css/',
+        src: 'main.css',
+        dest: 'public/css'
+      }
+    },
 
-    grunt.registerTask('clean', [
-      'autoprefixer:build', 'csscomb:build'
-    ]);
+    jekyll: {
+      options: {
+        drafts: true
+      },
+      build: {
+        dest: '_site'
+      }
+    },
 
-    // jekyll build task
-    grunt.registerTask('build', ['jekyll']);
+    sass: {
+      build: {
+        options: {
+          sourcemap: 'none',
+          style: 'nested'
+        },
+        files: {
+          'public/css/main.css': '_sass/main.scss'
+        }
+      }
+    },
 
-    // livereload task
-    grunt.registerTask('serve', ['browserSync', 'watch']);
+    watch: {
+      jekyllSources: {
+        files: [
+          '*.html', '*.md', '*.yml', 'public/**', '_sass/**', '_posts/**',
+          '_projects/**', '_includes/**', '_layouts/**', '_drafts/**',
+          'atom.xml'
+        ],
+        tasks: ['dist']
+      }
+    }
 
-    // default task
-    grunt.registerTask('default', 'clean');
+  });
+
+  grunt.registerTask('clean', [
+    'sass', 'autoprefixer:build', 'csscomb:build'
+  ]);
+
+  // jekyll build task
+  grunt.registerTask('build', ['sass:build', 'autoprefixer:build', 'csscomb:build']);
+
+  // jekyll build task
+  grunt.registerTask('dist', ['build', 'jekyll']);
+
+  // livereload task
+  grunt.registerTask('serve', ['dist', 'browserSync', 'watch']);
+
+  // default task
+  grunt.registerTask('default', 'build');
 }
