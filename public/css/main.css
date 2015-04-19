@@ -69,7 +69,7 @@ tbody tr:nth-child(odd) th {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.25;
   color: #313131;
 
@@ -483,20 +483,30 @@ footer {
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.masthead a {
+  color: #505050;
+}
+.masthead a:hover, .masthead a:focus {
+  text-decoration: none;
 }
 
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: .5rem;
   color: #505050;
 }
 .masthead-title a {
   color: #505050;
 }
+.masthead-title a:hover, .masthead-title a:focus {
+  text-decoration: none;
+}
 .masthead-title small {
   font-size: 75%;
-  font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
 }
