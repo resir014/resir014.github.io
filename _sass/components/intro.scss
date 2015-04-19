@@ -1,0 +1,118 @@
+// Global styles
+//
+// Essential styles used on the splash page.
+
+#intro {
+  overflow: hidden;
+  color: #eee;
+  background-color: #0c1a23;
+
+  a {
+    color: #eee;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: #eee;
+    }
+  }
+}
+
+// Wrapper
+//
+// Center the splash page content both horizontally and vertically.
+
+.intro-content {
+  position: absolute;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.intro-wrapper {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+ * Splash page content
+ *
+ * Make the logo display centered
+ */
+
+/* Logo */
+
+.intro-logo {
+  margin: 1rem 0;
+
+  a {
+    position: relative;
+    display: block;
+    font-size: 85%;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  img {
+    width: 7rem;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+}
+
+.intro-title {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.intro-divider {
+  max-width: 16em;
+  margin: 1rem auto;
+  border: 0;
+  border-top: 1px solid #263238;
+}
+
+/*
+ * Splash page links
+ */
+
+.intro-links {
+  font-weight: 300;
+  list-style: none;
+
+  a:hover,
+  a:focus {
+    color: #268bd2;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: .5rem .75rem;
+  }
+}
+
+/* Social links */
+
+.intro-social-links {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+
+  h4 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin: 0;
+    color: #eee;
+  }
+
+  a {
+    padding: 0;
+    margin: 0 .5rem;
+    text-decoration: none;
+  }
+}

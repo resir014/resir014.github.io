@@ -1,0 +1,17 @@
+// Navigation
+//
+// Navigation links below the masthead.
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+
+  li + li {
+    margin-left: .5rem;
+  }
+}

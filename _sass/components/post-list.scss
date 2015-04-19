@@ -1,0 +1,35 @@
+// Post list
+//
+// Lists of posts displayed on `/blog`.
+
+.blog {
+  margin-bottom: 4em;
+}
+
+.blog-posts {
+  padding-left: 0;
+  list-style: none;
+
+  h4 {
+    margin: 0;
+  }
+
+  li {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+    small {
+      font-size: 75%;
+      color: #999;
+    }
+
+    a:hover {
+      color: #268bd2;
+      text-decoration: none;
+
+      small {
+        color: inherit;
+      }
+    }
+  }
+}
