@@ -17,4 +17,8 @@ I like experimenting on minimalist web design and this is one of the sites that 
 
 If you want to get in touch with me, be it for web design works, questions on open-source development, or even just to say hi, feel free to do so.
 
-For the time being, the only form of contact that might work is through [Twitter](https://twitter.com/resir014). I tweet a lot, so if you're trying to follow me, beware as I may clog your timeline on frequent occasions. You can also hit me up on [Google+](http://www.google.com/+ResiRespati), if that's your thing.
+* Twitter: [@resir014](https://twitter.com/resir014)
+* Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
+* GitHub: [resir014](https://github.com/resir014)
+* Google+: [+Resi Respati](https://plus.google.com/+ResiRespati)
+* Email: **resir014@gmail.com** ([public key](https://keybase.io/resir014/key.asc))
