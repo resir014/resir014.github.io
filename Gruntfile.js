@@ -3,6 +3,7 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
 
     autoprefixer: {
       build: {
@@ -52,7 +53,7 @@ module.exports = function (grunt) {
           style: 'nested'
         },
         files: {
-          'public/css/main.css': '_sass/main.scss'
+          'public/css/main.css': '_scss/main.scss'
         }
       }
     },
@@ -60,7 +61,7 @@ module.exports = function (grunt) {
     watch: {
       jekyllSources: {
         files: [
-          '*.html', '*.md', '*.yml', 'public/**', '_sass/**', '_posts/**',
+          '*.html', '*.md', '*.yml', 'public/**', '_scss/**', '_posts/**',
           '_projects/**', '_includes/**', '_layouts/**', '_drafts/**',
           'atom.xml'
         ],
