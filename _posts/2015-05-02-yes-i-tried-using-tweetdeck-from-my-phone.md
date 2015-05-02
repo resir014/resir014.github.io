@@ -80,4 +80,4 @@ Useless, considering we're on a phone right now.
 
 ### Account switcher
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-34-19.png" height="640px" alt="Media previews">
+<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-53-28.png" height="640px" alt="Media previews">
