@@ -62,17 +62,13 @@ Yes and no. TweetDeck may work on your mobile phone, but its stylesheets are des
 
 <img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-49-33.png" height="640px" alt="Media previews">
 
-### Tweet view
-
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-35-54.png" height="640px" alt="Media previews">
-
 ### Settings
 
 <img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-39-30.png" height="640px" alt="Media previews">
 
 ### Keyboard shortcuts
 
-Useless, considering we're on a phont right now.
+Useless, considering we're on a phone right now.
 
 <img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-46-35.png" height="640px" alt="Main screen">
 
