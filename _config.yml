@@ -1,11 +1,14 @@
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:            resir014
 tagline:          I make things.
 url:              http://resir014.github.io
-baseurl:          /
+baseurl:          ""
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]
 author:
   name:           Resi Respati
