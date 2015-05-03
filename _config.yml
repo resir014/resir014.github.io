@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:            resir014
 tagline:          I make things.
-url:              http://resir014.github.io
+url:              https://resir014.github.io
 baseurl:          ""
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "node_modules", "package.json"]
 
