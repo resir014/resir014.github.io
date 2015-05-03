@@ -1,3 +1,9 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// scss-lint:disable all
+
 //
 //                        ___
 //                       /\_ \
@@ -14,18 +20,18 @@
 
 // Base components
 //@import "_normalize";
-@import "_mixins";
+@import "mixins";
 
 // Poole components
-@import "poole/_base";
-@import "poole/_type";
-@import "poole/_syntax";
-@import "poole/_code";
-@import "poole/_layout";
-@import "poole/_masthead";
-@import "poole/_posts";
-@import "poole/_pagination";
-@import "poole/_message";
+@import "poole/base";
+@import "poole/type";
+@import "poole/syntax";
+@import "poole/code";
+@import "poole/layout";
+@import "poole/masthead";
+@import "poole/posts";
+@import "poole/pagination";
+@import "poole/message";
 
 // Custom components
 @import "components/intro";

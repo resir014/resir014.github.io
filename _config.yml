@@ -9,14 +9,19 @@ permalink:        pretty
 title:            resir014
 tagline:          I make things.
 url:              http://resir014.github.io
-paginate:         1
-paginate_path:    "/blog/page/:num/"
 baseurl:          /
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "less", "node_modules", "package.json"]
 author:
   name:           Resi Respati
   url:            https://twitter.com/resir014
   email:          resir014@gmail.com
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
 
 # Custom vars
 version:          1.0.0
