@@ -38,46 +38,46 @@ Yes and no. TweetDeck may work on your mobile phone, but its stylesheets are des
 
 ### Main screen
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-41-16.png" style="max-height: 640px;" alt="Main screen">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-41-16.png" style="max-height: 640px;" alt="Main screen">
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-43-37.png" style="max-height: 640px;" alt="Main screen">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-43-37.png" style="max-height: 640px;" alt="Main screen">
 
 ### Single tweet view
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-35-54.png" style="max-height: 640px;" alt="Single tweet view">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-35-54.png" style="max-height: 640px;" alt="Single tweet view">
 
 ### New tweet
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-23-27.png" style="max-height: 640px;" alt="New tweet">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-23-27.png" style="max-height: 640px;" alt="New tweet">
 
 ### Media previews
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-33-10.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-33-10.png" style="max-height: 640px;" alt="Media previews">
 
 ### Profile viewer
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-34-19.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-34-19.png" style="max-height: 640px;" alt="Media previews">
 
 ### View user's tweets
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-49-33.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-49-33.png" style="max-height: 640px;" alt="Media previews">
 
 ### Settings
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-39-30.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-39-30.png" style="max-height: 640px;" alt="Media previews">
 
 ### Keyboard shortcuts
 
 Useless, considering we're on a phone right now.
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-46-35.png" style="max-height: 640px;" alt="Main screen">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-46-35.png" style="max-height: 640px;" alt="Main screen">
 
 ### Expanded view
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-33.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-33.png" style="max-height: 640px;" alt="Media previews">
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-52.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-52.png" style="max-height: 640px;" alt="Media previews">
 
 ### Account switcher
 
-<img src="{{ site.baseurl }}public/images/blog/tweetdeck/Screenshot_2015-03-11-20-53-28.png" style="max-height: 640px;" alt="Media previews">
+<img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-53-28.png" style="max-height: 640px;" alt="Media previews">
