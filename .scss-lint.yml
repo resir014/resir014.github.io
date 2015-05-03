@@ -8,8 +8,6 @@
 # Below is the settings taken from
 # https://github.com/primer/primer/blob/master/scss/.scss-lint.yml
 
-scss_files: '_scss/**/*.scss'
-
 exclude: '_scss/poole/*.scss'
 
 linters:
