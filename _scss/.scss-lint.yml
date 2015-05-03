@@ -8,6 +8,10 @@
 # Below is the settings taken from
 # https://github.com/primer/primer/blob/master/scss/.scss-lint.yml
 
+scss_files: '_scss/**/*.scss'
+
+exclude: '_scss/poole/*.scss'
+
 linters:
   BangFormat:
     enabled: true
@@ -81,7 +85,7 @@ linters:
 
   LeadingZero:
     enabled: true
-    style: include_zero
+    style: exclude_zero
 
   MergeableSelector:
     enabled: true
@@ -99,8 +103,8 @@ linters:
     enabled: false
 
   PropertySortOrder:
-    enabled: false
-    ignore_unspecified: true
+    enabled: true
+    ignore_unspecified: false
     severity: warning
     order:
       - position

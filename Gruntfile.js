@@ -59,13 +59,15 @@ module.exports = function (grunt) {
     },
 
     scsslint: {
-      files: [
-        '_scss/**'
+      allFiles: [
+        '_scss/**/*.scss'
       ],
       options: {
-        bundleExec: true,
+        bundleExec: false,
         config: '_scss/.scss-lint.yml',
-        reporterOutput: null
+        exclude: '_scss/poole/**',
+        reporterOutput: null,
+        colorizeOutput: true
       }
     },
 
