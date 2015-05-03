@@ -58,6 +58,19 @@ module.exports = function (grunt) {
       }
     },
 
+    scsslint: {
+      allFiles: [
+        '_scss/**/*.scss'
+      ],
+      options: {
+        bundleExec: false,
+        config: '_scss/.scss-lint.yml',
+        exclude: '_scss/poole/**',
+        reporterOutput: null,
+        colorizeOutput: true
+      }
+    },
+
     watch: {
       jekyllSources: {
         files: [
@@ -81,8 +94,14 @@ module.exports = function (grunt) {
   // jekyll build task
   grunt.registerTask('dist', ['build', 'jekyll']);
 
+  // SCSS validation
+  grunt.registerTask('validate:scss', ['scsslint']);
+
   // livereload task
   grunt.registerTask('serve', ['dist', 'browserSync', 'watch']);
+
+  // dummy task for SCSS validation
+  grunt.registerTask('test', ['validate:scss']);
 
   // default task
   grunt.registerTask('default', 'build');
