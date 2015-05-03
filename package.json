@@ -31,6 +31,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-csscomb": "^3.0.0",
     "grunt-jekyll": "^0.4.2",
+    "grunt-scss-lint": "^0.3.6",
     "load-grunt-tasks": "^3.1.0"
   }
 }
