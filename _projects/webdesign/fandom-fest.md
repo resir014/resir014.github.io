@@ -4,7 +4,7 @@ title: FandomFest
 category: webdesign
 details: Local gathering of fandom communities in Jakarta.
 link: http://fandom-fest.com
-picture_url: http://resir014.github.io/public/images/fandom-fest-screenshot.png
+picture_url: https://resir014.github.io/public/images/fandom-fest-screenshot.png
 ---
 
 ## Project Description
