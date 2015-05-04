@@ -2,7 +2,7 @@
 //
 // Essential styles used on the splash page.
 
-#intro {
+.intro {
   overflow: hidden;
   color: #eee;
   background-color: #0c1a23;
@@ -13,7 +13,7 @@
 
     &:hover,
     &:focus {
-      color: #eee;
+      color: inherit;
     }
   }
 }
