@@ -4,6 +4,9 @@
 #
 # Here's a link to all the default configurations
 # https://github.com/causes/scss-lint/blob/master/config/default.yml
+#
+# This config is a slightly modified version of
+# https://github.com/primer/primer/blob/master/scss/.scss-lint.yml
 
 scss_files: '_scss/**/*.scss'
 
