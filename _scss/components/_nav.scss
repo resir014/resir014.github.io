@@ -9,9 +9,9 @@
 
   li {
     display: inline-block;
-  }
 
-  li + li {
-    margin-left: .5rem;
+    + li {
+      margin-left: .5rem;
+    }
   }
 }
