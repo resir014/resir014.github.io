@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 ---
 
 Hi, my name's Resi Respati. I'm usually known on the internets as resir014. Just call me Resi, or whatever. I'm an 20-year-old Indonesian college student living in Jakarta.
