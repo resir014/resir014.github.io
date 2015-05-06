@@ -1,0 +1,10 @@
+// Poole overridess
+//
+// Base styles that overrides Poole's theme styles go here.
+
+// Fix project `<dd>` tags causing unnecessary margins.
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
