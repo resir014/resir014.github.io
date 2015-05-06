@@ -2,9 +2,11 @@
 //
 // Base styles that overrides Poole's theme styles go here.
 
-// Fix project `<dd>` tags causing unnecessary margins.
-p {
-  &:last-child {
-    margin-bottom: 0;
+// Fix `<p>` tags inside `<dd>` causing unnecessary margins.
+dd {
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
