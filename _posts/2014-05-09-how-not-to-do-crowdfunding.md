@@ -5,8 +5,12 @@ title: How NOT to do crowdfunding
 ---
 
 <div class="message">
-    This article is also published on <a href="https://medium.com/p/25d06ba83d53" target="_blank">Medium</a>.
+  This article is also published on <a href="https://medium.com/p/25d06ba83d53" target="_blank">Medium</a>.
 </div>
+
+**Update:** The original Indiegogo page has been removed, but I'll just leave all of this here for the laughs.
+
+***
 
 As an Indonesian gamer, I'm pretty excited to hear about the success of [DreadOut](http://dreadout.com/) in the PC gaming world. It has pretty much been a hit in the realm of crowd-funded games, spawning various YouTube gameplay videos from well-known Let's Players like [PewDiePie](http://www.youtube.com/watch?v=5qoTI_Uu-mU), [Markiplier](http://www.youtube.com/watch?v=G7YwcPQU-NQ) and [Rooster Teeth](http://www.youtube.com/watch?v=wbNOYnLdkMU).
 
