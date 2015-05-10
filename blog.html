@@ -7,12 +7,12 @@ title: resir014's blog of things
   <ul class="blog-posts">
     {% for post in site.posts %}
       <li>
-        <h3>
-          <a href="{{ post.url }}">
+        <a href="{{ post.url }}">
+          <h3>
             {{ post.title }}
             <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-        </h3>
+          </h3>
+        </a>
       </li>
     {% endfor %}
   </ul>
