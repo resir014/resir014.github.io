@@ -10,7 +10,9 @@
 
 scss_files: '_scss/**/*.scss'
 
-exclude: '_scss/poole/*', 'public/main.scss'
+exclude:
+  - '_scss/poole/*'
+  - 'public/main.scss'
 
 linters:
   BangFormat:
@@ -45,7 +47,7 @@ linters:
     style: same_line # or 'new_line'
 
   EmptyLineBetweenBlocks:
-    enabled: true
+    enabled: false
     ignore_single_line_blocks: true
 
   EmptyRule:
