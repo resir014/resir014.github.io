@@ -1,5 +1,6 @@
 ---
 layout: project
+name: whattheminecraft
 title: WhatTheMinecraft.
 category: blogs
 link: http://whattheminecraft.tumblr.com/

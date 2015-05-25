@@ -1,5 +1,6 @@
 ---
 layout: project
+name: fuckyeah-elementaryos
 title: fuck yeah, elementary OS!
 category: blogs
 link: http://fuckyeah-elementaryos.tumblr.com/

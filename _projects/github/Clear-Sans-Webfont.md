@@ -1,5 +1,6 @@
 ---
 layout: project
+name: Clear-Sans-Webfont
 title: Clear Sans Webfont
 category: github
 link: https://github.com/resir014/Clear-Sans-Webfont
