@@ -1,6 +1,6 @@
-// Global styles
+// Intro
 //
-// Essential styles used on the splash page.
+// Big Jumbotron-like intro page.
 
 .intro {
   position: absolute;
@@ -23,21 +23,13 @@
 }
 
 // Wrapper
-//
-// Center the splash page content both horizontally and vertically.
-
 .intro-wrapper {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-// Splash page content
-//
-// Make the logo display centered
-
 // Logo
-
 .intro-logo {
   margin-bottom: 1rem;
 
@@ -71,7 +63,6 @@
 }
 
 // Splash page links
-
 .intro-links {
   font-weight: 300;
   list-style: none;
@@ -92,7 +83,6 @@
 }
 
 // Social links
-
 .intro-social-links {
   margin-top: 2rem;
   font-size: 1.3rem;
