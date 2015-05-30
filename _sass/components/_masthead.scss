@@ -21,6 +21,7 @@
   .masthead-title {
     display: inline-block;
     font-size: 1.5rem;
+    font-weight: 500;
   }
 
   @media (min-width: 34rem) {
@@ -39,7 +40,6 @@
 
   a {
     display: inline-block;
-    font-weight: 300;
 
     &:not(:last-child) {
       margin-right: 1.25rem;
