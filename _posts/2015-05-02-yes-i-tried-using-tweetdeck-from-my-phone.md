@@ -87,7 +87,7 @@ Yes and no. TweetDeck may work on your mobile phone, but its stylesheets are des
 <figure>
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-46-35.png" alt="Main screen">
   <figcaption>Useless, considering we're on a phone right now.</figcaption>
-<figure>
+</figure>
 
 ### Expanded view
 
