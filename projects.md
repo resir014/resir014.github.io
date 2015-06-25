@@ -25,7 +25,7 @@ title: projects
 {% endfor %}
 </dl>
 
-## github stuffs
+## open source
 
 <dl>
 {% for project in site.projects %}
