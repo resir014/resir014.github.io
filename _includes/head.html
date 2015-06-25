@@ -13,7 +13,13 @@
     {% endif %}
   </title>
   <meta name="author" content="{{ site.author.name }} || {{ site.author.url }}">
-  <meta name="description" content="{{ site.tagline }}">
+  {% if page.title == "Home" %}
+    <meta name="description" content="{{ site.tagline }}">
+  {% elsif page.path contains '_posts' %}
+    <meta name="description" content="{{ page.content | strip_html | xml_escape | truncatewords: 30 }}">
+  {% else %}
+    <meta name="description" content="{{ site.tagline }}">
+  {% endif %}
   <meta name="google-site-verification" content="zXPHGyXggG0IRVPXhgo7AuPiyA4ItE4LyGtOMj7YeBk">
 
   <!-- Canonical link element -->
