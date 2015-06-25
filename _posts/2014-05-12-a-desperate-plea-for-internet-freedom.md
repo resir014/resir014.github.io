@@ -4,6 +4,18 @@ layout: post
 title: A desperate plea for Internet freedom
 ---
 
+**Update:** The blocking of Vimeo has brought up protests in the Indonesian twitterverse, and as of Monday morning, [the Ministry of Communications & Information has unblocked access to Vimeo](http://www.tempo.co/read/news/2014/05/12/072577071/Banjir-Protes-Menteri-Kominfo-Buka-Blokir-Vimeo) Everything else remains blocked.
+
+**Update 2:** The Communications Ministry has pulled a double reversal, now stating that [the block on Vimeo is mandatory for all ISPs](http://inet.detik.com/read/2014/05/12/201703/2580712/398/menkominfo-semua-isp-wajib-blokir-vimeo?i991101105).
+
+**Update 3:** A local Al Jazeera cameraman [posted a video](http://www.youtube.com/watch?v=BD4jDRXoCac) expressing his anger on the blockage of Vimeo.
+
+**Update 4:** Vimeo has said that they have received the official request sent by the Ministry and are working to resolve the issue.
+
+**Update 5:** Changed the name "Internet Sehat" to "Internet Positif" to avoid confusion with the [https://twitter.com/internetsehat](Internet Sehat), a non-profit organisation promoting safe browsing on the Internet. Internet Positif is purely a government program.
+
+***
+
 So I woke up one day, pulled my laptop out for my daily dose of Reddit when I was greeted with this welcoming sight:
 
 <img src="http://37.media.tumblr.com/0dc32275aaf9ff6ad169fd2c49e7f466/tumblr_n4l808VNJc1qapvx8o1_1280.jpg" alt="Photo" />
@@ -69,15 +81,3 @@ As for his contributions to the tech world in Indonesia, he **has contributed no
 ***
 
 That pretty much sums up how our Internet has become. Now I stand before you, begging for help as this is starting to get out of hand.
-
-***
-
-**Update:** The blocking of Vimeo has brought up protests in the Indonesian twitterverse, and as of Monday morning, [the Ministry of Communications & Information has unblocked access to Vimeo](http://www.tempo.co/read/news/2014/05/12/072577071/Banjir-Protes-Menteri-Kominfo-Buka-Blokir-Vimeo) Everything else remains blocked.
-
-**Update 2:** The Communications Ministry has pulled a double reversal, now stating that [the block on Vimeo is mandatory for all ISPs](http://inet.detik.com/read/2014/05/12/201703/2580712/398/menkominfo-semua-isp-wajib-blokir-vimeo?i991101105).
-
-**Update 3:** A local Al Jazeera cameraman [posted a video](http://www.youtube.com/watch?v=BD4jDRXoCac) expressing his anger on the blockage of Vimeo.
-
-**Update 4:** Vimeo has said that they have received the official request sent by the Ministry and are working to resolve the issue.
-
-**Update 5:** Changed the name "Internet Sehat" to "Internet Positif" to avoid confusion with the [https://twitter.com/internetsehat](Internet Sehat), a non-profit organisation promoting safe browsing on the Internet. Internet Positif is purely a government program.
