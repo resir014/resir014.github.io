@@ -5,7 +5,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Setup
