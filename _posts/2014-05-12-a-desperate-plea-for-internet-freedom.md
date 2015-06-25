@@ -12,13 +12,15 @@ title: A desperate plea for Internet freedom
 
 **Update 4:** Vimeo has said that they have received the official request sent by the Ministry and are working to resolve the issue.
 
-**Update 5:** Changed the name "Internet Sehat" to "Internet Positif" to avoid confusion with the [https://twitter.com/internetsehat](Internet Sehat), a non-profit organisation promoting safe browsing on the Internet. Internet Positif is purely a government program.
+**Update 5:** Changed the name "Internet Sehat" to "Internet Positif" to avoid confusion with [Internet Sehat](https://twitter.com/internetsehat), a non-profit organisation promoting safe browsing on the Internet. Internet Positif is purely a government program.
 
 ***
 
 So I woke up one day, pulled my laptop out for my daily dose of Reddit when I was greeted with this welcoming sight:
 
-<img src="http://37.media.tumblr.com/0dc32275aaf9ff6ad169fd2c49e7f466/tumblr_n4l808VNJc1qapvx8o1_1280.jpg" alt="Photo" />
+<figure>
+  <img src="{{ site.baseurl }}/public/images/blog/vimeo/tumblr_n4l808VNJc1qapvx8o1_1280.jpg" alt="Photo">
+</figure>
 
 Yes. As of 25 April 2014, Reddit and Imgur was blocked by my ISP as part of compliance with the [TRUST+ Positif](http://trustpositif.kominfo.go.id/) program, or more commonly known as the Internet Positif (Positive Internet) program. I was, indeed, annoyed by my ISP's actions, but they only use a low-level DNS blocking, so I switched over to using Google Public DNS and it worked again. Though unfortunately with mobile network forcing all kinds of connection through their own DNS, I can no longer access them from my phone at all.
 
