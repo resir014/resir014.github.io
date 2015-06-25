@@ -18,7 +18,7 @@ Well, of course, my first reaction to this was... pretty much expected.
 
 <blockquote class="twitter-tweet"><p>AHAHAHAHAHAHAHAHAHA <a href="http://t.co/lmqLCk6V9J">pic.twitter.com/lmqLCk6V9J</a></p>— ️ (@resir014) <a href="https://twitter.com/resir014/status/613936272751460352">25 Jun 2015</a></blockquote>
 
-Now, I know I've been heckling him quite a lot on Twitter lately on his remark about "fast internet" in Indonesia, and this whole thing most likely went down without a fight, but although a dick move, the idea of pissing someone off with my opinions can sometimes feel rewarding.
+Now, I know I've been heckling him quite a lot on Twitter lately on his remark about "fast internet" in Indonesia, and this whole thing most likely went down without a fight[^fn-1], but although a dick move, the idea of pissing someone off with my opinions can sometimes feel rewarding.
 
 In other words, good game Tiffy. Good game.
 
@@ -28,7 +28,7 @@ Though hilarious, this also reminded me of the amazing tale of how local politic
 
 I've been recently seeing a trend with Twitter blockings recently, as happened yesterday when the Indonesian Minister of Marine Affairs & Fisheries, Susi Pudjiastuti ([@susipudjiastuti](https://twitter.com/susipudjiastuti)) went on a Twitter feud with so-called "activist" Ratna Sarumpaet ([@RatnaSpaet](https://twitter.com/RatnaSpaet)).
 
-Bu Ratna, being someone who has been actively criticising the government from her right-wing perspective, accused Bu Susi of creating bigger problems with her recent policies.
+Bu Ratna, being someone who has been actively criticising the government from her right-wing perspective, accused Bu Susi of creating bigger problems with her recent policies, citing a questionnable source[^fn-2].
 
 Then she got told.
 
@@ -38,7 +38,7 @@ The argument went on for a few more tweets, ultimately leading to Bu Susi blocki
 
 <blockquote class="twitter-tweet"><p>Saya putuskan untk berhenti tweet dg bu Ratna, tdk cukup waktu & kerjasn saya banyak jadi sy block. Juga tweet lainnya yg tidak konstruktif.</p>— Susi Pudjiastuti (@susipudjiastuti) <a href="https://twitter.com/susipudjiastuti/status/612827222211063808">22 Jun 2015</a></blockquote>
 
-> Translation: I've decided to stop tweeting at Bu Ratna, I don't have time for this and I'm busy with my work. She also has other, non-constructive tweets.
+> Translation: I've decided to stop tweeting at Bu Ratna, I don't have time for this and I'm busy with my work, so I blocked her. She also has other, non-constructive tweets.
 
 ## The lesson
 
@@ -51,3 +51,6 @@ Be wary of fallacies. From what I've seen so far, Indonesians are most likely to
 And lastly, what's also important is that you also have the right to walk away and declare someone "a troll" if the discussion becomes unhealthy.
 
 Although some people will probably then try to spin this into "Bu Susi backing down from this argument". But the reality might be that Bu Susi is actually busy with her work as a Minister, so she probably has other important stuff to do than to answer some people's dumb rant.
+
+[^fn-1]: To be honest, I didn't even check on his Twitter page that much the past month or so, and this was actually the first time that I found out that I've been blocked. Still hilarious though.
+[^fn-2]: Real talk, who even heard of Peka News? None of the people I asked for knew of this questionable source before.
