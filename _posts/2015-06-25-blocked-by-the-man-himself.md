@@ -52,5 +52,7 @@ And lastly, what's also important is that you also have the right to walk away a
 
 Although some people will probably then try to spin this into "Bu Susi backing down from this argument". But the reality might be that Bu Susi is actually busy with her work as a Minister, so she probably has other important stuff to do than to answer some people's dumb rant.
 
+---
+
 [^fn-1]: To be honest, I didn't even check on his Twitter page that much the past month or so, and this was actually the first time that I found out that I've been blocked. Still hilarious though.
 [^fn-2]: Real talk, who even heard of Peka News? None of the people I asked for knew of this questionable source before.
