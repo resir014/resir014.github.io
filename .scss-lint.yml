@@ -12,7 +12,7 @@ scss_files: '_scss/**/*.scss'
 
 exclude:
   - '_scss/poole/*'
-  - 'public/main.scss'
+  - 'main.scss'
 
 linters:
   BangFormat:
