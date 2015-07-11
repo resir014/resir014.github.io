@@ -3,6 +3,7 @@ category: blog
 layout: post
 title: On disruptive innovations
 lead: "Why LINE might be to blame for Telegram's recent outage."
+medium: https://medium.com/@resir014/on-disruptive-innovations-cb60eab3b4a6
 ---
 
 Recently, a massive service outage occurred on the popular messaging app Telegram. The outage was caused by a series of DDoS attacks were targeted towards Telegram's servers.
@@ -27,7 +28,7 @@ As of now, there are still very limited sources pointing to what LINE might have
 
 Could LINE be behind all this?
 
-## Marketing-focused crap make apps feel bloated
+## Digression: Marketing-focused crap make apps feel bloated
 
 There comes a time where a piece of technology that might change the way we think about something comes along. And recently, we've been seeing the rise of a popular messaging app called Telegram.
 
@@ -54,6 +55,8 @@ Unfortunately, every piece of disruptive innovations that came along will pose a
 Which is definitely the scenario that LINE faces right now. LINE holds the market for instant messaging, especially for countries in the SEA area, like Indonesia. LINE might have felt threatened with Telegram's existence, and seeing the recent surge of Telegram users, they decided to whatever they could to try and put Telegram out of service, by making the Play Store take down Telegram for a few hours.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Telegram grew 3 times in terms of user activity within the last two months alone. No wonder competitors freak out ☝️😀</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/619501642199793665">July 10, 2015</a></blockquote>
+
+---
 
 Now, it was still unsure what LINE did to take Telegram down, and there were still not so much evidence that points out that the resulting DDoS attacks could have come from LINE itself.
 
