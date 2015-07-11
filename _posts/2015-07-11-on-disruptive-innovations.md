@@ -58,6 +58,6 @@ Which is definitely the scenario that LINE faces right now. LINE holds the marke
 
 ---
 
-Now, it was still unsure what LINE did to take Telegram down, and there were still not so much evidence that points out that the resulting DDoS attacks could have come from LINE itself.
+Now, it was still unsure what LINE did to take Telegram down, and there is not much evidence that points out that the resulting DDoS attacks could have come from LINE itself.
 
 But seeing the whole context of the entire issue, it *might* be likely that LINE was the one responsible for these attacks.
