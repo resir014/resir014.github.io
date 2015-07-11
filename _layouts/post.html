@@ -12,6 +12,12 @@ layout: poole
     </p>
   {% endif %}
 
+  {% if page.medium %}
+    <p class="message">
+      This article is also posted on <a href="{{ page.medium }}">Medium</a>.
+    </p>
+  {% endif %}
+
   {{ content }}
 </article>
 
