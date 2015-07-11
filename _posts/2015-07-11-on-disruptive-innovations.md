@@ -8,7 +8,7 @@ medium: https://medium.com/@resir014/on-disruptive-innovations-cb60eab3b4a6
 
 Recently, a massive service outage occurred on the popular messaging app Telegram. The outage was caused by a series of DDoS attacks were targeted towards Telegram's servers.
 
-Of course, this caused some annoyance to some users, especially me, where most of my day-to-day communications rely on Telegram. Some even lost the ability to connect at all.
+Of course, this caused some annoyance to some users, especially me, where most of my day-to-day communications rely on Telegram. Some people even lost the ability to connect at all.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">An ongoing DDoS is causing connection issues for our users in India and South East Asia. We&#39;re hard at work fighting back.</p>&mdash; Telegram Messenger (@telegram) <a href="https://twitter.com/telegram/status/619451363559350272">July 10, 2015</a></blockquote>
 
