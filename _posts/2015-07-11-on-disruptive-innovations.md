@@ -52,7 +52,7 @@ It does the job well as a messaging app, and it has *everything* that you need f
 
 Unfortunately, every piece of disruptive innovations that came along will pose as a threat, especially to companies who will feel threatened that they will lose their primary market. And they could go to... exciting lengths to put its new competition out of business.
 
-Which is definitely the scenario that LINE faces right now. LINE holds the market for instant messaging, especially for countries in the SEA area, like Indonesia. LINE might have felt threatened with Telegram's existence, and seeing the recent surge of Telegram users, they decided to whatever they could to try and put Telegram out of service, by making the Play Store take down Telegram for a few hours.
+Which is definitely the scenario that LINE faces right now. LINE holds the market for instant messaging, especially for countries in the SEA area, like Indonesia. LINE might have felt threatened with Telegram's existence, and seeing the recent surge of Telegram users, they decided to do whatever they could to try and put Telegram out of service, by making the Play Store take down Telegram for a few hours.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Telegram grew 3 times in terms of user activity within the last two months alone. No wonder competitors freak out ☝️😀</p>&mdash; Pavel Durov (@durov) <a href="https://twitter.com/durov/status/619501642199793665">July 10, 2015</a></blockquote>
 
