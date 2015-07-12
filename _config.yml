@@ -12,6 +12,8 @@ highlighter:      pygments
 title:            resir014
 tagline:          I make things.
 url:              https://resir014.github.io
+paginate:         1
+paginate_path:    "/blog/page/:num/"
 baseurl:          ""
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "node_modules", "package.json"]
 

@@ -5,3 +5,22 @@
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
+
+// Posts archive
+.archive {
+  li {
+    small {
+      font-size: 85%;
+      color: #999;
+    }
+
+    a:hover {
+      color: #268bd2;
+      text-decoration: none;
+
+      small {
+        color: inherit;
+      }
+    }
+  }
+}
