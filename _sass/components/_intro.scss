@@ -41,10 +41,20 @@
     line-height: 40px;
   }
 
-  img {
-    width: 7rem;
+  .logo-wrapper {
     margin: 0 auto;
-    border-radius: 0;
+    background-color: #fff;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+
+    h1 {
+      position: relative;
+      margin: 0;
+      line-height: 128px;
+      color: #0c1a23;
+      font-size: 3.5rem;
+    }
   }
 }
 
