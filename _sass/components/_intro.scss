@@ -42,18 +42,18 @@
   }
 
   .logo-wrapper {
-    margin: 0 auto;
-    background-color: #fff;
     width: 128px;
     height: 128px;
+    margin: 0 auto;
     text-align: center;
+    background-color: #fff;
 
     h1 {
       position: relative;
       margin: 0;
+      font-size: 3.5rem;
       line-height: 128px;
       color: #0c1a23;
-      font-size: 3.5rem;
     }
   }
 }
