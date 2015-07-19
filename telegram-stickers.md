@@ -1,5 +1,5 @@
 ---
-layout: poole
+layout: default
 title: "Telegram Stickers Directory has moved!"
 ---
 
