@@ -3,13 +3,13 @@ layout: page
 title: blog archives
 ---
 
-<ul class="archive">
+<div class="archive">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        &raquo; {{ post.title }}
-      </a>
-    </li>
+  <a href="{{ post.url }}">
+    <div class="archive-item">
+      <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+      <span class="archive-title">{{ post.title }}</span>
+    </div>
+  </a>
   {% endfor %}
-</ul>
+</div>

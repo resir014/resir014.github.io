@@ -8,19 +8,31 @@
 
 // Posts archive
 .archive {
-  li {
-    small {
-      font-size: 85%;
-      color: #999;
-    }
+  a {
+    color: inherit;
 
-    a:hover {
-      color: #268bd2;
+    &:hover,
+    &:focus {
       text-decoration: none;
 
-      small {
-        color: inherit;
+      span {
+        text-decoration: underline;
       }
+    }
+  }
+}
+
+.archive-item {
+  display: block;
+  margin: .5rem 0;
+
+  .archive-date {
+    display: block;
+    color: #9a9a9a;
+
+    @media (min-width: 34em) {
+      float: right;
+      margin-left: .5rem;
     }
   }
 }
