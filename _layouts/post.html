@@ -1,23 +1,10 @@
 ---
-layout: poole
+layout: default
 ---
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-
-  {% if page.lead %}
-    <p class="lead">
-      {{ page.lead }}
-    </p>
-  {% endif %}
-
-  {% if page.medium %}
-    <p class="message">
-      This article is also posted on <a href="{{ page.medium }}" target="_blank">Medium</a>.
-    </p>
-  {% endif %}
-
   {{ content }}
 </article>
 
