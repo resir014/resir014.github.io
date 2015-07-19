@@ -3,6 +3,7 @@
 // Fixes for Poole's masthead
 
 .masthead {
+  @include clearfix;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
@@ -27,6 +28,10 @@
       font-weight: 500;
       color: #000;
       letter-spacing: -3px;
+    }
+
+    @media (min-width: 34rem) {
+      float: left;
     }
   }
 }
