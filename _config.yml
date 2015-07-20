@@ -15,7 +15,7 @@ url:              https://resir014.github.io
 paginate:         1
 paginate_path:    "/blog/page/:num/"
 baseurl:          ""
-exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "node_modules", "package.json"]
+exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
 
 # Assets
 #
@@ -37,6 +37,9 @@ github:
 
 # Collections
 collections:
+  pages:
+    output:       true
+    permalink:    /:path/
   webdesign:
     output:       true
     permalink:    /projects/webdesign/:path/
