@@ -6,33 +6,30 @@ title: projects
 ## web design
 
 <dl>
-{% for project in site.projects %}
-{% if project.category == "webdesign" %}
+{% assign webdesign = site.webdesign | sort: 'name' %}
+{% for project in webdesign %}
   <dt><a href="{{ project.url }}">{{ project.title }}</a></dt>
   <dd>{{ project.details }}</dd>
-{% endif %}
 {% endfor %}
 </dl>
 
 ## blogs
 
 <dl>
-{% for project in site.projects %}
-{% if project.category == "blogs" %}
+{% assign blogs = site.blogs | sort: 'name' %}
+{% for project in blogs %}
   <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
-{% endif %}
 {% endfor %}
 </dl>
 
 ## open source
 
 <dl>
-{% for project in site.projects %}
-{% if project.category == "github" %}
+{% assign github = site.github | sort: 'name' %}
+{% for project in github %}
   <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
-{% endif %}
 {% endfor %}
 </dl>
 

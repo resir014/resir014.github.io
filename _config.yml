@@ -37,6 +37,12 @@ github:
 
 # Collections
 collections:
-  projects:
+  webdesign:
     output:       true
-    permalink:    /:collection/:path/
+    permalink:    /projects/webdesign/:path/
+  blogs:
+    output:       true
+    permalink:    /projects/blogs/:path/
+  github:
+    output:       true
+    permalink:    /projects/github/:path/
