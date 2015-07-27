@@ -2,11 +2,9 @@
 category: blog
 layout: post
 title: How NOT to do crowdfunding
+lead: "In which I tear through quite possibly one of the worst Indiegogo projects ever made."
+medium: https://medium.com/p/25d06ba83d53
 ---
-
-<div class="message">
-  This article is also published on <a href="https://medium.com/p/25d06ba83d53" target="_blank">Medium</a>.
-</div>
 
 **Update:** The original Indiegogo page has been removed, but I'll just leave all of this here for the laughs.
 
