@@ -37,7 +37,7 @@ github:
 
 # Collections
 collections:
-  pages:
+  stuff:
     output:       true
     permalink:    /:path/
   webdesign:

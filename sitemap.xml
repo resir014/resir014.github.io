@@ -9,6 +9,14 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  {% for page in site.stuff %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
   {% for page in site.pages %}
   {% if page.layout != "home" %}
   {% if page.permalink != "404.html" %}
