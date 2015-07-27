@@ -10,7 +10,9 @@
 
 scss_files:  '_sass/**/*.scss'
 
-exclude: '_sass/poole/*.scss'
+exclude:
+  - '_sass/poole/*.scss'
+  - '_sass/components/_third-party.scss'
 
 linters:
   BangFormat:
