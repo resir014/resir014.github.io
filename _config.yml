@@ -24,6 +24,10 @@ sass:
   sass_dir:       _sass
   style:          :compressed
 
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:         Asia/Jakarta
+
 # About/contact
 author:
   name:           Resi Respati
