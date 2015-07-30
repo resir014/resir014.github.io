@@ -8,6 +8,8 @@ medium: https://medium.com/@resir014/on-disruptive-innovations-cb60eab3b4a6
 
 **Update:** A new theory suggests that the attack [might have come from the Chinese government](http://techcrunch.com/2015/07/13/did-china-take-down-messaging-app-telegram/), in the wake of [arrests of human rights lawyers](http://www.wsj.com/articles/beijing-locks-up-the-lawyers-1436738563) in Beijing.
 
+**Update 2:** The Telegram team has posted [a statement regarding the DDoS attacks](https://telegram.org/blog/ddos).
+
 ---
 
 Recently, a massive service outage occurred on the popular messaging app Telegram. The outage was caused by a series of DDoS attacks were targeted towards Telegram's servers.
