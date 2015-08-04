@@ -17,6 +17,9 @@ paginate_path:    "/blog/page/:num/"
 baseurl:          ""
 exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
 
+# Disqus comments
+disqus_shortname: resir014
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
