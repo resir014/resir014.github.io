@@ -1,58 +1,59 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+permalink:            pretty
+relative_permalinks:  true
 
 # Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown:             kramdown
+highlighter:          pygments
 
 # Setup
-title:            resir014
-tagline:          I make things.
-url:              https://resir014.github.io
-paginate:         1
-paginate_path:    "/blog/page/:num/"
-baseurl:          ""
-exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
+title:                resir014
+tagline:              I make things.
+url:                  https://resir014.github.io
+paginate:             1
+paginate_path:        "/blog/page/:num/"
+baseurl:              ""
+exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
+excerpt_separator:    <!--more-->
 
 # Disqus comments
-disqus_shortname: resir014
+disqus_shortname:     resir014
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:       _sass
-  style:          :compressed
+  sass_dir:           _sass
+  style:              :compressed
 
 # List of time zones supported in the TZ database
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:         Asia/Jakarta
+timezone:             Asia/Jakarta
 
 # About/contact
 author:
-  name:           Resi Respati
-  url:            https://twitter.com/resir014
-  email:          resir014@gmail.com
+  name:               Resi Respati
+  url:                https://twitter.com/resir014
+  email:              resir014@gmail.com
 
 # Custom vars
-version:          2.0.0
+version:              2.0.0
 github:
-  repo:           https://github.com/resir014/resir014.github.io
+  repo:               https://github.com/resir014/resir014.github.io
 
 # Collections
 collections:
   stuff:
-    output:       true
-    permalink:    /:path/
+    output:           true
+    permalink:        /:path/
   webdesign:
-    output:       true
-    permalink:    /projects/webdesign/:path/
+    output:           true
+    permalink:        /projects/webdesign/:path/
   blogs:
-    output:       true
-    permalink:    /projects/blogs/:path/
+    output:           true
+    permalink:        /projects/blogs/:path/
   github:
-    output:       true
-    permalink:    /projects/github/:path/
+    output:           true
+    permalink:        /projects/github/:path/
