@@ -2,9 +2,8 @@
 category: blog
 layout: post
 title: Blocked by "the man" himself
+lead: Or, online arguments in a nutshell.
 ---
-
-<p class="lead">Or, online arguments in a nutshell.</p>
 
 For the past few months, I've been kind of aware of people, or so-called "old-friends" who have been blocking me on Twitter, but this one *really* caught me by surprise.
 
