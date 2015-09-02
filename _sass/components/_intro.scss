@@ -6,18 +6,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  color: #eee;
   flex-direction: column;
-  background-color: #0c1a23;
 
   a {
-    color: #eee;
+    color: inherit;
     text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: inherit;
-    }
   }
 
   .container {
@@ -29,10 +22,6 @@
   .masthead {
     margin-bottom: 0;
     text-align: left;
-
-    .double-slash {
-      color: #fff;
-    }
   }
 }
 
@@ -67,14 +56,14 @@
     height: 8rem;
     margin: 0 auto;
     text-align: center;
-    background-color: #fff;
+    background-color: #eee;
 
     h1 {
       position: relative;
       margin: 0;
       font-size: 3.5rem;
       line-height: 8rem;
-      color: #0c1a23;
+      color: #515151;
     }
   }
 }
@@ -121,7 +110,6 @@
   h3 {
     margin: .5rem 0;
     font-weight: 300;
-    color: #eee;
   }
 
   a {
