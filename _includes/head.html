@@ -17,8 +17,8 @@
     <meta name="description" content="{{ site.tagline }}">
   {% elsif page.lead %}
     <meta name="description" content="{{ page.lead }}">
-  {% elsif page.path contains "_posts" %}
-    <meta name="description" content="{{ page.content | strip_html | xml_escape | truncatewords: 30 }}">
+  {% elsif page.category == "blog" %}
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}">
   {% else %}
     <meta name="description" content="{{ site.tagline }}">
   {% endif %}
@@ -39,6 +39,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400italic,500,700,700italic">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic">
   <link rel="stylesheet" type="text/css" media="screen" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 

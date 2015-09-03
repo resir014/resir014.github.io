@@ -16,7 +16,6 @@ paginate:             1
 paginate_path:        "/blog/page/:num/"
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
-excerpt_separator:    <!--more-->
 
 # Disqus comments
 disqus_shortname:     resir014
