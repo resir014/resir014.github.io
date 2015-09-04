@@ -1,27 +1,16 @@
 ---
-layout: default
+layout: page
 title: resir014's blog of things
 ---
 
-<div class="posts">
+<div class="archive">
   {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {% if post.lead %}
-      <p class="lead">
-        {{ post.lead }}
-      </p>
-    {% endif %}
-
-    {{ post.content }}
-  </article>
+  <a href="{{ post.url }}">
+    <div class="archive-item">
+      <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+      <span class="archive-title">{{ post.title }}</span>
+    </div>
+  </a>
   {% endfor %}
 </div>
 

@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:            pretty
+permalink:            /blog/:categories/:year/:month/:day/:title/
 relative_permalinks:  true
 
 # Dependencies
@@ -12,7 +12,7 @@ highlighter:          pygments
 title:                resir014
 tagline:              I make things.
 url:                  https://resir014.github.io
-paginate:             1
+paginate:             15
 paginate_path:        "/blog/page/:num/"
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
@@ -42,6 +42,15 @@ version:              2.0.0
 github:
   repo:               https://github.com/resir014/resir014.github.io
 
+# Navigational menus
+nav:
+  - title: blog
+    url: /blog
+  - title: about
+    url: /about
+  - title: projects
+    url: /projects
+
 # Collections
 collections:
   stuff:
@@ -49,10 +58,10 @@ collections:
     permalink:        /:path/
   webdesign:
     output:           true
-    permalink:        /projects/webdesign/:path/
+    permalink:        /projects/:collection/:path/
   blogs:
     output:           true
-    permalink:        /projects/blogs/:path/
+    permalink:        /projects/:collection/:path/
   github:
     output:           true
-    permalink:        /projects/github/:path/
+    permalink:        /projects/:collection/:path/

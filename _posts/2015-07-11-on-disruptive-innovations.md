@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: On disruptive innovations
 lead: "Why LINE might be to blame for Telegram's recent outage."

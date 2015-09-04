@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: I take my words back.
 ---

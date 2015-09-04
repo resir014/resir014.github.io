@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: New features, and a few changes to Webdev Toolkit
 ---

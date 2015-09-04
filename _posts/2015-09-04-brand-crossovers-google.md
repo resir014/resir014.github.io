@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: "Brand Crossovers: Google"
 ---

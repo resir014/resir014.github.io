@@ -1,6 +1,7 @@
 ---
 layout: page
 title: projects
+permalink: /projects/
 ---
 
 ## web design

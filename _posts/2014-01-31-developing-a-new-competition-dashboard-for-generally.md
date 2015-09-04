@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: Developing a new competition dashboard for GeneRally.
 ---

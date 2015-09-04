@@ -1,5 +1,4 @@
 ---
-category: blog
 layout: post
 title: Rebooting fuckyeah-elementaryos
 ---
