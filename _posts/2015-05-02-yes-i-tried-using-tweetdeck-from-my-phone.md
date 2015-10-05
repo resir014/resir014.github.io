@@ -35,71 +35,62 @@ Yes and no. TweetDeck may work on your mobile phone, but its stylesheets are des
 
 ## Screenshots
 
-### Main screen
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-41-16.png" alt="Main screen">
+  <figcaption><strong>Figure 1:</strong> Main screen #1.</figcaption>
 </figure>
 
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-43-37.png" alt="Main screen">
+  <figcaption><strong>Figure 2:</strong> Main screen #2.</figcaption>
 </figure>
 
-### Single tweet view
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-35-54.png" alt="Single tweet view">
+  <figcaption><strong>Figure 3:</strong> Single tweet view.</figcaption>
 </figure>
 
-### New tweet
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-23-27.png" alt="New tweet">
+  <figcaption><strong>Figure 4:</strong> New tweet.</figcaption>
 </figure>
 
-### Media previews
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-33-10.png" alt="Media previews">
+  <figcaption><strong>Figure 5:</strong> Media previews.</figcaption>
 </figure>
 
-### Profile viewer
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-34-19.png" alt="Media previews">
+  <figcaption><strong>Figure 6:</strong> Profile viewer.</figcaption>
 </figure>
 
-### View user's tweets
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-49-33.png" alt="Media previews">
+  <figcaption><strong>Figure 7:</strong> View user's tweets.</figcaption>
 </figure>
 
-### Settings
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-39-30.png" alt="Media previews">
+  <figcaption><strong>Figure 8:</strong> Settings.</figcaption>
 </figure>
 
-### Keyboard shortcuts
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-46-35.png" alt="Main screen">
-  <figcaption>Useless, considering we're on a phone right now.</figcaption>
+  <figcaption><strong>Figure 9:</strong> Keyboard shortcuts. Useless, considering we're on a phone right now.</figcaption>
 </figure>
 
-### Expanded view
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-33.png" alt="Media previews">
+  <figcaption><strong>Figure 10:</strong> Expanded view #1.</figcaption>
 </figure>
 
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-51-52.png" alt="Media previews">
+  <figcaption><strong>Figure 11:</strong> Expanded view #2.</figcaption>
 </figure>
 
-### Account switcher
-
-<figure>
+<figure class="figure-grid">
   <img src="{{ site.baseurl }}/public/images/blog/tweetdeck/Screenshot_2015-03-11-20-53-28.png" alt="Media previews">
+  <figcaption><strong>Figure 12:</strong> Account switcher.</figcaption>
 </figure>

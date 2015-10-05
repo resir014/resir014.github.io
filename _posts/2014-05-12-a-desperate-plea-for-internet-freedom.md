@@ -17,9 +17,7 @@ title: A desperate plea for Internet freedom
 
 So I woke up one day, pulled my laptop out for my daily dose of Reddit when I was greeted with this welcoming sight:
 
-<figure>
-  <img src="{{ site.baseurl }}/public/images/blog/vimeo/tumblr_n4l808VNJc1qapvx8o1_1280.jpg" alt="Photo">
-</figure>
+![Photo]({{ site.baseurl }}/public/images/blog/vimeo/tumblr_n4l808VNJc1qapvx8o1_1280.jpg)
 
 Yes. As of 25 April 2014, Reddit and Imgur was blocked by my ISP as part of compliance with the [TRUST+ Positif](http://trustpositif.kominfo.go.id/) program, or more commonly known as the Internet Positif (Positive Internet) program. I was, indeed, annoyed by my ISP's actions, but they only use a low-level DNS blocking, so I switched over to using Google Public DNS and it worked again. Though unfortunately with mobile network forcing all kinds of connection through their own DNS, I can no longer access them from my phone at all.
 

@@ -17,8 +17,6 @@ No, really. They share the similar base colours of red, yellow, green, and blue,
 
 So without further ado, please enjoy this Brand Crossover of Microsoft and Google, that was crappily put together in 5-10 minutes with a copy of GIMP that never works.
 
-<figure>
-  <img src="{{ site.baseurl }}/public/images/blog/google-crossover/microogle.png">
-</figure>
+![Brand Crossover: Google]({{ site.baseurl }}/public/images/blog/google-crossover/microogle.png)
 
 Original tweet: [\[link\]](https://twitter.com/resir014/status/638759027367800832)
