@@ -17,12 +17,32 @@
     <meta name="description" content="{{ site.tagline }}">
   {% elsif page.lead %}
     <meta name="description" content="{{ page.lead }}">
-  {% elsif page.category == "blog" %}
+  {% elsif page.url contains "/blog/" %}
     <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}">
   {% else %}
     <meta name="description" content="{{ site.tagline }}">
   {% endif %}
   <meta name="google-site-verification" content="zXPHGyXggG0IRVPXhgo7AuPiyA4ItE4LyGtOMj7YeBk">
+
+  <!-- OpenGraph tags-->
+  <meta content="{{ site.title | xml_escape }}" property="og:site_name">
+  {% if page.title %}
+    <meta content="{{ page.title | xml_escape }}" property="og:title">
+  {% else %}
+    <meta content="{{ site.title | xml_escape }}" property="og:title">
+  {% endif %}
+  {% if page.title == "Home" %}
+    <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  {% elsif page.lead %}
+    <meta content="{{ page.lead | xml_escape }}" property="og:description">
+  {% elsif page.url contains "/blog/" %}
+    <meta content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}" property="og:description">
+  {% else %}
+    <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  {% endif %}
+  {% if page.url %}
+    <meta content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" property="og:url">
+  {% endif %}
 
   <!-- Canonical link element -->
   <link rel="canonical" href="{{ site.url }}">
