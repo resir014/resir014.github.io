@@ -22,4 +22,4 @@ If you want to get in touch with me, be it for web design works, questions on op
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
 * GitHub: [resir014](https://github.com/resir014)
 * Google+: [+Resi Respati](https://plus.google.com/+ResiRespati)
-* Email: **resir014@gmail.com** ([public key](https://keybase.io/resir014/key.asc))
+* Email: **resir014@gmail.com** ([keybase](https://keybase.io/resir014))
