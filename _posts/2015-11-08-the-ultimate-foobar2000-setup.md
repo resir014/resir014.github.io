@@ -10,7 +10,7 @@ Of course, I did ran into some concerns that it won't be able to do what iTunes 
 
 So I started looking around for components, toyed around with them a bit, and this is what I came up with.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)
+[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)
 
 I find it really neat. Some of you might too, so here's how you set up your foobar2000 so it will look like mine.
 
@@ -68,7 +68,7 @@ The first grouping rule in that window is included by default. But we're gonna t
 
 Save your changes, and there you go, a 100%-working Top Tracks playlist.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)
+[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)
 
 ## Organising your music
 
