@@ -19,9 +19,9 @@ html {
   font-size: $font-size-base;
   line-height: $line-height-base;
 
-//  @media (min-width: 38em) {
-//    font-size: 18px;
-//  }
+  @media (min-width: 38em) {
+    font-size: 18px;
+  }
 }
 
 body {
