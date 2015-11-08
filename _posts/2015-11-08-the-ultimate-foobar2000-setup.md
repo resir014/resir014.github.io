@@ -129,4 +129,4 @@ But feel free to use this guide as you wish. Customisation is one of foobar2000'
 It's a tedious process at first, but trust me, it really *is* worth it at the end of the day.
 
 [^fn-thumbbars]: Though a friend of mine *did* tell me it's called [thumbnail toolbars](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars), but still.
-[^fn-discogs-oauth]: <https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow>
+[^fn-discogs-oauth]: [(link)](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow)
