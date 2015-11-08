@@ -11,16 +11,16 @@
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: $masthead-text-color;
 
   a {
-    color: #505050;
+    color: $masthead-link-color;
   }
 
   small {
     font-size: 75%;
     font-weight: 400;
-    color: #c0c0c0;
+    color: $masthead-small-text-color;
     letter-spacing: 0;
   }
 }

@@ -1,0 +1,64 @@
+// Base layout
+$container-width: 40rem;
+$container-width-em: 40em;
+$grid-breakpoint: 38em;
+$grid-gutter: 1rem;
+
+// Typography
+$font-stack: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack-monospace: Menlo, Monaco, "Courier New", monospace;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Colors
+$text-color-primary: #515151;
+$text-color-heading: #313131;
+$text-color-strong: #303030;
+$text-color-muted: #999;
+$text-color-post-date: #9a9a9a;
+$accent-color: #268bd2;
+$background-color-primary: #fff;
+$background-color-secondary: #e5e5e5;
+$border-color: $background-color-secondary;
+
+// Tables
+$table-border-color: $border-color;
+$table-odd-background-color: #f9f9f9;
+
+// Horizontal rules
+$hr-top-color: #eee;
+$hr-bottom-color: #fff;
+
+// Abbreviation
+$abbr-text-color: #555;
+$abbr-border-color: #e5e5e5;
+
+// Blockqote
+$blockquote-text-color: #7a7a7a;
+$blockquote-border-color: #e5e5e5;
+
+// Masthead
+$masthead-text-color: #505050;
+$masthead-small-text-color: #c0c0c0;
+$masthead-link-color: $masthead-text-color;
+
+// Message
+$message-text-color: #717171;
+$message-background-color: #f9f9f9;
+
+// Code
+$code-text-color: #bf616a;
+$code-background-color: #f9f9f9;
+$code-pygments-background-color: #f9f9f9;
+$code-pygments-lineno-text-color: #999;
+
+// Posts
+$post-title-color: #303030;
+$post-date-color: #9a9a9a;
+$post-related-border-color: #eee;
+$post-related-small-text-color: $post-related-border-color;
+
+// Pagination
+$pagination-text-color: #ccc;
+$pagination-item-border-color: #eee;
+$pagination-item-hover-background-color: #f5f5f5;
