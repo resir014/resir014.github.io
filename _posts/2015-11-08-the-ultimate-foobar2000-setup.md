@@ -6,7 +6,7 @@ lead: "*) Well, according to me, at least."
 
 If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, customizable music player, ever. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
-Of course, I did ran into some concerns that it won't be able to do what iTunes has been able to do, like organising your songs neatly into their own folders based on artist, album, and the like. But turns out it is a feature included with one of its built-in plugins, or "components" as they were called in foobar2000.
+Of course, I did run into some concerns that it won't be able to do what iTunes has been able to do, like organising your songs neatly into their own folders based on artist, album, and the like. But turns out it is a feature included with one of its built-in plugins, or "components" as they were called in foobar2000.
 
 So I started looking around for components, toyed around with them a bit, and this is what I came up with.
 
@@ -86,7 +86,9 @@ First thing to do would be to set up your FileOps configs. Right click on any tr
 
 Here, you can add, remove, or save presets for FileOps. The most important option here would be "File name pattern". I use the following pattern, to make it look more like iTunes:
 
-    %album artist%/%album%/[%discnumber%-]%tracknumber% %title%
+{% highlight text %}
+%album artist%/%album%/[%discnumber%-]%tracknumber% %title%
+{% endhighlight %}
 
 You can learn more about defining file name patterns on this [wiki page](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_operations).
 
