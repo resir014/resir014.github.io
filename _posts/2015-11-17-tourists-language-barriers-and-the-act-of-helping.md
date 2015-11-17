@@ -2,7 +2,7 @@
 category: blog
 layout: post
 title: "Tourists, language barriers, and the act of helping"
-lead: "Or, the day that I actually helped a bunch of foreign strangers and felt much better afterwards."
+lead: "Or, the day when I actually helped a bunch of foreign strangers and felt much better afterwards."
 ---
 
 It was at a small restaurant on the side of the road where I saw that ad from a local public television. I was there, as usual, to get a bag of tasty take-out beef rendang for my family's dinner. Though today, it was different. It took a lot longer for the owner of the food stall to prepare the beef rendang this time, so I stayed there with a bunch of other people, already there.
