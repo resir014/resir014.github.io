@@ -28,9 +28,9 @@ First off, you will need the following additional components. The version number
 
 ## Interface - Columns UI
 
-The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [This Thing on the Taskbar That You Can Click On Which I Don't Know The Name Of]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-07_00-03-28.png)[^fn-thumbbars].
+The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [thumbnail toolbars]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-07_00-03-28.png){:target="_blank"}[^fn-thumbbars].
 
-When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and most importantly, [That Thing on the Taskbar That You Can Click On Which I Don't Know The Name Of]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-07_00-03-28.png)[^fn-thumbbars] is finally present, without any additional components needed. Talk about a multi-purpose UI kit.
+When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and it also adds [that thing]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-07_00-03-28.png){:target="_blank"}[^fn-thumbbars] to your taskbar, without any additional components needed. Talk about a multi-purpose UI kit.
 
 After you've finished installing Columns UI and set it as your default UI, you will be presented with this screen.
 
@@ -211,5 +211,5 @@ But feel free to use this guide as you wish. Customisation is one of foobar2000'
 
 It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014) if you need help in your setup procedure.
 
-[^fn-thumbbars]: Though a friend of mine *did* tell me it's called [thumbnail toolbars](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars){:target="_blank"}, but still.
-[^fn-discogs-oauth]: [Source.](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow){:target="_blank"}
+[^fn-thumbbars]: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars>{:target="_blank"}
+[^fn-discogs-oauth]: <https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow>{:target="_blank"}
