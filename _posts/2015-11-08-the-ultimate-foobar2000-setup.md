@@ -20,11 +20,11 @@ Here's a guide on how to make your foobar2000 look more like mine, which I find 
 
 First off, you will need the following additional components. The version numbers might not be the latest when you're reading this off in the future, but as of the writing of this post, the version numbers are confirmed to be the most stable.
 
-* [Columns UI (v0.3.9.1)](http://yuo.be/columns.php)
-* [Dynamic Fields (v1 beta 4)](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
-* [Playback Statistics (v3.0.2)](http://www.foobar2000.org/components/view/foo_playcount)
-* [Queue Contents Editor (v0.5.1)](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents))
-* [Discogs Tagger (v1.55)](https://www.foobar2000.org/components/view/foo_discogs)
+* [Columns UI (v0.3.9.1)](http://yuo.be/columns.php){:target="_blank"}
+* [Dynamic Fields (v1 beta 4)](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320){:target="_blank"}
+* [Playback Statistics (v3.0.2)](http://www.foobar2000.org/components/view/foo_playcount){:target="_blank"}
+* [Queue Contents Editor (v0.5.1)](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents)){:target="_blank"}
+* [Discogs Tagger (v1.55)](https://www.foobar2000.org/components/view/foo_discogs){:target="_blank"}
 
 ## Interface - Columns UI
 
@@ -54,10 +54,10 @@ The article above provides an in-depth explanation on how the algorithm works. I
 
 You will need these two components:
 
-* [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
-* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount)
+* [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320){:target="_blank"}
+* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount){:target="_blank"}
 
-[This article](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt) shows in detail how to get the DADA algorithm up and running, complete with all of the options that are available. But if you want to get it up and running easily, here's my guide.
+[This link](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt){:target="_blank"} shows in detail how to get the DADA algorithm up and running, complete with all of the options that are available. But if you want to get it up and running easily, here's my guide.
 
 First, open `File > Preferences > Media Library > Dynamic Fields`, click on the Add Field (+) button, and name this field `dynamic_rating`.
 
@@ -167,7 +167,7 @@ Here, you can add, remove, or save presets for FileOps. The most important optio
 %album artist%/%album%/[%discnumber%-]%tracknumber% %title%
 {% endhighlight %}
 
-You can learn more about defining file name patterns on this [wiki page](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_operations).
+You can learn more about defining file name patterns on this [wiki page](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_operations){:target="_blank"}.
 
 In order to organise new music in your library, first you **must** move your new music into a placeholder directory inside your main library folder, like `_unsorted`. Then head over to `Library > Album List`, then right click on "All Music", then head over to `File Operations > Move to` then select your saved preset, like so.
 
@@ -177,9 +177,9 @@ You will now see a preview of the changes made in your directory. Click "Run" to
 
 ### Tagging with Discogs
 
-It's very important to properly tag your music library, for the sake of consistency, especially when you're sharing what you're listening to to services like [Last.fm](http://www.last.fm/).
+It's very important to properly tag your music library, for the sake of consistency, especially when you're sharing what you're listening to to services like [Last.fm](http://www.last.fm/){:target="_blank"}.
 
-Unfortunately, before you want to use it, you will have to create an account at <http://www.discogs.com/> in order to get an OAuth token to access their API[^fn-discogs-oauth]. If you don't want to do that, you can try [MusicBrainz tagger](https://www.foobar2000.org/components/view/foo_musicbrainz), which grabs data from MusicBrainz's database, though it's not as robust as the one for Discogs. (You can always use a third-party tagging tool like [Picard](https://picard.musicbrainz.org/).)
+Unfortunately, before you want to use it, you will have to create an account at <http://www.discogs.com/>{:target="_blank"} in order to get an OAuth token to access their API[^fn-discogs-oauth]. If you don't want to do that, you can try [MusicBrainz tagger](https://www.foobar2000.org/components/view/foo_musicbrainz){:target="_blank"}, which grabs data from MusicBrainz's database, though it's not as robust as the one for Discogs. (You can always use a third-party tagging tool like [Picard](https://picard.musicbrainz.org/){:target="_blank"}.)
 
 To use this component, right click on any track/album, and head over to `Tagging > Discogs > Write Tags`. It will then look up the Discogs database for your album details.
 
@@ -209,7 +209,7 @@ In conclusion: yes, you *can* actually make your foobar2000 experience to be mor
 
 But feel free to use this guide as you wish. Customisation is one of foobar2000's prime experience, in fact, I *encourage* you to improve on this setup yourself. The setup demonstrated here is what has always worked for me, and people's tastes can be different, so feel free to change things up here and there if you don't like how some stuff works.
 
-It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014) if you need help in your setup procedure.
+It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014){:target="_blank"} if you need help in your setup procedure.
 
 [^fn-thumbbars]: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars>{:target="_blank"}
 [^fn-discogs-oauth]: <https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow>{:target="_blank"}
