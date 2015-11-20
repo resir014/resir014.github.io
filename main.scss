@@ -22,27 +22,20 @@
 @import "utils/helpers";
 
 @import "vendor/normalize";
-//@import "vendor/pygments";
-@import "vendor/poole/base";
-@import "vendor/poole/type";
-@import "vendor/poole/syntax";
-@import "vendor/poole/code";
-@import "vendor/poole/layout";
-@import "vendor/poole/masthead";
-@import "vendor/poole/posts";
-@import "vendor/poole/pagination";
-@import "vendor/poole/message";
+@import "vendor/pygments";
 
-@import "components/base";
+@import "base/base";
+@import "base/layout";
+@import "base/typography";
+
 @import "components/third-party";
-@import "components/type";
+@import "components/code";
+@import "components/figure-grid";
 @import "components/masthead";
-@import "components/intro";
-@import "components/layout";
-@import "components/nav";
 @import "components/post-list";
-@import "components/posts";
+@import "components/pagination";
+@import "components/message";
 
-//@import "base/base";
-//@import "base/layout";
-//@import "base/typography";
+@import "pages/intro";
+@import "pages/archive";
+@import "pages/posts";

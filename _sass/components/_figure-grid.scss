@@ -1,32 +1,4 @@
-// Base
-//
-// Glabal overrides for base Poole components.
-
-// Body font
-body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-// Fix `<p>` tags inside `<dd>` causing unnecessary margins.
-dd {
-  p {
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
 // Figure & figcaptions.
-
-figure {
-  margin: 1.5rem 0;
-
-  figcaption {
-    padding-bottom: 1rem;
-    font-size: 85%;
-    text-align: center;
-  }
-}
 
 .figure-grid {
   @include clearfix;
