@@ -55,6 +55,7 @@ The article above provides an in-depth explanation on how the algorithm works. I
 ### Getting DADA up and running
 
 You will need these two components:
+
 * [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
 * [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount).
 
