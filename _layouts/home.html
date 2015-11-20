@@ -10,7 +10,52 @@
 
         {% include html/masthead.html %}
 
-        {{ content }}
+        <div class="intro-wrapper">
+          <div class="intro-inner">
+            <div class="intro-logo">
+              <div class="logo-wrapper">
+                <h1>//</h1>
+              </div>
+            </div>
+
+            <div class="intro-social-links">
+              <h3>find me on</h3>
+
+              <a href="http://resir014.tumblr.com/" target="_blank">
+                <i class="fa fa-tumblr"></i>
+              </a>
+              <a href="https://twitter.com/resir014" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="http://plus.google.com/+ResiRespati" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="https://github.com/resir014" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {% if site.categories.blog %}
+          <div class="intro-posts">
+            <h1>latest posts</h1>
+            <div class="archive">
+              {% for post in site.categories.blog limit:5 %}
+              <a href="{{ post.url }}">
+                <div class="archive-item">
+                  <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+                  <span class="archive-title">{{ post.title }}</span>
+                </div>
+              </a>
+              {% endfor %}
+            </div>
+
+            <a href="{{ site.baseurl }}/blog">&gt; Read the rest of the blog.</a>
+          </div>
+        {% endif %}
+
+        {% include html/footer.html %}
 
       </div>
     </div>
