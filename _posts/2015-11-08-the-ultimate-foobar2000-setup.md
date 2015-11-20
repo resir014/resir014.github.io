@@ -6,13 +6,13 @@ lead: "*) Well, according to me, at least."
 
 If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
-Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. But turns out it is a feature included with one of its built-in plugins, or "components" as they were called in foobar2000.
+Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. And with foobar2000's bare experience, it does certainly look unappealing to your casual music listeners, and it *really* involves a lot of tweaking to really make it fit with your style.
 
-So I started looking around for components, toyed around with them a bit, and this is what I came up with.
+So I started looking around for custom components and toyed around with them a bit, and this is what I came up with.
 
 [![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)
 
-I find it really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
+Here's a guide on how to make your foobar2000 setup more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
 
 *In this guide, I will assume that you've pretty much understood the basics of customising foobar2000, such as adding/removing components, or selecting a custom UI. I might update this guide to be more noob-friendly in the future, but I couldn't really make promises, so \*shrugs\*.*
 
@@ -134,7 +134,7 @@ If in some cases you'll need to reinstall your computer, and you couldn't afford
 
 ## Conclusion
 
-In conclusion: yes, you *can* actually make your foobar2000 setup look a little more like iTunes. Yes, foobar2000 is the one of the best music players out there, and yes, you *should* use it yourself too.
+In conclusion: yes, you *can* actually make your foobar2000 experience to be more bearable. Yes, foobar2000 is the one of the best music players out there, and yes, you *should* use it yourself too.
 
 But feel free to use this guide as you wish. Customisation is one of foobar2000's prime experience, in fact, I *encourage* you to improve on this setup yourself. The setup demonstrated here is what has always worked for me, and people's tastes can be different, so feel free to change things up here and there if you don't like how some stuff works.
 
