@@ -28,7 +28,7 @@ First off, you will need the following additional components. The version number
 * [Queue Contents Editor (v0.5.1)](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents))
 * [Discogs Tagger (v1.55)](https://www.foobar2000.org/components/view/foo_discogs)
 
-## Interface stuffs
+## Interface - Columns UI
 
 The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [This Thing on the Taskbar That You Can Click On Which I Don't Know The Name Of]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-07_00-03-28.png)[^fn-thumbbars].
 
@@ -44,15 +44,23 @@ Here you can choose a number of quick UI presets for you to get started, but if 
 
 Unfortunately, I've never touched this section, so look up on how you play around with this section yourself, I guess. Although the next few parts will explain why I chose to use Columns UI.
 
-## DADA algorithm
+## DADA algorithm - automated track ratings
 
 One other thing that foobar2000 lacks is a rating system. I've tried looking for some random components that does this but most of the time they do this thing where it will store the rating in your ID3 metadata, which is a big no.
 
 So I tried looking up for something again, and came across [this article](http://www.giantpygmy.net/gpa/index.php?id=dada-autorating) on an automated rating system for foobar2000, known as the Date and Duration Adjusted (DADA) auto-rating algorithm.
 
-The article above provides an in-depth explanation on how the algorithm works. It does take a while to understand how the algorithm makes any sense, but four or five months in, you'll see that it starts to kick in. It requires the following prerequisite components: [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320) and [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount).
+The article above provides an in-depth explanation on how the algorithm works. It does take a while to understand how the algorithm makes any sense, but four or five months in, you'll start to see it really kick in.
 
-[> Click here to read on how to get the DADA auto-rating up and running.](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt)
+### Getting DADA up and running
+
+You will need these two components:
+* [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
+* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount).
+
+[> This article](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt) shows in detail how to get the DADA algorithm up and running. I will update this article for a simplified guide on getting this to run.
+
+### DADA-curated playlist
 
 Now what I'd usually like to do after this, is to create a "Top Tracks" autoplaylist using the DADA algorithm to determine the ranks, and this is where Columns UI really stands out. The NG Playlist configurations built into Columns UI allows for further customisations on how your playlists are displayed.
 
@@ -119,6 +127,10 @@ Though keep in mind that this only saves the album art into the album directory 
 ![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_01-08-51.png)
 
 Choose to overwrite the album art already attached to the track if necessary, then click "OK" to save your changes.
+
+## Backing up your foobar2000 installation.
+
+If in some cases you'll need to reinstall your computer, and you couldn't afford to lose your sick foobar2000 setup, you can back up your foobar2000 installation and transfer it to another computer. [This article on How-To Geek](http://www.howtogeek.com/howto/19035/backup-and-transfer-foobar2000-to-a-new-computer/) will explain how.
 
 ## Conclusion
 
