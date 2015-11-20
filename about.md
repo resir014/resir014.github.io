@@ -4,11 +4,11 @@ title: about
 permalink: /about/
 ---
 
-Hi, my name's Resi Respati. I'm usually known on the internets as resir014. Just call me Resi, or whatever. I'm an 20-year-old Indonesian college student living in Jakarta.
+Hi, my name's Resi Respati. I'm usually known on the internets as resir014. Just call me Resi, or whatever. I'm a 20-year-old Indonesian currently living in Jakarta. College student, part-time motorsports fan, and also a quarter-time photographer.
 
-I am a huge motorsports fan. I've been following Formula 1 ever since I was at elementary school. I am also a shitty photographer, a PC gamer, and sometimes, an aviation enthusiast.
+I am also an aspiring web developer. I basically self-learned HTML and CSS back in high school. I've done quite a few little design projects for my friends' websites, and I have designed several Tumblr themes for my side blogs, which I still actively maintain.
 
-I am also an aspiring web developer. I self-learned HTML and CSS when I was in high school, and I have designed several Tumblr themes for my side blogs, which I still actively maintain.
+Though right now I've been familiarizing myself with tools like Grunt/Gulp, and also have been loving SCSS lately.
 
 ## About this website.
 
@@ -18,7 +18,7 @@ Aside from some Google Analytics tracking code, no JavaScript is present on this
 
 ## Stalk me.
 
-If you want to get in touch with me, be it for web design works, questions on open-source development, or even just to say hi, feel free to do so.
+If you want to get in touch with me, even just to say hi, feel free to do so.
 
 * Twitter: [@resir014](https://twitter.com/resir014)
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
