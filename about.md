@@ -4,19 +4,21 @@ title: about
 permalink: /about/
 ---
 
-Hi, my name's Resi Respati. I'm usually known on the internets as resir014. Just call me Resi, or whatever. I'm an 20-year-old Indonesian college student living in Jakarta.
+Hi, my name's Resi Respati. I'm usually known on the internets as resir014. Just call me Resi, or whatever. I'm a 20-year-old Indonesian currently living in Jakarta. College student, part-time motorsports fan, and also a quarter-time photographer.
 
-I am a huge motorsports fan. I've been following Formula 1 ever since I was at elementary school. I am also a shitty photographer, a PC gamer, and sometimes, an aviation enthusiast.
+I am also an aspiring web developer. I basically self-learned HTML and CSS back in high school. I've done quite a few little design projects for my friends' websites, and I have designed several Tumblr themes for my side blogs, which I still actively maintain.
 
-## I make websites.
+Though right now I've been familiarizing myself with tools like Grunt/Gulp, and also have been loving SCSS lately.
 
-I am also an aspiring web developer. I self-learned HTML and CSS when I was in high school, and I have designed several Tumblr themes for my side blogs, which I still actively maintain.
+## About this website.
 
-I like experimenting on minimalist web design and this is one of the sites that utilizes the concept. It runs on a modified version of [Poole](http://getpoole.com/), hosted on [GitHub Pages](https://pages.github.com/), built with [Jekyll](http://jekyllrb.com/), and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
+This Jekyll website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/), licensed under MIT, and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
+
+Aside from some Google Analytics tracking code, no JavaScript is present on this website. And no, it's not due to [ethical reasons](http://www.gnu.org/philosophy/javascript-trap.en.html) either. It's just that I'm not really good at JavaScript yet.
 
 ## Stalk me.
 
-If you want to get in touch with me, be it for web design works, questions on open-source development, or even just to say hi, feel free to do so.
+If you want to get in touch with me, even just to say hi, feel free to do so.
 
 * Twitter: [@resir014](https://twitter.com/resir014)
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
