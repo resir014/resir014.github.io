@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: I take my words back.
 ---
 

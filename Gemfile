@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+gem 'jekyll', '~> 2.5.3'
 
-gem 'github-pages', versions['github-pages']
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+group :jekyll_plugins do
+  gem 'octopress-paginate'
+  gem 'jekyll-gist'
+end
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

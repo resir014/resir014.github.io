@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: "The Ultimate foobar2000 Setup*"
 lead: "*) Well, according to me, at least."
 ---

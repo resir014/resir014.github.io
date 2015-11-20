@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: A desperate plea for Internet freedom
 ---
 

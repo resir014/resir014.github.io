@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: The responsive web design framework that never was
 ---
 

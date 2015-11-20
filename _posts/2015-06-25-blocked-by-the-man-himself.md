@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Blocked by "the man" himself
 lead: Or, online arguments in a nutshell.
 ---

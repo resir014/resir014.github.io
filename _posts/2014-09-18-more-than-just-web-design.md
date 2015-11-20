@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: More than just web design.
 ---
 

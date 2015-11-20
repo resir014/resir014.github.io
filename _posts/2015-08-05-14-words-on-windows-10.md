@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: 14 words on Windows 10
 ---
 

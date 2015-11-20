@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Yes, I tried using TweetDeck from my phone
 ---
 

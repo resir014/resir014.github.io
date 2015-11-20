@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: WhatsApp + Facebook, and why I'm concerned with it.
 ---
 
