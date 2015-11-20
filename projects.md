@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
+title: Projects
 ---
 
-## web design
+## Web design
 
 <dl>
 {% assign webdesign = site.webdesign | sort: 'name' %}
@@ -13,7 +13,7 @@ title: projects
 {% endfor %}
 </dl>
 
-## blogs
+## Blogs
 
 <dl>
 {% assign blogs = site.blogs | sort: 'name' %}
@@ -23,7 +23,7 @@ title: projects
 {% endfor %}
 </dl>
 
-## open source
+## Stuff on GitHub
 
 <dl>
 {% assign github = site.github | sort: 'name' %}
@@ -33,6 +33,6 @@ title: projects
 {% endfor %}
 </dl>
 
-## random works
+## Random works
 
 You can also find some of my original yet random works, which I probably did when I was bored. These works are adequately curated on my [Tumblr blog](http://resir014.tumblr.com/tagged/resir014).
