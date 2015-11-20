@@ -6,15 +6,13 @@ lead: "*) Well, according to me, at least."
 
 If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
-Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. And with foobar2000's bare experience, it does certainly look unappealing to your casual music listeners, and it *really* involves a lot of tweaking to really make it fit with your style.
+Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. And with foobar2000's bare, customisation-focused experience, it does certainly look unappealing to the casual music listeners, and it *really* involves a lot of tweaking to really make your daily listening session a pleasant one.
 
 So I started looking around for custom components and toyed around with them a bit, and this is what I came up with.
 
-[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)
+[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-23-02.png){:target="_blank"}
 
-Here's a guide on how to make your foobar2000 setup more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
-
-*In this guide, I will assume that you've pretty much understood the basics of customising foobar2000, such as adding/removing components, or selecting a custom UI. I might update this guide to be more noob-friendly in the future, but I couldn't really make promises, so \*shrugs\*.*
+Here's a guide on how to make your foobar2000 look more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
 
 ---
 
@@ -57,9 +55,79 @@ The article above provides an in-depth explanation on how the algorithm works. I
 You will need these two components:
 
 * [Dynamic Fields](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
-* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount).
+* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount)
 
-[> This article](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt) shows in detail how to get the DADA algorithm up and running. I will update this article for a simplified guide on getting this to run.
+[This article](http://www.giantpygmy.net/gpa/data/uploads/files/dada_autorating_dar_latest_version.txt) shows in detail how to get the DADA algorithm up and running, complete with all of the options that are available. But if you want to get it up and running easily, here's my guide.
+
+First, open `File > Preferences > Media Library > Dynamic Fields`, click on the Add Field (+) button, and name this field `dynamic_rating`.
+
+![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-20_23-21-32.png)
+
+Then, on the "Title formatting expression" textfield, paste the following:
+
+{% highlight text %}
+$puts(pc,%play_count%)
+$puts(x,$add($date_diff(%added%),2))
+$puts(y,$date_diff(%added%,%last_played%))
+$puts(z,$sub($get(x),$get(y),2))
+$puts(l,%length_seconds%)
+$puts(lib0,$date_diff(2000))
+$puts(lib1,$div($add($mul($sub(100,$div($date_diff(%added%),$div($get(lib0),100))),15),2600),30))
+$puts(pc1,$add($get(pc),2))
+$puts(pc3,$mul($get(pc1),$get(pc1),$get(pc1)))
+$puts(b1,$add($div($date_diff(2015),5),0))
+$puts(b2,$add($div($get(b1),50),500))
+$puts(d0,$ifgreater($get(l),3599,$muldiv(9000,$get(l),3600),9000))
+$puts(d1,$muldiv($add($get(l),540),1,4))
+$puts(d2,$muldiv($get(l),$get(l),$get(d0)))
+$puts(d3,$add($get(d1),$get(d2)))
+$puts(r0,$mul($add(1000,$muldiv($get(d3),$get(pc),100)),10))
+$puts(dd,$div($add($get(y),50),10))
+$puts(pp,$muldiv($get(pc),10000,$get(x)))
+$puts(2,$muldiv($get(dd),$get(pp),100))
+$puts(3,$muldiv($get(x),$get(lib1),100))
+$puts(4,$div($get(pp),50))
+$puts(5,$div($muldiv($add($div($date_diff(%added%,%first_played%),5),5000),$get(b2),$add($div($get(l),20),140)),$add($div($get(pc3),58),3)))
+$puts(6,$muldiv($get(pc),625,$get(x)))
+$puts(7,$add($get(3),$get(5),$get(6)))
+$puts(r1,$add($get(2),$get(r0)))
+$puts(r2,$add($get(4),$sub($get(r1),$get(7))))
+$puts(r2a,$ifgreater($get(r2),0,$get(r2),1))
+$puts(r3,$sub($get(r2),$div($mul($get(r2a),$get(z),3),50000)))
+$puts(r4,$add($get(r3),$get(b1)))
+$ifgreater($get(pc),0,$num($get(r4),5),-----)
+{% endhighlight %}
+
+Then set your recalculation interval in the dropdown at the top. I usually set it to 5 minutes. Then click "Okay" twice, and foobar2000 will restart.
+
+Now, to add the column to our playlist view, go to `File > Preferences > Display > Columns UI > Playlist View`, then click on the Columns tab.
+
+Add a column at the very end. Let's call it "Rating."
+
+![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-20_23-37-20.png)
+
+Now, click on the Scripts tag, and paste the following into the textfield on the "Display" tab.
+
+{% highlight text %}
+$puts(maxdar,10000)
+$puts(mindar,5000)
+$puts(maxsub,$sub($get(maxdar),0))
+$puts(r3,$ifgreater(%_dynamic_rating%,$get(maxsub),$get(maxsub),%_dynamic_rating%))
+$puts(r4,$ifgreater($get(r3),0,$get(r3),1))
+$puts(minmax,$sub($get(maxdar),$get(mindar)))
+$puts(darind1,$sub($get(r4),$get(mindar)))
+$puts(darind2,$div($mul($get(darind1),10),$get(minmax)))
+$puts(darind3,$ifgreater($get(darind2),1,$get(darind2),1))
+$puts(display,$rgb(100,100,100)$repeat($char(9679),$get(darind3))$rgb(220,220,220)$repeat($char(9679),$sub(10,$get(darind3))))
+$puts(notplayed,$rgb(200,200,200)- n/a -)
+$ifgreater(%_dynamic_rating%,0,$get(display),$get(notplayed))
+{% endhighlight %}
+
+This will give you a nice visual of the rating, with dots, as seen below. If you want to just use the actual number for this column, just type `%_dynamic_rating` into the same textfield.
+
+![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-20_23-41-37.png)
+
+Congrats, you now have the DADA rating installed!
 
 ### DADA-curated playlist
 
@@ -77,7 +145,7 @@ The first grouping rule in that window is included by default. But we're gonna t
 
 Save your changes, and there you go, a 100%-working Top Tracks playlist.
 
-[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)
+[![foobar2000]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png)]({{ site.baseurl }}/public/images/blog/foobar2000/2015-11-08_00-13-37.png){:target="_blank"}
 
 ## Organising your music
 
@@ -131,15 +199,17 @@ Choose to overwrite the album art already attached to the track if necessary, th
 
 ## Backing up your foobar2000 installation.
 
-If in some cases you'll need to reinstall your computer, and you couldn't afford to lose your sick foobar2000 setup, you can back up your foobar2000 installation and transfer it to another computer. [This article on How-To Geek](http://www.howtogeek.com/howto/19035/backup-and-transfer-foobar2000-to-a-new-computer/) will explain how.
+If in some cases you'll need to reinstall your computer, and you couldn't afford to lose your sick foobar2000 setup, you can back up your foobar2000 installation and transfer it to another computer. [This article on How-To Geek](http://www.howtogeek.com/howto/19035/backup-and-transfer-foobar2000-to-a-new-computer/){:target="_blank"} will explain how.
+
+---
 
 ## Conclusion
 
-In conclusion: yes, you *can* actually make your foobar2000 experience to be more bearable. Yes, foobar2000 is the one of the best music players out there, and yes, you *should* use it yourself too.
+In conclusion: yes, you *can* actually make your foobar2000 experience to be more bearable. Yes, foobar2000 is the one of the best, most customisable music players out there, and yes, you *should* use it yourself too.
 
 But feel free to use this guide as you wish. Customisation is one of foobar2000's prime experience, in fact, I *encourage* you to improve on this setup yourself. The setup demonstrated here is what has always worked for me, and people's tastes can be different, so feel free to change things up here and there if you don't like how some stuff works.
 
-It's a tedious process at first, but trust me, it really *is* worth it at the end of the day.
+It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014) if you need help in your setup procedure.
 
-[^fn-thumbbars]: Though a friend of mine *did* tell me it's called [thumbnail toolbars](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars), but still.
-[^fn-discogs-oauth]: [(link)](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow)
+[^fn-thumbbars]: Though a friend of mine *did* tell me it's called [thumbnail toolbars](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars){:target="_blank"}, but still.
+[^fn-discogs-oauth]: [Source.](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow){:target="_blank"}
