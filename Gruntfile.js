@@ -21,15 +21,14 @@ module.exports = function(grunt) {
 
     jekyll: {
       options: {
-        bundleExec: true,
-        src : '<%= app %>'
+        bundleExec: true
       },
-      dist: {
+      build: {
         options: {
-          dest: '<%= dist %>',
+          dest: '_site',
           config: '_config.yml'
         }
-      },
+      }
     },
 
     buildcontrol: {
