@@ -18,10 +18,14 @@ exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICE
 # Disqus comments
 disqus_shortname:     resir014
 
-# Gems
+# Jekyll plugins
 gems:
   - octopress-paginate
   - jekyll-gist
+
+# Don't automatically trigger page build on GitHub
+include:
+  - .nojekyll
 
 # octopress-paginate
 pagination:
