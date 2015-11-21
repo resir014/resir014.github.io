@@ -4,6 +4,7 @@ gem 'jekyll', '~> 2.5.3'
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
+  gem 'jekyll-sitemap'
   gem 'octopress-paginate'
 end
 
