@@ -20,8 +20,8 @@ disqus_shortname:     resir014
 
 # Jekyll plugins
 gems:
-  - octopress-paginate
   - jekyll-gist
+  - octopress-paginate
 
 # Don't automatically trigger page build on GitHub
 include:
