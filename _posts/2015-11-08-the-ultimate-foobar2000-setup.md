@@ -5,7 +5,7 @@ title: "The Ultimate foobar2000 Setup*"
 lead: "*) Well, according to me, at least."
 ---
 
-If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
+If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/){:target="_blank"} is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
 Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. And with foobar2000's bare, customisation-focused experience, it does certainly look unappealing to the casual music listeners, and it *really* involves a lot of tweaking to really make your daily listening session a pleasant one.
 
@@ -47,7 +47,7 @@ Unfortunately, I've never touched this section, so look up on how you play aroun
 
 One other thing that foobar2000 lacks is a rating system. I've tried looking for some random components that does this but most of the time they do this thing where it will store the rating in your ID3 metadata, which is a big no.
 
-So I tried looking up for something again, and came across [this article](http://www.giantpygmy.net/gpa/index.php?id=dada-autorating) on an automated rating system for foobar2000, known as the Date and Duration Adjusted (DADA) auto-rating algorithm.
+So I tried looking up for something again, and came across [this article](http://www.giantpygmy.net/gpa/index.php?id=dada-autorating){:target="_blank"} on an automated rating system for foobar2000, known as the Date and Duration Adjusted (DADA) auto-rating algorithm.
 
 The article above provides an in-depth explanation on how the algorithm works. It does take a while to understand how the algorithm makes any sense, but four or five months in, you'll start to see it really kick in.
 
