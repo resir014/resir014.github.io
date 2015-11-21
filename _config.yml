@@ -27,7 +27,7 @@ gems:
 include:
   - .nojekyll
 
-# octopress-paginate
+# Plugin: octopress-paginate
 pagination:
   limit:              false
   per_page:           1
