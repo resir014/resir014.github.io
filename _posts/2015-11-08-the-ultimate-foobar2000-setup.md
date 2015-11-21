@@ -212,5 +212,5 @@ But feel free to use this guide as you wish. Customisation is one of foobar2000'
 
 It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014){:target="_blank"} if you need help in your setup procedure.
 
-[^fn-thumbbars]: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars>{:target="_blank"}
-[^fn-discogs-oauth]: <https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow>{:target="_blank"}
+[^fn-thumbbars]: [\[Source\]](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars){:target="_blank"}
+[^fn-discogs-oauth]: [\[Source\]](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow){:target="_blank"}
