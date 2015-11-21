@@ -112,3 +112,12 @@
     text-decoration: none;
   }
 }
+
+// 'Read More' button
+.btn-more {
+  display: inline-block;
+  margin: .5rem 0;
+  padding: .25rem .5rem;
+  background-color: $accent-color;
+  color: #fff;
+}

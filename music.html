@@ -1,10 +1,10 @@
 ---
 layout: page
-title: resir014's blog of things
+title: Stuff I listen to
 paginate:
   limit: false
   per_page: 15
-  category: 'blog'
+  category: 'music'
 ---
 
 <div class="archive">
@@ -13,7 +13,7 @@ paginate:
     <div class="archive-item">
       <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
       <h2 class="archive-title">{{ post.title }}</h2>
-      <span class="archive-excerpt">{% if post.lead %}{{ post.lead }}{% else %}{{ post.content | strip_html | truncate: 160, '…' }}{% endif %}</span>
+      <span class="archive-excerpt">{% if post.lead %}{{ post.lead }}{% else %}{{ post.excerpt }}{% endif %}</span>
     </div>
   </a>
   {% endfor %}
