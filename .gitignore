@@ -4,6 +4,7 @@ _site
 _drafts
 
 # Rubygems
+Gemfile.lock
 .ruby-version
 .ruby-gemset
 
