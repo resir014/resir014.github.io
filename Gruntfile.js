@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         ]
       },
       publish: {
-        src: '_site/*.css'
+        src: '_site/**/*.css'
       }
     },
 
@@ -23,11 +23,27 @@ module.exports = function(grunt) {
       options: {
         bundleExec: true
       },
-      build: {
+      build: {}
+    },
+
+    connect: {
+      server: {
         options: {
-          dest: '_site',
-          config: '_config.yml'
+          livereload: true,
+          open: true,
+          base: '_site/',
+          port: 4000
         }
+      }
+    },
+
+    watch: {
+      options: {
+        livereload: true
+      },
+      jekyll: {
+        files: ['**/*', '!_site/**'],
+        tasks: ['build']
       }
     },
 
@@ -52,6 +68,9 @@ module.exports = function(grunt) {
 
   // Manually build page
   grunt.registerTask('build', ['jekyll', 'postcss']);
+
+  // Start a local server
+  grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
 
   // Publish to GitHub
   grunt.registerTask('publish', ['jekyll', 'postcss', 'buildcontrol']);
