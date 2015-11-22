@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           livereload: true,
           open: true,
           base: '_site/',
-          port: 4000
+          port: 9001
         }
       }
     },
