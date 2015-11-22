@@ -1,7 +1,9 @@
 ---
 layout: post
-category: blog
 title: The responsive web design framework that never was
+tags:
+  - blog
+  - projects
 ---
 
 My first encounter with web design was back in high school when I coded a website from scratch for a school project. I'm not sure if I still have the files for them on my computer, but from what I remembered it doesn't look any good. I thought I was into something when I started coding HTML and CSS, and I kept researching for a faster way to make my website look better, because to be honest, I'm not really a patient guy when it comes to writing code.

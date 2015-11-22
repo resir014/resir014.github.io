@@ -1,7 +1,10 @@
 ---
 layout: post
-category: blog
 title: "Brand Crossovers: Google"
+tags:
+  - blog
+  - google
+  - stupid-stuff
 ---
 
 In case you've been living under a rock lately, Google has recently unveiled their new logo and brand identity.

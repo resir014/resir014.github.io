@@ -23,13 +23,13 @@
 
 @import "vendor/normalize";
 @import "vendor/pygments";
+@import "vendor/third-party";
 
 @import "base/base";
 @import "base/layout";
 @import "base/typography";
+@import "base/code";
 
-@import "components/third-party";
-@import "components/code";
 @import "components/figure-grid";
 @import "components/masthead";
 @import "components/post-list";

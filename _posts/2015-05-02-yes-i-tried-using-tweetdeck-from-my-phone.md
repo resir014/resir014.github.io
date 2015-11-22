@@ -1,7 +1,11 @@
 ---
 layout: post
-category: blog
 title: Yes, I tried using TweetDeck from my phone
+tags:
+  - blog
+  - twitter
+  - tweetdeck
+  - stupid-stuff
 ---
 
 Most of us power [Twitter](https://twitter.com/) users already know about the usefulness of [TweetDeck](https://about.twitter.com/products/tweetdeck), especially how it helps you manage multiple accounts and timelines with ease. I use TweetDeck everyday to manage my handful amount of Twitter accounts.

@@ -1,0 +1,48 @@
+---
+layout: page
+title: Tags
+---
+
+{% assign sorted_tags = site.tags | sort %}
+
+{% for tag in sorted_tags %}
+  {% assign tagged_posts = tag[1] %}
+
+  {% if tagged_posts.size > 0 %}
+    <section id="{{ tag[0] }}" class="tag-list">
+      <h2>
+        <a class="tag" href="/tags/{{ tag[0] | prepend: "#" }}">
+          {{ tag[0] | prepend: "#" }}
+        </a>
+      </h2>
+
+      <div class="archive">
+        {% for post in tagged_posts %}
+        <a href="{% if post.external-url %}{{ post.external-url }}{% else %}{{ post.url }}{% endif %}"{% if post.external-url %} target="_blank"{% endif %}>
+          <div class="archive-item">
+            <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date_to_string }}
+            </time>
+            <span class="archive-title">
+              {{ post.title }}
+              {% if post.external-url %}
+                <i class="fa fa-external-link fa-fw"></i>
+              {% endif %}
+            </span>
+            <!--span class="archive-excerpt">
+              {% if post.lead %}
+                {{ post.lead }}
+              {% else %}
+                {{ post.excerpt | strip_html | truncate: 160, '…' }}
+              {% endif %}
+            </span-->
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% assign tagged_posts = nil %}
+{% endfor %}
+

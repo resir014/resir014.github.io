@@ -1,9 +1,12 @@
 ---
 layout: post
-category: blog
 title: On disruptive innovations
 lead: "Why LINE might be to blame for Telegram's recent outage."
 medium: https://medium.com/@resir014/on-disruptive-innovations-cb60eab3b4a6
+tags:
+  - blog
+  - telegram
+  - line
 ---
 
 **Update:** A new theory suggests that the attack [might have come from the Chinese government](http://techcrunch.com/2015/07/13/did-china-take-down-messaging-app-telegram/), in the wake of [arrests of human rights lawyers](http://www.wsj.com/articles/beijing-locks-up-the-lawyers-1436738563) in Beijing.

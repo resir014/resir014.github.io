@@ -1,7 +1,10 @@
 ---
 layout: post
-category: blog
 title: WhatsApp + Facebook, and why I'm concerned with it.
+tags:
+  - blog
+  - facebook
+  - whatsapp
 ---
 
 A few days ago, we were surprised by the news that [Facebook](http://www.facebook.com/) acquired the popular mobile messaging platform [WhatsApp](http://www.whatsapp.com/) for a [whopping $19bn](http://www.theverge.com/2014/2/19/5427332/facebook-is-buying-whatsapp).

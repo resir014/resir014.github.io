@@ -1,7 +1,9 @@
 ---
 layout: post
-category: blog
 title: Introducing Webdev Toolkit
+tags:
+  - blog
+  - projects
 ---
 
 [Webdev Toolkit](https://github.com/resir014/Webdev-Toolkit) is a simple and lightweight debugging tool for developing HTML and CSS-based websites, based on [Gulp](http://gulpjs.com/). I've started working on this project a month ago, but I kept holding back on it until recently. It was originally created using [Grunt](http://gruntjs.com), then it was later rewritten in Gulp.

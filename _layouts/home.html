@@ -18,9 +18,9 @@
               </div>
             </div>
 
-            <div class="intro-social-links">
-              <h3>find me on</h3>
+            <h3 class="intro-tagline">student, web developer, all-around whatever</h3>
 
+            <div class="intro-social-links">
               <a href="http://resir014.tumblr.com/" target="_blank">
                 <i class="fa fa-tumblr"></i>
               </a>
@@ -37,43 +37,16 @@
           </div>
         </div>
 
-        {% if site.categories.blog %}
-          <div class="intro-posts">
-            <h1>latest posts</h1>
-            <div class="archive">
-              {% for post in site.categories.blog limit:5 %}
-              <a href="{% if post.external-url %}{{ post.external-url }}{% else %}{{ post.url }}{% endif %}">
-                <div class="archive-item">
-                  <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-                  <h2 class="archive-title">{{ post.title }}</h2>
-                  <span class="archive-excerpt">{% if post.lead %}{{ post.lead }}{% else %}{{ post.content | strip_html | truncate: 160, '…' }}{% endif %}</span>
-                </div>
-              </a>
-              {% endfor %}
-            </div>
-
-            <a class="btn-more" href="{{ site.baseurl }}/blog">&gt; Read the rest of the blog.</a>
+        <div class="intro-feature">
+          <h1>latest posts</h1>
+          <div class="archive">
+            {% for post in site.posts limit:10 %}
+              {% include html/post-archives.html %}
+            {% endfor %}
           </div>
-        {% endif %}
 
-        {% if site.categories.music %}
-          <div class="intro-posts">
-            <h1>stuff I listen to</h1>
-            <div class="archive">
-              {% for post in site.categories.music limit:5 %}
-              <a href="{% if post.external-url %}{{ post.external-url }}{% else %}{{ post.url }}{% endif %}">
-                <div class="archive-item">
-                  <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-                  <h2 class="archive-title">{{ post.title }}</h2>
-                  <span class="archive-excerpt">{% if post.lead %}{{ post.lead }}{% else %}{{ post.excerpt }}{% endif %}</span>
-                </div>
-              </a>
-              {% endfor %}
-            </div>
-
-            <a class="btn-more" href="{{ site.baseurl }}/music">&gt; Listen to my stuff.</a>
-          </div>
-        {% endif %}
+          <a class="btn-more" href="{{ site.baseurl }}/archive">More posts</a>
+        </div>
 
         {% include html/footer.html %}
 

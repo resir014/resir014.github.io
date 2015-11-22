@@ -9,13 +9,7 @@ paginate:
 
 <div class="archive">
   {% for post in paginator.posts %}
-  <a href="{{ post.url }}">
-    <div class="archive-item">
-      <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-      <h2 class="archive-title">{{ post.title }}</h2>
-      <span class="archive-excerpt">{% if post.lead %}{{ post.lead }}{% else %}{{ post.excerpt }}{% endif %}</span>
-    </div>
-  </a>
+    {% include html/post-archives.html %}
   {% endfor %}
 </div>
 

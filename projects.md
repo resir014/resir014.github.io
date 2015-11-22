@@ -3,6 +3,16 @@ layout: page
 title: Projects
 ---
 
+## Stuff on GitHub
+
+<dl>
+{% assign github = site.github | sort: 'name' %}
+{% for project in github %}
+  <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
+  <dd>{{ project.content }}</dd>
+{% endfor %}
+</dl>
+
 ## Web design
 
 <dl>
@@ -18,16 +28,6 @@ title: Projects
 <dl>
 {% assign blogs = site.blogs | sort: 'name' %}
 {% for project in blogs %}
-  <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
-  <dd>{{ project.content }}</dd>
-{% endfor %}
-</dl>
-
-## Stuff on GitHub
-
-<dl>
-{% assign github = site.github | sort: 'name' %}
-{% for project in github %}
   <dt><a href="{{ project.link }}">{{ project.title }}</a></dt>
   <dd>{{ project.content }}</dd>
 {% endfor %}

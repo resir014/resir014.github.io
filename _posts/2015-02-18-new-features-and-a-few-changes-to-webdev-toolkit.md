@@ -1,7 +1,9 @@
 ---
 layout: post
-category: blog
 title: New features, and a few changes to Webdev Toolkit
+tags:
+  - blog
+  - projects
 ---
 
 Over the past few days, I released [Webdev Toolkit](https://github.com/resir014/Webdev-Toolkit) to the public. It's a simple and lightweight debugging tool for developing HTML and CSS-based websites, which was originally written in [Grunt](http://gruntjs.com/), but then rewritten in [Gulp](http://gulpjs.com/) before release.
