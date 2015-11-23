@@ -5,9 +5,9 @@ title: How NOT to do crowdfunding
 lead: "In which I tear through quite possibly one of the worst Indiegogo projects ever made."
 external-url: https://medium.com/p/25d06ba83d53
 tags:
+  - gaming
   - indonesia
   - indiegogo
-  - gaming
 ---
 
 **Update:** The original Indiegogo page has been removed, but I'll just leave all of this here for the laughs.
