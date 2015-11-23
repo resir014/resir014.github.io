@@ -1,10 +1,11 @@
 ---
+category: blog
 layout: post
 title: Blocked by "the man" himself
 lead: Or, online arguments in a nutshell.
 tags:
-  - blog
   - tiffy
+  - twitter
   - internet-positif
 ---
 

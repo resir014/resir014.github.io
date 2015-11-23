@@ -1,10 +1,10 @@
 ---
+category: stupid-stuff
 layout: post
 title: "Brand Crossovers: Google"
 tags:
-  - blog
   - google
-  - stupid-stuff
+  - microsoft
 ---
 
 In case you've been living under a rock lately, Google has recently unveiled their new logo and brand identity.

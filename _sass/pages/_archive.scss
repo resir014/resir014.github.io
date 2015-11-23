@@ -1,6 +1,6 @@
 // Post archives
 //
-// Post archive layouts as seen on blog pages.
+// Blog posts sorted in an archive layout.
 
 .archive {
   a {
@@ -19,7 +19,8 @@
 
 .archive-item {
   display: block;
-  padding: .25rem 0;
+  padding: .75rem 0;
+  border-bottom: 1px solid darken($border-color, 5%);
 
   .archive-date {
     display: block;
@@ -30,13 +31,17 @@
       margin-left: .5rem;
     }
   }
+
+  @media (min-width: 34em) {
+    padding: .25rem 0;
+  }
 }
 
 // Tags
 .archive-tags {
   .tag {
     display: inline-block;
-    padding: .25rem .5rem;
+    padding: 0 .25rem;
     font-size: 75%;
     color: #fff;
     text-decoration: none;

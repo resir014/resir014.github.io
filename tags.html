@@ -5,11 +5,22 @@ title: Tags
 
 {% assign sorted_tags = site.tags | sort %}
 
+<h2>All tags</h2>
+
+<ul class="tags-list">
+  {% for tag in sorted_tags %}
+    {% assign tagged_posts = tag[1] %}
+    {% if tagged_posts.size > 0 %}
+      <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 {% for tag in sorted_tags %}
   {% assign tagged_posts = tag[1] %}
 
   {% if tagged_posts.size > 0 %}
-    <section id="{{ tag[0] }}" class="tag-list">
+    <section id="{{ tag[0] }}" class="tagged-posts">
       <h2>
         <a class="tag" href="/tags/{{ tag[0] | prepend: "#" }}">
           {{ tag[0] | prepend: "#" }}

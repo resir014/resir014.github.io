@@ -3,12 +3,10 @@
     <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
       {{ post.date | date_to_string }}
     </time>
-    <span class="archive-title">
-      {{ post.title }}
-      {% if post.external-url %}
-        <i class="fa fa-external-link fa-fw"></i>
-      {% endif %}
-    </span>
+    <span class="archive-title">{{ post.title }}</span>
+    {% if post.external-url %}
+      <i class="fa fa-external-link fa-fw"></i>
+    {% endif %}
     {% if post.tags %}
       <!--div class="archive-tags">
         {% for tag in post.tags %}

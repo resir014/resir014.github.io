@@ -1,18 +1,11 @@
-// Intro
+// Homepage
 //
-// Big Jumbotron-like intro page.
+// Default styles for the homepage.
 
 .intro {
   position: absolute;
   width: 100%;
   height: 100%;
-  //flex-direction: column;
-
-  .container {
-    //display: table;
-    //width: 100%;
-    //height: 100%;
-  }
 
   .masthead {
     margin-bottom: 0;
@@ -26,6 +19,7 @@
   padding: 3rem 0;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 2px solid darken($border-color, 10%);
 
   a {
     color: inherit;
@@ -69,13 +63,6 @@
   line-height: 1.2;
 }
 
-.intro-divider {
-  max-width: 16em;
-  margin: 2rem auto;
-  border: 0;
-  border-top: 1px solid lighten(#0c1a23, 5%);
-}
-
 // Splash page links
 .intro-links {
   font-weight: 300;
@@ -96,10 +83,13 @@
   }
 }
 
+// Tagline text
 .intro-tagline {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
   font-weight: 300;
+
+  @media (min-width: $grid-breakpoint) {
+    font-size: 1.25rem;
+  }
 }
 
 // Social links
@@ -118,20 +108,30 @@
 .intro-feature {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  //border-bottom: 2px solid darken($border-color, 10%);
+
+  .intro-feature-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 // 'Read More' button
 .btn-more {
-  display: inline-block;
-  padding: .5rem 1rem;
-  margin: 1rem 0;
-  color: $accent-color;
-  border: 1px solid $pagination-item-border-color;
-  border-radius: 5px;
-  transition: background-color .3s;
+  @include clearfix;
 
-  &:hover {
-    text-decoration: none;
-    background-color: $pagination-item-hover-background-color;
+  a {
+    float: right;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    color: $accent-color;
+    border: 1px solid darken($border-color, 5%);
+    border-radius: 5px;
+    transition: background-color .3s;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $pagination-item-hover-background-color;
+    }
   }
 }

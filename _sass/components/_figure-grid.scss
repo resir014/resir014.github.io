@@ -1,4 +1,7 @@
-// Figure & figcaptions.
+// Figure grid
+//
+// Custom style for figure and figcaptions. Use the `.figure-grid` class to
+// trigger it.
 
 .figure-grid {
   @include clearfix;

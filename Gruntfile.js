@@ -19,6 +19,7 @@ module.exports = function(grunt) {
       }
     },
 
+    // Builds Jekyll website to `_site` directory
     jekyll: {
       options: {
         bundleExec: true
@@ -26,6 +27,7 @@ module.exports = function(grunt) {
       build: {}
     },
 
+    // Starts a local server with LiveReload instance
     connect: {
       server: {
         options: {
@@ -38,6 +40,7 @@ module.exports = function(grunt) {
       }
     },
 
+    // Watch for changes in files
     watch: {
       options: {
         livereload: true
@@ -48,6 +51,7 @@ module.exports = function(grunt) {
       }
     },
 
+    // Publish site to GitHub Pages
     buildcontrol: {
       options: {
         dir: '_site',
@@ -75,4 +79,4 @@ module.exports = function(grunt) {
 
   // Publish to GitHub
   grunt.registerTask('publish', ['jekyll', 'postcss', 'buildcontrol']);
-}
+};

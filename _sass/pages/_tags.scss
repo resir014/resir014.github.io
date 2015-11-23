@@ -1,0 +1,33 @@
+.tags-list {
+  padding: 0;
+  margin: 0 0 1rem;
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 2;
+
+    a {
+      display: inline-block;
+      padding: 0 .25rem;
+      font-size: 75%;
+      color: #fff;
+      text-decoration: none;
+      background-color: $text-color-primary;
+      border-radius: 5px;
+      transition: background-color .3s;
+
+      &:hover {
+        background-color: $accent-color;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.tagged-posts {
+  margin-bottom: 3rem;
+}

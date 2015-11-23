@@ -1,9 +1,7 @@
 ---
+category: blog
 layout: post
 title: More than just web design.
-tags:
-  - blog
-  - projects
 ---
 
 So I've been thinking recently, I do loads of things other than web design. I do photography, I play games, I do graphic design works, and all that.

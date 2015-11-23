@@ -1,11 +1,11 @@
 ---
+category: blog
 layout: post
 title: "The Ultimate foobar2000 Setup*"
 lead: "*) Well, according to me, at least."
 tags:
   - music
   - foobar2000
-  - blog
 ---
 
 If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/){:target="_blank"} is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.

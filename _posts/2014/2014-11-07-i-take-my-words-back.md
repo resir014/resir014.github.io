@@ -1,8 +1,8 @@
 ---
+category: blog
 layout: post
 title: I take my words back.
 tags:
-  - blog
   - tiffy
   - internet-positif
 ---

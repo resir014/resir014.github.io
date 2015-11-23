@@ -1,10 +1,9 @@
 ---
+category: blog
 layout: post
 title: Developing a new competition dashboard for GeneRally.
 tags:
-  - blog
-  - projects
-  - dead
+  - dead-projects
 ---
 
 I've just though up this pretty overly-ambitious project of mine, seeing that I've pretty much done enough standard HTML5 and CSS works, and I guess it's time for me to bring it up a notch.

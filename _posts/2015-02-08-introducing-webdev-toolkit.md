@@ -1,8 +1,10 @@
 ---
+category: projects
 layout: post
 title: Introducing Webdev Toolkit
 tags:
-  - blog
+  - gulp
+  - grunt
   - projects
 ---
 

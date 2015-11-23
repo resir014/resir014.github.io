@@ -1,9 +1,9 @@
 ---
+category: blog
 layout: post
 title: Rebooting fuckyeah-elementaryos
 tags:
-  - blog
-  - projects
+  - kinda-dead?
 ---
 
 A few years ago, I've grown tired of Windows XP. Being a low-budget student and having no way to purchase a newer Windows licence, I decided to try out Linux. I've decided to research for a distro that I could possible use, then I discovered [elementary OS](https://elementary.io/).

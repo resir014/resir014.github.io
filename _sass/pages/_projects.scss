@@ -1,0 +1,10 @@
+.projects {
+  .project-name {
+    a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -58,18 +58,21 @@ github:
 
 # Navigational menus
 nav:
+  - title: blog
+    url: /blog
   - title: about
     url: /about
   - title: projects
     url: /projects
-  - title: archive
-    url: /archive
 
 # Collections
 collections:
   stuff:
     output:           true
     permalink:        /:path/
+  projects:
+    output:           true
+    permalink:        /:collection/:path/
   webdesign:
     output:           true
     permalink:        /projects/:collection/:path/

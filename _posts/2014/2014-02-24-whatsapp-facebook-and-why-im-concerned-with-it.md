@@ -1,8 +1,8 @@
 ---
+category: blog
 layout: post
 title: WhatsApp + Facebook, and why I'm concerned with it.
 tags:
-  - blog
   - facebook
   - whatsapp
 ---
