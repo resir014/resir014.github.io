@@ -159,3 +159,7 @@ NineSevenThree contains of simply grid elements and some really basic UI and typ
 I'm currently working on version 0.5.0 of NineSevenThree with some more added UI elements, and better development workflow with Grunt. After v0.5.0 is public, I will halt the development for NineSevenThree indefinitely. In the meantime, the code is also released into the wild, so if someone wants to take over the code and turn it into something bigger, feel free to do so.
 
 In the meantime, I shall work hard on brushing up on my HTML, CSS and Javascript development skills and once I feel I'm ready for something big, I will probably continue working on this again. We'll see.
+
+***
+
+**Update:** A good friend of mine [@veiraz](https://github.com/veiraz){:target="_blank"} made a fork of NineSevenThree called [thirtyone](https://github.com/veiraz/thirtyone){:target="_blank"}. You should give it a try.
