@@ -2,7 +2,7 @@
   <a href="{% if project.external-url %}{{ project.external-url }}{% else %}{{ project.url }}{% endif %}"{% if project.external-url %} target="_blank"{% endif %}>
     {{ project.title }}
     {% if project.external-url %}
-      <i class="fa fa-external-link fa-fw"></i>
+      <i class="fa fa-external-link"></i>
     {% endif %}
   </a>
 </dt>

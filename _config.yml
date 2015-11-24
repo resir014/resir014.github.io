@@ -58,12 +58,12 @@ github:
 
 # Navigational menus
 nav:
-  - title: blog
-    url: /blog
   - title: about
     url: /about
   - title: projects
     url: /projects
+  - title: archive
+    url: /archive
 
 # Collections
 collections:

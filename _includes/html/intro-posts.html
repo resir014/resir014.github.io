@@ -6,14 +6,14 @@
     <h2 class="intro-posts-title">
       {{ post.title }}
       {% if post.external-url %}
-        <i class="fa fa-external-link fa-fw"></i>
+        <i class="fa fa-external-link"></i>
       {% endif %}
     </h2>
     <span class="intro-posts-excerpt">
       {% if post.lead %}
         {{ post.lead }}
       {% else %}
-        {{ post.excerpt | strip_html | truncate: 160, '…' }}
+        {{ post.excerpt | strip_html | truncate: 220, '…' }}
       {% endif %}
     </span>
   </div>

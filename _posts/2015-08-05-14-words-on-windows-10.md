@@ -1,5 +1,5 @@
 ---
-category: stupid-stuff
+category: etc
 layout: post
 title: 14 words on Windows 10
 tags:

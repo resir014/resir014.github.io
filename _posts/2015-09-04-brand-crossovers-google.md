@@ -1,5 +1,5 @@
 ---
-category: stupid-stuff
+category: etc
 layout: post
 title: "Brand Crossovers: Google"
 tags:

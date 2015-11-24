@@ -1,6 +1,6 @@
 .tags-list {
   padding: 0;
-  margin: 0 0 1rem;
+  margin-bottom: 3rem;
 
   li {
     display: inline-block;
@@ -14,7 +14,7 @@
       color: #fff;
       text-decoration: none;
       background-color: $text-color-primary;
-      border-radius: 5px;
+      border-radius: $border-radius-base;
       transition: background-color .3s;
 
       &:hover {

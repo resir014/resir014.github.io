@@ -1,5 +1,5 @@
 ---
-category: stupid-stuff
+category: etc
 layout: post
 title: Yes, I tried using TweetDeck from my phone
 tags:

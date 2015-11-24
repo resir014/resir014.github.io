@@ -1,6 +1,16 @@
-// Post archives
+// Post previews
 //
 // Blog posts sorted in an archive layout.
+
+.posts {
+  .post {
+    padding: 2rem 0;
+    margin: 0;
+    border-bottom: 1px solid darken($border-color, 5%);
+  }
+}
+
+// Archive view in /tags
 
 .archive {
   a {
@@ -20,7 +30,6 @@
 .archive-item {
   display: block;
   padding: .75rem 0;
-  border-bottom: 1px solid darken($border-color, 5%);
 
   .archive-date {
     display: block;
@@ -46,7 +55,7 @@
     color: #fff;
     text-decoration: none;
     background-color: $text-color-primary;
-    border-radius: 5px;
+    border-radius: $border-radius-base;
     transition: background-color .3s;
   }
 }

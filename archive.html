@@ -6,9 +6,9 @@ paginate:
   per_page: 15
 ---
 
-<div class="archive">
+<div class="posts">
   {% for post in paginator.posts %}
-    {% include html/post-archives.html %}
+    {% include html/archives/posts.html %}
   {% endfor %}
 </div>
 

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Stuff I dared doing (or posting)
+title: /etc/ - the land of 'anything goes'
 paginate:
   limit: false
   per_page: 15
-  category: 'stupid-stuff'
+  category: 'etc'
 ---
 
-<div class="archive">
+<div class="posts">
   {% for post in paginator.posts %}
-    {% include html/post-archives.html %}
+    {% include html/archives/posts-in-category.html %}
   {% endfor %}
 </div>
 
