@@ -4,7 +4,7 @@ layout: post
 title: I take my words back.
 tags:
   - tiffy
-  - internet-positif
+  - internet positif
 ---
 
 Recently, [I've been criticising](https://twitter.com/resir014/status/528369240454074368) our newly appointed Minister of Communications and Information (Menkominfo), Rudiantara, for [deciding to resume the government-run "Internet Positif" internet filtering program](http://tekno.kompas.com/read/2014/11/06/1118028/Menkominfo.Pornografi.Langkahi.Dulu.Mayat.Saya), much to the dismay of Indonesian netizens.

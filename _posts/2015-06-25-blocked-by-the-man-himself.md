@@ -6,7 +6,7 @@ lead: Or, online arguments in a nutshell.
 tags:
   - tiffy
   - twitter
-  - internet-positif
+  - internet positif
 ---
 
 For the past few months, I've been kind of aware of people, or so-called "old-friends" who have been blocking me on Twitter, but this one *really* caught me by surprise.

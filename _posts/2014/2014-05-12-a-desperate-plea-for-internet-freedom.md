@@ -4,7 +4,7 @@ layout: post
 title: A desperate plea for Internet freedom
 tags:
   - tiffy
-  - internet-positif
+  - internet positif
 ---
 
 So I woke up one day, pulled my laptop out for my daily dose of Reddit when I was greeted with this welcoming sight:
