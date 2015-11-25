@@ -45,9 +45,10 @@ $ grunt publish
 
 ## Third party notices
 
-This website contains modified stylesheets from the [Poole](http://getpoole.com/) theme, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
+This website contains modified parts of the following third party components:
 
-The Tags feature is based on the tags page of [hey.kleinfreund.de](http://hey.kleinfreund.de/), also licensed under [MIT](https://github.com/kleinfreund/kleinfreund.github.io/blob/master/LICENSE.txt).
+* Theme files: [Poole](http://getpoole.com/), &copy; Mark Otto ([MIT](https://github.com/poole/poole/blob/master/LICENSE.md))
+* Tags feature: [hey.kleinfreund.de](https://github.com/kleinfreund/kleinfreund.github.io), &copy; Philipp Rudloff ([MIT](https://github.com/kleinfreund/kleinfreund.github.io/blob/master/LICENSE.txt))
 
 ## License
 
