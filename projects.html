@@ -6,21 +6,19 @@ title: Projects
 <h2>Stuff on GitHub</h2>
 
 <dl class="projects">
-{% assign projects = site.projects | sort: 'name' %}
-{% for project in projects %}
-{% if project.url contains 'github' %}
-  {% include html/project-list.html %}
-{% endif %}
+{% assign github_projects = site.projects | where: 'category', 'github' %}
+{% for project in github_projects %}
+  {% include html/projects/list.html %}
 {% endfor %}
 </dl>
 
 <h2>Web design</h2>
 
 <dl class="projects">
-{% assign projects = site.projects | sort: 'name' %}
-{% for project in projects %}
+{% assign webdesign_projects = site.projects | where: 'category', 'webdesign' %}
+{% for project in webdesign_projects %}
 {% if project.url contains 'webdesign' %}
-  {% include html/project-list.html %}
+  {% include html/projects/list.html %}
 {% endif %}
 {% endfor %}
 </dl>
@@ -28,11 +26,9 @@ title: Projects
 <h2>Blogs</h2>
 
 <dl class="projects">
-{% assign projects = site.projects | sort: 'name' %}
-{% for project in projects %}
-{% if project.url contains 'blogs' %}
-  {% include html/project-list.html %}
-{% endif %}
+{% assign blogs_projects = site.projects | where: 'category', 'blogs' %}
+{% for project in blogs_projects %}
+  {% include html/projects/list.html %}
 {% endfor %}
 </dl>
 

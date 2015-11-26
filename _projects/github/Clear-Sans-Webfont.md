@@ -1,8 +1,8 @@
 ---
 layout: project
+category: github
 name: Clear-Sans-Webfont
 title: Clear Sans Webfont
-category: github
 external-url: https://github.com/resir014/Clear-Sans-Webfont
 ---
 

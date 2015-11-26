@@ -1,8 +1,8 @@
 ---
 layout: project
+category: blogs
 name: fuckyeah-elementaryos
 title: fuck yeah, elementary OS!
-category: blogs
 external-url: http://fuckyeah-elementaryos.tumblr.com/
 ---
 

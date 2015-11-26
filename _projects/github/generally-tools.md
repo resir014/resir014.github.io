@@ -1,8 +1,8 @@
 ---
 layout: project
+category: github
 name: generally-tools
 title: GeneRally Tools
-category: github
 external-url: https://github.com/resir014/generally-tools
 ---
 

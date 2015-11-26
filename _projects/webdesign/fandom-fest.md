@@ -1,8 +1,8 @@
 ---
 layout: project
+category: webdesign
 name: fandom-fest
 title: FandomFest
-category: webdesign
 details: Local gathering of fandom communities in Jakarta.
 project-url: http://fandom-fest.com
 ---

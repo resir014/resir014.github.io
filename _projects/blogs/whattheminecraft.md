@@ -1,8 +1,8 @@
 ---
 layout: project
+category: blogs
 name: whattheminecraft
 title: WhatTheMinecraft.
-category: blogs
 external-url: http://whattheminecraft.tumblr.com/
 ---
 
