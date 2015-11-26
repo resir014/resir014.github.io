@@ -73,12 +73,3 @@ collections:
   projects:
     output:           true
     permalink:        /:collection/:path/
-  webdesign:
-    output:           true
-    permalink:        /projects/:collection/:path/
-  blogs:
-    output:           true
-    permalink:        /projects/:collection/:path/
-  github:
-    output:           true
-    permalink:        /projects/:collection/:path/
