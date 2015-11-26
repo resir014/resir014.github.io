@@ -37,6 +37,17 @@ module.exports = function(grunt) {
       },
     },
 
+    // Lint SCSS files
+    scsslint: {
+      test: [
+        '_scss/**/*.scss',
+      ],
+      options: {
+        bundleExec: true,
+        config: '.scss-lint.yml'
+      },
+    },
+
     // Builds Jekyll website to `_site` directory
     jekyll: {
       options: {
@@ -91,6 +102,9 @@ module.exports = function(grunt) {
 
   // Manually build page
   grunt.registerTask('build', ['jekyll', 'postcss']);
+
+  // Lint SCSS files
+  grunt.registerTask('test', ['scsslint']);
 
   // Start a local server
   grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
