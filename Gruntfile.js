@@ -14,9 +14,26 @@ module.exports = function(grunt) {
           require('autoprefixer')({ browsers: ['last 2 versions', 'ie 8', 'ie 9'] })
         ]
       },
-      publish: {
+      build: {
         src: '_site/**/*.css'
       }
+    },
+
+    // Optimise/minify images
+    imagemin: {
+      build: {
+        options: {
+          optimizationLevel: 3,
+          progressive: true,
+          interlaced: true,
+          svgoPlugins: [{ removeViewBox: false }]
+        },
+        files: [{
+          expand: true,
+          cwd: 'assets',
+          src: ['**/*.{png,jpg,gif}']
+        }]
+      },
     },
 
     // Builds Jekyll website to `_site` directory
