@@ -16,15 +16,17 @@ By "modular" I meant having the ability to distinguish different kinds of conten
 
 Here's a complete list of what has changed:
 
-* Changed content licence to CC-BY-SA 4.0
-* Changed default highlighter to Rouge
+* Reworked directory/collection/category structure.
+* Now supports tags!
+* Changed content licence to CC-BY-SA 4.0.
+* Cleaned up some posts.
+* Changed default highlighter to Rouge.
 * Added appropriate third-party notices.
 * Added Grunt script for building and publishing site.
 * Use `grunt-contrib-connect` for local development server.
-* Jekyll site is no longer builtand deployed by GitHub Pages, instead it's deployed manually using `grunt-buildcontrol`.
+* Jekyll site is no longer built and deployed by GitHub Pages, instead it's deployed manually using `grunt-buildcontrol`. (The way this works will be explained in a future post)
 * Use `grunt-contrib-imagemin` to optimise/minify images during deploy time.
 * Added `octopress-paginate`, `jekyll-sitemap` and `jekyll-gist` to the Jekyll plugins list.
-* Reworked directory/collection structure for more modular content.
 
 ## Source code
 
