@@ -30,8 +30,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'assets',
-          src: ['**/*.{png,jpg,gif}']
+          cwd: '_site/assets',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: '_site/assets'
         }]
       },
     },
@@ -95,5 +96,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
 
   // Publish to GitHub
-  grunt.registerTask('publish', ['jekyll', 'postcss', 'buildcontrol']);
+  grunt.registerTask('publish', ['jekyll', 'postcss', 'imagemin', 'buildcontrol']);
 };
