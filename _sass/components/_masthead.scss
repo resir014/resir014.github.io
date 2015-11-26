@@ -1,6 +1,6 @@
 // Masthead
 //
-// Fixes for Poole's masthead
+// Super small header above the content for site name and short description.
 
 .masthead {
   @include clearfix;
@@ -17,22 +17,36 @@
       text-decoration: none;
     }
   }
+}
 
-  .masthead-title {
-    display: inline-block;
-    font-size: 1.5rem;
-    //font-weight: 500;
+.masthead-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  //font-weight: 500;
+  color: $masthead-text-color;
 
-    .double-slash {
-      padding-right: .5rem;
-      font-weight: 500;
-      color: #000;
-      letter-spacing: -3px;
-    }
+  a {
+    color: $masthead-link-color;
+  }
 
-    @media (min-width: 34em) {
-      float: left;
-    }
+  small {
+    font-size: 75%;
+    font-weight: 400;
+    color: $masthead-small-text-color;
+    letter-spacing: 0;
+  }
+
+  .double-slash {
+    padding-right: .5rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -3px;
+  }
+
+  @media (min-width: 34em) {
+    float: left;
   }
 }
 

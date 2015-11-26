@@ -1,0 +1,60 @@
+// Post previews
+//
+// Blog posts sorted in an archive layout.
+
+.posts {
+  .post {
+    padding: 2rem 0;
+    margin: 0;
+    border-bottom: 1px solid darken($border-color, 5%);
+  }
+}
+
+// Archive view in /tags
+
+.archive {
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+
+      .archive-title {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.archive-item {
+  display: block;
+  padding: .75rem 0;
+
+  .archive-date {
+    display: block;
+    color: #9a9a9a;
+
+    @media (min-width: 34em) {
+      float: right;
+      margin-left: .5rem;
+    }
+  }
+
+  @media (min-width: 34em) {
+    padding: .25rem 0;
+  }
+}
+
+// Tags
+.archive-tags {
+  .tag {
+    display: inline-block;
+    padding: 0 .25rem;
+    font-size: 75%;
+    color: #fff;
+    text-decoration: none;
+    background-color: $text-color-primary;
+    border-radius: $border-radius-base;
+  }
+}

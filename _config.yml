@@ -1,24 +1,38 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:            /blog/:categories/:year/:month/:day/:title/
-relative_permalinks:  true
+permalink:            pretty
+#relative_permalinks:  true
 
 # Dependencies
 markdown:             kramdown
-highlighter:          pygments
+highlighter:          rouge
 
 # Setup
 title:                resir014
 tagline:              I make things.
 url:                  https://resir014.github.io
-paginate:             15
-paginate_path:        "/blog/page/:num/"
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
 
 # Disqus comments
 disqus_shortname:     resir014
+
+# Jekyll plugins
+gems:
+  - jekyll-gist
+  - jekyll-sitemap
+  - octopress-paginate
+
+# Don't automatically trigger page build on GitHub
+include:
+  - .nojekyll
+
+# Plugin: octopress-paginate
+pagination:
+  limit:              false
+  per_page:           1
+  permalink:          /page/:num/
 
 # Assets
 #
@@ -44,24 +58,18 @@ github:
 
 # Navigational menus
 nav:
-  - title: blog
-    url: /blog
   - title: about
     url: /about
   - title: projects
     url: /projects
+  - title: archive
+    url: /archive
 
 # Collections
 collections:
   stuff:
     output:           true
     permalink:        /:path/
-  webdesign:
+  projects:
     output:           true
-    permalink:        /projects/:collection/:path/
-  blogs:
-    output:           true
-    permalink:        /projects/:collection/:path/
-  github:
-    output:           true
-    permalink:        /projects/:collection/:path/
+    permalink:        /:collection/:path/

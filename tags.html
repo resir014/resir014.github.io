@@ -1,0 +1,39 @@
+---
+layout: page
+title: Tags
+---
+
+{% assign sorted_tags = site.tags | sort %}
+
+<h2>All tags</h2>
+
+<ul class="tags-list">
+  {% for tag in sorted_tags %}
+    {% assign tagged_posts = tag[1] %}
+    {% if tagged_posts.size > 0 %}
+      <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% for tag in sorted_tags %}
+  {% assign tagged_posts = tag[1] %}
+
+  {% if tagged_posts.size > 0 %}
+    <section id="{{ tag[0] }}" class="tagged-posts">
+      <h2>
+        <a class="tag" href="/tags/{{ tag[0] | prepend: '#' }}">{{ tag[0] | prepend: '#'' }}</a>
+        <a href="#"><i class="fa fa-level-up"></i></a>
+      </h2>
+
+      <div class="archive">
+        {% for post in tagged_posts %}
+          {% include html/archives/list.html %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% assign tagged_posts = nil %}
+{% endfor %}
+

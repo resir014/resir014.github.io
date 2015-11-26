@@ -1,12 +1,17 @@
 ---
+category: blog
 layout: post
 title: Blocked by "the man" himself
 lead: Or, online arguments in a nutshell.
+tags:
+  - tiffy
+  - twitter
+  - internet positif
 ---
 
 For the past few months, I've been kind of aware of people, or so-called "old-friends" who have been blocking me on Twitter, but this one *really* caught me by surprise.
 
-![image]({{ site.baseurl }}/public/images/blog/tiffysembiring/2015-06-25_19-06-28.png)
+![image]({{ site.baseurl }}/assets/images/blog/2015/blocked-by-the-man-himself/2015-06-25_19-06-28.png)
 
 Yep, that is Tifatul "Tiffy" Sembiring, [the ex-Minister of Communications & Technology who brought up the whole "Internet Positif" mess]({{ site.baseurl }}/blog/2014/05/12/a-desperate-plea-for-internet-freedom/), blocking me on Twitter.
 

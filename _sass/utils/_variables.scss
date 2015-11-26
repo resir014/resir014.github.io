@@ -1,8 +1,11 @@
 // Base layout
-$container-width: 40rem;
-$container-width-em: 40em;
+$container-width: 44rem;
+$container-width-em: 44em;
 $grid-breakpoint: 38em;
-$grid-gutter: 1rem;
+$grid-breakpoint-md: 34em;
+$grid-breakpoint-sm: 30em;
+$grid-gutter: 1.5rem;
+$border-radius-base: 4px;
 
 // Typography
 $font-stack: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,7 +22,13 @@ $text-color-post-date: #9a9a9a;
 $accent-color: #268bd2;
 $background-color-primary: #fff;
 $background-color-secondary: #e5e5e5;
-$border-color: $background-color-secondary;
+$border-color: #eee;
+
+// Brand colors
+$brand-color-tumblr: #36465d;
+$brand-color-twitter: #55acee;
+$brand-color-google-plus: #dc4e41;
+$brand-color-github: #333333;
 
 // Tables
 $table-border-color: $border-color;

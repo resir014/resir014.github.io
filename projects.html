@@ -1,0 +1,39 @@
+---
+layout: page
+title: Projects
+---
+
+<h2>Stuff on GitHub</h2>
+
+<dl class="projects">
+{% assign github_projects = site.projects | where: 'category', 'github' %}
+{% for project in github_projects %}
+  {% include html/projects/list.html %}
+{% endfor %}
+</dl>
+
+<h2>Web design</h2>
+
+<dl class="projects">
+{% assign webdesign_projects = site.projects | where: 'category', 'webdesign' %}
+{% for project in webdesign_projects %}
+{% if project.url contains 'webdesign' %}
+  {% include html/projects/list.html %}
+{% endif %}
+{% endfor %}
+</dl>
+
+<h2>Blogs</h2>
+
+<dl class="projects">
+{% assign blogs_projects = site.projects | where: 'category', 'blogs' %}
+{% for project in blogs_projects %}
+  {% include html/projects/list.html %}
+{% endfor %}
+</dl>
+
+<h2>Random works</h2>
+
+<p>
+  You can also find some of my original yet random works, which I probably did when I was bored. These works are adequately curated on my <a href="http://resir014.tumblr.com/tagged/resir014" target="_blank">Tumblr blog</a>.
+</p>

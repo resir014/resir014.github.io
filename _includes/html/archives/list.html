@@ -1,0 +1,11 @@
+<a href="{% if post.external-url %}{{ post.external-url }}{% elsif post.internal-url %}{{ post.internal-url | prepend: site.baseurl }}{% else %}{{ post.url }}{% endif %}"{% if post.external-url %} target="_blank"{% endif %}>
+  <div class="archive-item">
+    <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date_to_string }}
+    </time>
+    <span class="archive-title">{{ post.title }}</span>
+    {% if post.external-url %}
+      <i class="fa fa-external-link"></i>
+    {% endif %}
+  </div>
+</a>
