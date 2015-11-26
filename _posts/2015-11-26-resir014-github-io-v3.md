@@ -17,7 +17,7 @@ By "modular" I meant having the ability to distinguish different kinds of conten
 Here's a complete list of what has changed:
 
 * Reworked directory/collection/category structure.
-* Now supports tags!
+* Now supports tags and external linking!
 * Changed content licence to CC-BY-SA 4.0.
 * Cleaned up some posts.
 * Changed default highlighter to Rouge.
