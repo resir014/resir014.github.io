@@ -53,7 +53,16 @@ module.exports = function(grunt) {
       options: {
         bundleExec: true
       },
-      build: {}
+      drafts: {
+        options: {
+          drafts: true
+        }
+      },
+      publish: {
+        options: {
+          drafts: false
+        }
+      }
     },
 
     // Starts a local server with LiveReload instance
@@ -101,7 +110,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['build']);
 
   // Manually build page
-  grunt.registerTask('build', ['jekyll', 'postcss']);
+  grunt.registerTask('build', ['jekyll:drafts', 'postcss']);
 
   // Lint SCSS files
   grunt.registerTask('test', ['scsslint']);
@@ -110,5 +119,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
 
   // Publish to GitHub
-  grunt.registerTask('publish', ['jekyll', 'postcss', 'imagemin', 'buildcontrol']);
+  grunt.registerTask('publish', ['jekyll:publish', 'postcss', 'imagemin', 'buildcontrol']);
 };
