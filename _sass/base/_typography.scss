@@ -122,6 +122,7 @@ a[href^="#fnref:"] {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 .lead {
+  font-family: $font-stack;
   font-size: 1.25rem;
   font-weight: 300;
 }
