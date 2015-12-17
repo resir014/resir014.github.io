@@ -121,7 +121,7 @@
 
 // More posts button
 .cover-bottom-link {
-  margin: 1rem -1.5rem;
+  margin: 1rem (-$grid-gutter);
   overflow: hidden; // clearfix
   font-family: $font-stack;
   color: $pagination-text-color;
