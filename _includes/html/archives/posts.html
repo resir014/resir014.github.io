@@ -29,16 +29,13 @@
     {% if post.lead %}
       {{ post.lead }}
     {% else %}
-      {{ post.excerpt | strip_html | truncate: 220, '…' }}
+      {{ post.excerpt | strip_html | truncatewords: 35, '…' }}
     {% endif %}
+    {% unless post.external-url %}
+      {% assign post_word_count = post.content | strip_html | number_of_words %}
+      {% if post_word_count > 35 %}
+        <a class="read-more" href="{{ post.url }}">Read More &raquo;</a>
+      {% endif %}
+    {% endunless %}
   </p>
-
-  {% unless post.external-url %}
-    {% assign post_length = post.content | strip_html | size %}
-    {% if post_length > 220 %}
-      <p class="post-bottom-link">
-        <a class="btn-readmore" href="{{ post.url }}">Read More &rarr;</a>
-      </p>
-    {% endif %}
-  {% endunless %}
 </article>

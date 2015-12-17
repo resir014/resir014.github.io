@@ -17,7 +17,6 @@
 .intro-wrapper {
   display: block;
   padding: 3rem 0 4rem;
-  font-family: $font-stack;
   text-align: center;
   border-bottom: 4px solid darken($border-color, 10%);
 
@@ -124,11 +123,9 @@
 }
 
 // 'Read More' button
-.post-bottom-link {
-  .btn-readmore {
-    margin-top: 1rem;
-    color: $accent-color;
-  }
+.read-more {
+  margin-top: 1rem;
+  color: $accent-color;
 }
 
 // More posts button
