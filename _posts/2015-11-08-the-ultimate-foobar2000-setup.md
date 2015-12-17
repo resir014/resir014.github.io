@@ -183,7 +183,7 @@ You will now see a preview of the changes made in your directory. Click "Run" to
 
 It's very important to properly tag your music library, for the sake of consistency, especially when you're sharing what you're listening to to services like [Last.fm](http://www.last.fm/){:target="_blank"}.
 
-Unfortunately, before you want to use it, you will have to create an account at <http://www.discogs.com/>{:target="_blank"} in order to get an OAuth token to access their API[^fn-discogs-oauth]. If you don't want to do that, you can try [MusicBrainz tagger](https://www.foobar2000.org/components/view/foo_musicbrainz){:target="_blank"}, which grabs data from MusicBrainz's database, though it's not as robust as the one for Discogs. (You can always use a third-party tagging tool like [Picard](https://picard.musicbrainz.org/){:target="_blank"}.)
+Well, good news: `foo_discogs` does exist. Unfortunately, before you want to use it, you will have to create an account at <http://www.discogs.com/>{:target="_blank"} in order to get an OAuth token to access their API[^fn-discogs-oauth]. If you don't want to do that, you can try [MusicBrainz tagger](https://www.foobar2000.org/components/view/foo_musicbrainz){:target="_blank"}, which grabs data from MusicBrainz's database, though it's not as robust as the one for Discogs. (You can always use a third-party tagging tool like [Picard](https://picard.musicbrainz.org/){:target="_blank"}.)
 
 To use this component, right click on any track/album, and head over to `Tagging > Discogs > Write Tags`. It will then look up the Discogs database for your album details.
 
