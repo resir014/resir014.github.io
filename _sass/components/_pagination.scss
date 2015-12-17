@@ -4,7 +4,7 @@
 // there are no more previous or next posts to show.
 
 .pagination {
-  margin: 1rem -($grid-gutter);
+  margin: 1rem -1.5rem;
   overflow: hidden; // clearfix
   font-family: $font-stack;
   color: $pagination-text-color;
