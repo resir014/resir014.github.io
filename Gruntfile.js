@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
     // Optimise/minify images
     imagemin: {
-      build: {
+      publish: {
         options: {
           optimizationLevel: 3,
           progressive: true,
