@@ -2,10 +2,8 @@
 //
 // Default styles for the homepage.
 
-.intro {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.cover {
+  background-color: $cover-background-color;
 
   .masthead {
     margin-bottom: 0;
@@ -14,11 +12,10 @@
 }
 
 // Wrapper
-.intro-wrapper {
+.cover-wrapper {
   display: block;
   padding: 3rem 0 4rem;
   text-align: center;
-  border-bottom: 4px solid darken($border-color, 10%);
 
   a {
     color: inherit;
@@ -27,7 +24,7 @@
 }
 
 // Logo
-.intro-logo {
+.cover-logo {
   margin-bottom: 1rem;
 
   a {
@@ -38,24 +35,17 @@
     line-height: 40px;
   }
 
-  .logo-wrapper {
-    width: 8rem;
-    height: 8rem;
-    margin: 0 auto;
-    text-align: center;
-    background-color: $background-color-secondary;
-
-    h1 {
-      position: relative;
-      margin: 0;
-      font-size: 3.5rem;
-      line-height: 8rem;
-      color: #515151;
-    }
+  img {
+    max-width: 8rem;
+    max-height: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e5;
+    border-radius: 0;
   }
 }
 
-.intro-title {
+.cover-title {
   margin: 1rem 0;
   font-size: 2rem;
   font-weight: 300;
@@ -63,7 +53,7 @@
 }
 
 // Splash page links
-.intro-links {
+.cover-links {
   font-weight: 300;
   list-style: none;
 
@@ -83,7 +73,7 @@
 }
 
 // Tagline text
-.intro-tagline {
+.cover-tagline {
   font-weight: 300;
 
   @media (min-width: $grid-breakpoint) {
@@ -92,7 +82,7 @@
 }
 
 // Social links
-.intro-social-links {
+.cover-social-links {
   margin-top: 1.5rem;
   font-size: 1rem;
 
@@ -129,7 +119,7 @@
 }
 
 // More posts button
-.intro-bottom-link {
+.cover-bottom-link {
   margin: 1rem -1.5rem;
   overflow: hidden; // clearfix
   font-family: $font-stack;

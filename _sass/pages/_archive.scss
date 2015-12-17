@@ -4,9 +4,9 @@
 
 .posts {
   .post {
-    padding: 2rem 0;
+    padding: 3rem 0;
     margin: 0;
-    border-bottom: 1px solid darken($border-color, 5%);
+    border-bottom: 1px solid $border-color;
   }
 }
 

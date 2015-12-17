@@ -23,7 +23,7 @@ layout: default
     {% unless page.tags.size == 0 %}
       <span class="divider"></span>
       {% for tag in page.tags %}
-      <a class="label-tag" href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag | prepend: '#' }}</a>
+      <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
       {% endfor %}
     {% endunless %}
   </div>

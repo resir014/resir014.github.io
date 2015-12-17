@@ -5,22 +5,20 @@
 
   <body>
 
-    <div class="intro">
+    <div class="cover">
       <div class="container">
 
         {% include html/masthead.html %}
 
-        <div class="intro-wrapper">
-          <div class="intro-inner">
-            <div class="intro-logo">
-              <div class="logo-wrapper">
-                <h1>//</h1>
-              </div>
+        <div class="cover-wrapper">
+          <div class="cover-inner">
+            <div class="cover-logo">
+              <img src="{{ site.baseurl }}/assets/logod.png" alt="Logo" />
             </div>
 
-            <p class="intro-tagline">{{ site.tagline }}</p>
+            <p class="cover-tagline">{{ site.tagline }}</p>
 
-            <div class="intro-social-links">
+            <div class="cover-social-links">
               <a href="http://resir014.tumblr.com/" target="_blank">
                 <span class="fa-stack tumblr">
                   <i class="fa fa-square fa-stack-2x"></i>
@@ -48,13 +46,17 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <main>
+      <div class="container">
         <div class="posts">
           {% for post in paginator.posts %}
             {% include html/archives/posts.html %}
           {% endfor %}
 
-          <div class="intro-bottom-link">
+          <div class="cover-bottom-link">
             <a class="btn-more" href="{{ site.baseurl }}/archive">View more posts &rarr;</a>
           </div>
         </div>
@@ -62,7 +64,7 @@
         {% include html/footer.html %}
 
       </div>
-    </div>
+    </main>
 
   </body>
 

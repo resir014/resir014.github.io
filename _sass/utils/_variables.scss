@@ -8,7 +8,7 @@ $grid-gutter: 1.5rem;
 $border-radius-base: 4px;
 
 // Typography
-$font-stack: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-stack-serif: "Merriweather", Georgia, Times, serif;
 $font-stack-monospace: Menlo, Monaco, "Consolas", "Courier New", monospace;
 $font-size-base: 16px;
@@ -51,6 +51,9 @@ $blockquote-border-color: #e5e5e5;
 $masthead-text-color: #505050;
 $masthead-small-text-color: #c0c0c0;
 $masthead-link-color: $masthead-text-color;
+
+// Cover
+$cover-background-color: darken($table-odd-background-color, 1%);
 
 // Message
 $message-text-color: #717171;
