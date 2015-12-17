@@ -25,7 +25,7 @@ layout: null
     {% if post.lead %}
     <summary>{{ post.lead }}</summary>
     {% else %}
-    <summary>{{ post.excerpt | strip_html | truncatewords: 35, '…' }}</summary>
+    <summary>{{ post.excerpt | strip_html | truncatewords: 35, '&hellip;' }}</summary>
     {% endif %}
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
