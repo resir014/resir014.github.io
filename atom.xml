@@ -6,6 +6,7 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.title }}</title>
+  <subtitle>{{ site.tagline }}</subtitle>
   <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self" />
   <link href="{{ site.url }}{{ site.baseurl }}/" />
   <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -15,12 +16,17 @@ layout: null
     <email>{{ site.author.email }}</email>
   </author>
 
-  {% for post in site.categories.blog limit:10 %}
+  {% for post in site.categories.blog %}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
+    {% if post.lead %}
+    <summary>{{ post.lead }}</summary>
+    {% else %}
+    <summary>{{ post.excerpt | strip_html | truncatewords: 35, '…' }}</summary>
+    {% endif %}
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
