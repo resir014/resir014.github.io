@@ -23,7 +23,7 @@ This article was written partly in response to [Tom Pepinsky](https://twitter.co
 
 ## Background
 
-The issue that ride-sharing companies like Go-Jek has always been trying to take advantage of was the unfortunate state of public transport systems in big Indonesian cities, especially in Jakarta. On one hand you have all these old buses with no air conditioning, and on the other side you have unorganised motorcycle taxis, called "ojek".
+The issue that ride-sharing companies like Go-Jek has always been trying to fill the gap in has always been the unfortunate state of public transport systems in big Indonesian cities, especially in Jakarta. On one hand you have all these old buses with no air conditioning, and on the other side you have unorganised motorcycle taxis, called "ojek".
 
 Two of the most well-known bus companies that operate in Jakarta are Metromini and Kopaja. This is quite a problem, especially when [no one really knows who owns Metromini](http://megapolitan.kompas.com/read/2015/12/16/19505401/Organda.Nilai.Kepemilikan.Metromini.Perlu.Dibatasi). Whereas Kopaja is starting to fix their services, Metromini is stuck in the cold. Their management is nearly nonexistent, their fleet is aging and close to breaking down, and with a driver pay system known as the "setoran", where drivers must earn a set minimum of daily income that will be kept by the company. If they're lucky enough to earn more, that extra income will then go to the drivers themselves.
 
