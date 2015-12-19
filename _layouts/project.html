@@ -7,11 +7,13 @@ layout: default
     {% if page.external-url %}
       <a href="{{ page.external-url }}" target="_blank">{{ page.title }}</a>
       <i class="fa fa-external-link"></i>
+    {% elsif page.project-url %}
+      <a href="{{ page.project-url }}" target="_blank">{{ page.title }}</a>
+      <i class="fa fa-external-link"></i>
     {% else %}
       {{ page.title }}
     {% endif %}
   </h1>
-  <span class="page-meta">projects &gt; {{ page.category }}</span>
 
   {% if page.category == "webdesign" %}
   <figure>

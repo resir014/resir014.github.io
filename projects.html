@@ -23,11 +23,11 @@ title: Projects
 {% endfor %}
 </dl>
 
-<h2>Blogs</h2>
+<h2>Other stuff</h2>
 
 <dl class="projects">
-{% assign blogs_projects = site.projects | where: 'category', 'blogs' %}
-{% for project in blogs_projects %}
+{% assign other_projects = site.projects | where: 'category', 'other' %}
+{% for project in other_projects %}
   {% include html/projects/list.html %}
 {% endfor %}
 </dl>
