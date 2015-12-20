@@ -5,9 +5,13 @@ title: Projects
 
 <h2>Stuff on GitHub</h2>
 
+<div class="message">
+  View more projects on my <a href="https://github.com/resir014" target="_blank">GitHub page</a>.
+</div>
+
 <dl class="projects">
 {% assign github_projects = site.projects | where: 'category', 'github' %}
-{% for project in github_projects %}
+{% for project in github_projects | limit: 3 %}
   {% include html/projects/list.html %}
 {% endfor %}
 </dl>
@@ -16,10 +20,8 @@ title: Projects
 
 <dl class="projects">
 {% assign webdesign_projects = site.projects | where: 'category', 'webdesign' %}
-{% for project in webdesign_projects %}
-{% if project.url contains 'webdesign' %}
+{% for project in webdesign_projects | limit: 3 %}
   {% include html/projects/list.html %}
-{% endif %}
 {% endfor %}
 </dl>
 
@@ -27,7 +29,7 @@ title: Projects
 
 <dl class="projects">
 {% assign other_projects = site.projects | where: 'category', 'other' %}
-{% for project in other_projects %}
+{% for project in other_projects | limit: 3 %}
   {% include html/projects/list.html %}
 {% endfor %}
 </dl>
