@@ -3,6 +3,7 @@
 // Default styles for the homepage.
 
 .cover {
+  margin-bottom: 4rem;
   background-color: $cover-background-color;
 
   .masthead {
@@ -15,7 +16,6 @@
 .cover-wrapper {
   display: block;
   padding: 3rem 0 4rem;
-  margin-bottom: 4rem;
   text-align: center;
 
   a {
@@ -47,9 +47,9 @@
 }
 
 .cover-title {
-  margin: 1rem 0;
+  margin-top: 0;
+  font-family: $font-stack;
   font-size: 2rem;
-  font-weight: 300;
   line-height: 1.2;
 }
 

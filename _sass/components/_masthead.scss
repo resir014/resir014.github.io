@@ -39,10 +39,7 @@
   }
 
   .double-slash {
-    padding-right: .5rem;
-    font-weight: 500;
-    color: #000;
-    letter-spacing: -3px;
+    color: $masthead-double-slash-color;
   }
 
   @media (min-width: 34em) {

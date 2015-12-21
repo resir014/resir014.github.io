@@ -13,16 +13,6 @@
 
   <div class="post-meta">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-    {% if post.category %}
-      <span class="divider"></span>
-      <a href="/{{ post.category }}">{{ post.category }}</a>
-    {% endif %}
-    {% unless post.tags.size == 0 %}
-      <span class="divider"></span>
-      {% for tag in post.tags %}
-      <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
-      {% endfor %}
-    {% endunless %}
   </div>
 
   <p>
@@ -38,4 +28,12 @@
       {% endif %}
     {% endunless %}
   </p>
+
+  {% unless post.tags.size == 0 %}
+  <section class="tags">
+    {% for tag in post.tags %}
+    <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
+    {% endfor %}
+  </section>
+  {% endunless %}
 </article>

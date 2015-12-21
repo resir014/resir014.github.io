@@ -1,7 +1,9 @@
 <header class="masthead">
   <a class="masthead-title" href="{{ site.baseurl }}/" title="Home">
     <span class="double-slash">//</span>
+    {% unless page.layout == 'home' %}
     {{ site.title }}
+    {% endunless %}
   </a>
   {% include html/nav.html %}
 </header>

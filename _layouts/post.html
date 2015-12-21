@@ -15,17 +15,9 @@ layout: default
     {% endif %}
   </h1>
   <div class="post-meta">
+    <span class="author">by <a href="{{ site.author.url }}">{{ site.author.name }}</a></span>
+    <span class="divider"></span>
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-    {% if page.category %}
-      <span class="divider"></span>
-      <a href="/{{ page.category }}">{{ page.category }}</a>
-    {% endif %}
-    {% unless page.tags.size == 0 %}
-      <span class="divider"></span>
-      {% for tag in page.tags %}
-      <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
-      {% endfor %}
-    {% endunless %}
   </div>
 
   {% if page.external-url %}
@@ -41,6 +33,14 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  {% unless page.tags.size == 0 %}
+  <section class="tags">
+    {% for tag in page.tags %}
+    <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
+    {% endfor %}
+  </section>
+  {% endunless %}
 </article>
 
 {% if page.comments %}
@@ -50,7 +50,7 @@ layout: default
 {% endif %}
 
 {% if site.related_posts != empty %}
-<!--aside class="related">
+<aside class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -67,5 +67,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</aside-->
+</aside>
 {% endif %}

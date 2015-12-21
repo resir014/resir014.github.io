@@ -1,16 +1,13 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:            pretty
-#relative_permalinks:  true
 
 # Dependencies
 markdown:             kramdown
 highlighter:          rouge
 
 # Setup
-title:                resir014
-tagline:              I make things.
+title:                double-slash
+tagline:              "writings, ramblings, and projects of @resir014"
 url:                  https://resir014.github.io
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]

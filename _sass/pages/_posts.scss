@@ -62,7 +62,9 @@
 
   li {
     small {
+      font-family: $font-stack;
       font-size: 75%;
+      font-weight: 400;
       color: $post-related-small-text-color;
     }
 
@@ -78,9 +80,15 @@
 }
 
 // Tags
+.tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .label-tag {
   margin-right: .5rem;
-  color: inherit;
+  font-size: 85%;
+  color: $post-date-color;
   text-decoration: none;
 
   &:last-child {

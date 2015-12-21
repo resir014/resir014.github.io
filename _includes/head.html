@@ -4,7 +4,7 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+      {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
@@ -24,25 +24,25 @@
   <!-- OpenGraph tags-->
   <meta content="{{ site.title | xml_escape }}" property="og:site_name">
   {% if page.title %}
-    <meta content="{{ page.title | xml_escape }}" property="og:title">
+  <meta content="{{ page.title | xml_escape }}" property="og:title">
   {% else %}
-    <meta content="{{ site.title | xml_escape }}" property="og:title">
+  <meta content="{{ site.title | xml_escape }}" property="og:title">
   {% endif %}
-  {% if page.title == "Home" %}
-    <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  {% if page.title == 'Home' %}
+  <meta content="{{ site.tagline | xml_escape }}" property="og:description">
   {% elsif page.lead %}
-    <meta content="{{ page.lead | xml_escape }}" property="og:description">
-  {% elsif page.url contains "/blog/" %}
-    <meta content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}" property="og:description">
+  <meta content="{{ page.lead | xml_escape }}" property="og:description">
+  {% elsif page.category == 'blog' or page.category == 'etc' %}
+  <meta content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}" property="og:description">
   {% else %}
-    <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  <meta content="{{ site.tagline | xml_escape }}" property="og:description">
   {% endif %}
   {% if page.url %}
-    <meta content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" property="og:url">
+  <meta content="{{ page.url | replace: 'index.html', '/' | prepend: site.baseurl | prepend: site.url }}" property="og:url">
   {% endif %}
 
   <!-- Canonical link element -->
-  <link rel="canonical" href="{{ site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '/' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Android Lollipop theme color -->
   <meta name="theme-color" content="#263238">
