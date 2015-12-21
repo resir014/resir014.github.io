@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "resir014.github.io",
+  "description": "Source code for resir014.github.io",
+  "main": "assets/stylesheets/main.scss",
+  "authors": [
+    "Resi Respati <resir014@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/resir014/resir014.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.5.0"
+  }
+}
