@@ -10,7 +10,7 @@ title:                double-slash
 tagline:              "writings, ramblings, and projects of @resir014"
 url:                  https://resir014.github.io
 baseurl:              ""
-exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components" "package.json", "bower.json"]
+exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json", "bower.json"]
 
 # Disqus comments
 disqus_shortname:     resir014
