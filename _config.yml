@@ -18,6 +18,7 @@ disqus_shortname:     resir014
 # Jekyll plugins
 gems:
   - jekyll-gist
+  - jekyll-redirect-from
   - jekyll-sitemap
   - octopress-paginate
 

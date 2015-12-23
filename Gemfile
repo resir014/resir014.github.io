@@ -6,6 +6,7 @@ gem 'scss-lint'
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'octopress-paginate'
 end
