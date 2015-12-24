@@ -6,6 +6,7 @@ tags:
 - dev
 - jekyll
 - post-mortem
+comments: true
 ---
 
 Jekyll is by far my favourite static-site generator, and it's the thing that runs this website. Though one of my main gripes with Jekyll is that it's designed to be optimised for posts, which means that building sites with curation-based content requires quite a fair amount of work.

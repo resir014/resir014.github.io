@@ -1,0 +1,19 @@
+<article class="post">
+  <h2 class="post-title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <p>
+    {% if post.lead %}
+      {{ post.lead }}
+    {% else %}
+      {{ post.content | strip_html | truncatewords: 35, '…' }}
+    {% endif %}
+    {% unless post.redirect_to %}
+      {% assign post_word_count = post.content | strip_html | number_of_words %}
+      {% if post_word_count > 35 %}
+        <a class="read-more" href="{{ post.url }}">Read More &raquo;</a>
+      {% endif %}
+    {% endunless %}
+  </p>
+</article>

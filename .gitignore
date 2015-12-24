@@ -2,7 +2,6 @@
 _gh_pages
 _site
 _drafts
-_hidden-posts
 
 # Rubygems
 Gemfile.lock

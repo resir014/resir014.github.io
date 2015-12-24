@@ -4,7 +4,8 @@ category: webdesign
 name: telegram-stickers
 title: Telegram Stickers Directory
 details: A curated list of stickers for Telegram Messenger.
-project-url: https://telegram-stickers.github.io/
+project_url: https://telegram-stickers.github.io/
+redirect_from: /projects/webdesign/telegram-stickers/
 ---
 
 ## Project Description

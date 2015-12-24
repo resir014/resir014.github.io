@@ -55,8 +55,8 @@ nav:
     url: /about
   - title: projects
     url: /projects
-  - title: blog
-    url: /blog
+  - title: archive
+    url: /archive
 
 # Collections
 collections:
@@ -66,3 +66,6 @@ collections:
   projects:
     output:           true
     permalink:        /:collection/:path/
+  etc:
+    output:           true
+    permalink:        /:collection/:path/ #can be overriden in the file

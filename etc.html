@@ -1,15 +1,16 @@
 ---
-layout: default
+layout: page
 title: /etc/ - the land of 'anything goes'
 paginate:
+  collection: etc
   limit: false
-  per_page: 15
-  category: 'etc'
+  per_page: 5
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-    {% include html/archives/posts.html %}
+  {% assign etc_posts = paginator.etc | sort: 'date' %}
+  {% for post in paginator.etc %}
+    {% include html/archives/etc.html %}
   {% endfor %}
 </div>
 

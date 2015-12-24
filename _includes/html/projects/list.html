@@ -1,10 +1,14 @@
 <dt class="project-name">
-  <a href="{% if project.external-url %}{{ project.external-url }}{% else %}{{ project.url }}{% endif %}"{% if project.external-url %} target="_blank"{% endif %}>
+  {% if project.external_url %}
+  <a href="{{ project.external_url }}" target="_blank">
     {{ project.title }}
-    {% if project.external-url %}
-      <i class="fa fa-external-link"></i>
-    {% endif %}
+    <i class="fa fa-external-link"></i>
   </a>
+  {% else %}
+  <a href="{{ project.url }}">
+    {{ project.title }}
+  </a>
+  {% endif %}
 </dt>
 <dd class="project-details">
   {% if project.details %}

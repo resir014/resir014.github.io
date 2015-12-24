@@ -4,7 +4,8 @@ category: webdesign
 name: fandom-fest
 title: FandomFest
 details: Local gathering of fandom communities in Jakarta.
-project-url: http://fandom-fest.com
+project_url: http://fandom-fest.com
+redirect_from: /projects/webdesign/fandom-fest/
 ---
 
 ## Project Description
