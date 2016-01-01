@@ -81,10 +81,10 @@ I've always loved Cult Classic Records for their jazzy hip-hop beats, and this t
 
 Album: [Ipanema EP](https://cultclassicrecords.bandcamp.com/album/ipanema-ep){:target="_blank"}
 
-## マクロスMACROSS 82-99 - Fun Tonight
+## マクロスMACROSS 82-99 - Rainbow Roads (w Timid Soul)
 
 <div class="video-wrapper">
-  <iframe width="700" height="394" src="https://www.youtube.com/embed/4BSJAAo1uNY" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="394" src="https://www.youtube.com/embed/2UCTgWy4D-E" frameborder="0" allowfullscreen></iframe>
 </div>
 
 All hail Future Funk! マクロスMACROSS 82-99 has pretty much made it one of my favourite subgenres of Vaporwave out there, and as much as the classic Vaporwave is dead, future funk is pretty much the one breathing new life into vaporwave.
