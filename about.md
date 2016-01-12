@@ -17,7 +17,7 @@ The source code is available [here](https://github.com/resir014/resir014.github.
 
 ## About me.
 
-Hi, call me Resi! I'm a 20-year-old Indonesian college student currently living in Jakarta.
+Hi, call me Resi! I'm a 21-year-old Indonesian college student currently living in Jakarta.
 
 I'm an aspiring web developer. I started getting into web development when I self-learned HTML and CSS back in high school. I've done quite a few little design projects for my friends' websites, and I have designed several Tumblr themes for my side blogs, some of which I still actively maintain.
 
