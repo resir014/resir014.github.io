@@ -23,12 +23,6 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
   </div>
 
-  {% if page.lead %}
-    <p class="lead">
-      {{ page.lead }}
-    </p>
-  {% endif %}
-
   {{ content }}
 
   {% unless page.tags.size == 0 %}
