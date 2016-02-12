@@ -1,7 +1,8 @@
 ---
 category: etc
-layout: page
+layout: post
 title: Yes, I tried using TweetDeck from my phone
+date: 2015-05-02 00:00:00
 redirect_from: /blog/2015/05/02/yes-i-tried-using-tweetdeck-from-my-phone/
 ---
 
