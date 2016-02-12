@@ -16,6 +16,7 @@ Behind the decision was a statement from the Ministry of Transportation that rea
 The statement was signed on the 9th of November by the Minister of Transportation, Ignasius Jonan, and called for the police to take further action.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="in" dir="ltr">Coba lihat nama Tembusan No 7, bawah kanan, di Surat Keputusan Kemenhub. <a href="https://t.co/Fl6PWNXIKs">pic.twitter.com/Fl6PWNXIKs</a></p>&mdash; Paramita Mohamad (@sillysampi) <a href="https://twitter.com/sillysampi/status/677657769609183237">December 18, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The decision came suddenly, much to the dismay and outrage of Indonesian netizens, including yours truly. [Angry tweets](https://twitter.com/jokoanwar/status/677681572141793281) were everywhere, it made the morning news, and even someone made a [petition](https://www.change.org/p/ignasius-jonan-tinjau-ulang-larangan-pemerintah-terhadap-layanan-ojek-dan-taksi-berbasis-online-daring) for it. What actually caused this decision to come in effect, and where is the reasoning behind this banning?
 
@@ -58,6 +59,7 @@ Maybe try to fix your public transport system first, then we'll talk again.
 This decision also came along months after president Jokowi invited[^fn-cite-2] a bunch of Go-Jek, and all other ojek drivers to a dinner showing full support of the new economy. And a month after that, the owner of Go-Jek was [invited to Silicon Valley](http://tekno.kompas.com/read/2015/10/22/16040007/Ini.Tujuan.Bos.GoJek.Ikut.Jokowi.ke.Silicon.Valley) along with Jokowi himself for a state visit.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Just a reminder of how uncoordinated this administration seems to be. <a href="https://t.co/U5A9sXCZRQ">pic.twitter.com/U5A9sXCZRQ</a></p>&mdash; D Yulia Supadmo (@yulia_supadmo) <a href="https://twitter.com/yulia_supadmo/status/677686979803369473">December 18, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The fact that this happens after the President shows full support of the new app-based ride-sharing business that is currently on the rise in Indonesia, is inconceivable. It only shows how disorganised our government is. Most of us aleady know that our government is highly corrupt, runs on an archaic bureaucracy system, and as of now has pretty much been dumbed down to squabbling between oppositions, instead of working for the people. So this is really just a tip of the iceberg.
 
