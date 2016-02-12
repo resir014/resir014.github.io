@@ -2,6 +2,7 @@
 category: music
 layout: post
 title: "Saint Pepsi (Skylar Spence) - Fiona Coyne"
+date: 2015-11-27 00:00:00
 external_url: https://www.youtube.com/watch?v=BDStOaRLsbg
 redirect_from:
   - /music/2015/11/27/saint-pepsi-skylar-spence-fiona-coyne/

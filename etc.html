@@ -8,7 +8,6 @@ paginate:
 ---
 
 <div class="posts">
-  {% assign etc_posts = paginator.etc | sort: 'date' %}
   {% for post in paginator.etc %}
     {% include html/archives/etc.html %}
   {% endfor %}

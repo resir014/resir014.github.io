@@ -2,14 +2,14 @@
 layout: page
 title: Stuff I listen to
 paginate:
+  collection: music
   limit: false
   per_page: 15
-  category: 'music'
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-    {% include html/archives/posts.html %}
+  {% for post in paginator.music %}
+    {% include html/archives/music.html %}
   {% endfor %}
 </div>
 
