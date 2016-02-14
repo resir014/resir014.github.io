@@ -1,6 +1,6 @@
 ---
 category: music
-layout: post
+layout: page
 title: "Machinedrum - Take Flight (IpaGhost Remix)"
 date: 2016-02-12 00:00:00
 external_url: https://soundcloud.com/ipaghost/vote-machinedrum-take-flight-ipaghost-remix

@@ -5,6 +5,7 @@
 
   <body>
 
+    {% if paginator.page == 1 %}
     <div class="cover">
       <div class="container">
 
@@ -18,6 +19,11 @@
         </div>
       </div>
     </div>
+    {% else %}
+    <div class="container">
+      {% include html/masthead.html %}
+    </div>
+    {% endif %}
 
     <main>
       <div class="container">
@@ -26,9 +32,22 @@
             {% include html/archives/posts.html %}
           {% endfor %}
 
-          <div class="cover-bottom-link">
-            <a class="btn-more" href="{{ site.baseurl }}/archive">View more posts &rarr;</a>
-          </div>
+          <!--div class="cover-bottom-link">
+            <a class="btn-more" href="{{ site.baseurl }}/blog">View more posts &rarr;</a>
+          </div-->
+        </div>
+
+        <div class="pagination">
+          {% if paginator.next_page %}
+            <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+          {% else %}
+            <span class="pagination-item older">Older</span>
+          {% endif %}
+          {% if paginator.previous_page %}
+            <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+          {% else %}
+            <span class="pagination-item newer">Newer</span>
+          {% endif %}
         </div>
 
         {% include html/footer.html %}

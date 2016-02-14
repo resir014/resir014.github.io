@@ -57,8 +57,6 @@ nav:
     url: /projects
   - title: pages
     url: /pages
-  - title: archive
-    url: /archive
 
 # Collections
 collections:
