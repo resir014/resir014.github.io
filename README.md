@@ -40,11 +40,7 @@ $ bundle exec jekyll serve
 Or you can use grunt:
 
 ```bash
-# Start a local development server
 $ grunt serve
-
-# Build the site manually (if you used `jekyll serve`)
-$ grunt build
 ```
 
 To publish the site to the Master branch, use the following command.

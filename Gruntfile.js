@@ -53,9 +53,10 @@ module.exports = function(grunt) {
       options: {
         bundleExec: true
       },
-      drafts: {
+      serve: {
         options: {
-          drafts: true
+          drafts: true,
+          serve: true
         }
       },
       publish: {
@@ -107,16 +108,13 @@ module.exports = function(grunt) {
   });
 
   // Default task
-  grunt.registerTask('default', ['build']);
-
-  // Manually build page
-  grunt.registerTask('build', ['jekyll:drafts', 'postcss']);
+  grunt.registerTask('default', ['test']);
 
   // Lint SCSS files
   grunt.registerTask('test', ['scsslint']);
 
   // Start a local server
-  grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
+  grunt.registerTask('serve', ['jekyll:serve']);
 
   // Publish to GitHub
   grunt.registerTask('publish', ['jekyll:publish', 'postcss', 'imagemin', 'buildcontrol']);
