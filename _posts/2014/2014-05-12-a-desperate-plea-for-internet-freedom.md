@@ -33,7 +33,6 @@ And herein lies the huge flaw behind the entire program.
 Fast-forward to around yesterday, someone on Twitter pointed out that Vimeo is also blocked by their ISP for reasons unknown.
 
 <blockquote class="twitter-tweet" lang="en"><p>pak <a href="https://twitter.com/tifsembiring">@tifsembiring</a> boleh jelaskan kenapa situs vimeo kena block? anda berasumsi bhw semua org yg buka vimeo nonton porno? come on pak</p>&mdash; Ika Natassa (@ikanatassa) <a href="https://twitter.com/ikanatassa/statuses/465401291632410625">May 11, 2014</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Translation:
 
@@ -46,7 +45,6 @@ Even though Vimeo haven't already been blocked by my ISP as of now, this signals
 Another person on Twitter tweeted a more complete list of the websites being blocked by the Ministry:
 
 <blockquote class="twitter-tweet" lang="en"><p>Vimeo, Reddit, Imgur, FanFictionNet, PirateBay sudah diblokir semua. Internet sehat my ass.</p>&mdash; Bernadette Maria (@doggudoggu) <a href="https://twitter.com/doggudoggu/statuses/465472559916392448">May 11, 2014</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Now we should take note that all of these websites has **little to no pornographic material**. If it does, they have an internal process of blocking that content whilst showing a message that the content is not suitable for those who are under 18.
 
@@ -71,7 +69,6 @@ He also has been known to [quote Adolf Hitler](http://www.thejakartapost.com/new
 As for his contributions to the tech world in Indonesia, he **has contributed nothing at all**. Sure, telco companies might have begun testing 4G LTE around Jakarta, but in reality, even our 3G networks are still limping. Digital television availability is still scarce, and no HD broadcast of public television are still available.
 
 <blockquote class="twitter-tweet" lang="en"><p>We have a communications and technology minister who fear technology. &#10;What a fucking joke.</p>&mdash; Bernadette Maria (@doggudoggu) <a href="https://twitter.com/doggudoggu/statuses/465474282059878401">May 11, 2014</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ***
 
