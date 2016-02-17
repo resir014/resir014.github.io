@@ -1,9 +1,9 @@
 ---
-category: blog
 layout: post
 title: "Tourists, language barriers, and the act of helping"
 lead: "Or, the day when I actually helped a bunch of foreign strangers and felt much better afterwards."
 external_url: https://medium.com/@resir014/tourists-language-barriers-and-the-act-of-helping-bd9fdafb7067
+redirect_from: /blog/2015/11/17/tourists-language-barriers-and-the-act-of-helping/
 tags:
   - language
   - personal

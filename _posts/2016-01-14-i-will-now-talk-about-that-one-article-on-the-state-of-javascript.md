@@ -1,8 +1,8 @@
 ---
-category: blog
 layout: post
 title: I will now talk about that one article on the state of JavaScript
 lead: Because obviously, it’s absolutely necessary to talk about it at this time of the week.
+redirect_from: /blog/2016/01/14/i-will-now-talk-about-that-one-article-on-the-state-of-javascript/
 tags:
 - node.js
 - javascript

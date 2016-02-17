@@ -1,7 +1,7 @@
 ---
-category: blog
 layout: post
 title: A desperate plea for Internet freedom
+redirect_from: /blog/2014/05/12/a-desperate-plea-for-internet-freedom/
 tags:
   - indonesia
   - tiffy
