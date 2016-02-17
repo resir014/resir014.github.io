@@ -16,27 +16,26 @@
 // Designed, built, and released under MIT license by @mdo. Learn more at
 // https://github.com/poole/poole.
 
-@import "utils/variables";
-@import "utils/functions";
-@import "utils/mixins";
-@import "utils/helpers";
+// Poole theme files
 
-// @import "vendor/normalize";
-@import "vendor/pygments";
-@import "vendor/third-party";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "message";
+@import "third-party";
 
-@import "base/base";
-@import "base/layout";
-@import "base/typography";
-@import "base/code";
+// Custom theme files
 
-@import "components/figure-grid";
-@import "components/masthead";
-@import "components/pagination";
-@import "components/message";
+@import "theme/components/figure-grid";
 
-@import "pages/home";
-@import "pages/archive";
-@import "pages/posts";
-@import "pages/projects";
-@import "pages/tags";
+@import "theme/pages/home";
+@import "theme/pages/archive";
+@import "theme/pages/projects";
+@import "theme/pages/tags";
