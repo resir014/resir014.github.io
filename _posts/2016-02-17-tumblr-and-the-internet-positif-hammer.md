@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tumblr and the Internet Positif hammer
-lead: "Or, Internet Positif 2.0: Electric Boogaloo."
+lead: "Or, the Indonesian government *still* not understanding how technology works."
 tags:
 - tumblr
 - indonesia
