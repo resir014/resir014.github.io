@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Favourite Songs of 2015"
+title: Favourite Songs of 2015
 redirect_from:
 - /music/2015/12/31/favourite-songs-of-2015/
 - /blog/2015/12/31/favourite-songs-of-2015/
