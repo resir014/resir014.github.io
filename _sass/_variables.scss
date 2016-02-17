@@ -9,7 +9,7 @@ $border-radius-base: 4px;
 
 // Typography
 $font-stack: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-stack-serif: "Merriweather", Georgia, Times, serif;
+$font-stack-serif: "Merriweather"; // temporary fix for Chrome
 $font-stack-monospace: Menlo, Monaco, "Consolas", "Courier New", monospace;
 $font-size-base: 16px;
 $line-height-base: 1.5;
