@@ -117,5 +117,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['jekyll:serve']);
 
   // Publish to GitHub
-  grunt.registerTask('publish', ['jekyll:publish', 'imagemin', 'buildcontrol']);
+  grunt.registerTask('publish', ['jekyll:publish', 'postcss', 'imagemin', 'buildcontrol']);
 };
