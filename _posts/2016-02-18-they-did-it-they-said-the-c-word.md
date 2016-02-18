@@ -21,7 +21,7 @@ Let's go back to that first press release, and the term "self-censorship". After
 
 And these companies lost by peer pressure. Because they actually threatened of blocking these websites should they not comply.
 
-And moving on to the Tumblr fiasco. They did announce that they reversed the blocking Tumblr, as [most local news sites announce](http://inet.detik.com/read/2016/02/17/225337/3144858/399/horee-tumblr-batal-diblokir-kominfo). But I want to be skeptical, since the press release comes with some extra points that I find discomforting.
+And moving on to the Tumblr fiasco. They did announce that they reversed the blocking Tumblr, as [most local news sites announced](http://inet.detik.com/read/2016/02/17/225337/3144858/399/horee-tumblr-batal-diblokir-kominfo). But I want to be skeptical, since the press release comes with some extra points that I find discomforting.
 
 > We have sent Tumblr a letter requesting them to comply with the "self-censorship" policy against pornographic content to accounts within the service.
 
