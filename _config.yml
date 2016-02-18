@@ -13,17 +13,20 @@ exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICE
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:             :compressed
 
 # List of time zones supported in the TZ database
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:             Asia/Jakarta
+timezone:            Asia/Jakarta
 
 # About/contact
 author:
   name:              Resi Respati
   url:               https://twitter.com/resir014
   email:             resir014@gmail.com
+
+# Disqus comments
+disqus_shortname:    resir014
 
 # Custom vars
 version:             2.0.0
@@ -43,9 +46,9 @@ gems:
 
 # Plugin: octopress-paginate
 pagination:
-  limit:              false
-  per_page:           1
-  permalink:          /page/:num/
+  limit:             false
+  per_page:          1
+  permalink:         /page/:num/
 
 # Navigational menus
 nav:
