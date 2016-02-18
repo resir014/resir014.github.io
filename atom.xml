@@ -16,7 +16,7 @@ layout: null
     <email>{{ site.author.email }}</email>
   </author>
 
-  {% for post in site.categories.blog %}
+  {% for post in site.posts %}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
