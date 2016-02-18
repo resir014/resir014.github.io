@@ -29,7 +29,34 @@
       <div class="container">
         <div class="posts">
           {% for post in paginator.posts %}
-            {% include html/archives/posts.html %}
+            <article class="post">
+              <h1 class="post-title">
+                <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>{{ post.title }}</a>
+                {% if post.redirect_to or post.external_url %}
+                  &gt;
+                {% endif %}
+              </h1>
+
+              {% if post.date %}
+              <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+              {% endif %}
+
+              <p>
+                {% if post.lead %}
+                  {{ post.lead }}
+                {% else %}
+                  {{ post.excerpt | strip_html | truncatewords: 35, '…' }}
+                {% endif %}
+              </p>
+
+              {% unless post.tags.size == 0 %}
+              <section class="tags">
+                {% for tag in post.tags %}
+                <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
+                {% endfor %}
+              </section>
+              {% endunless %}
+            </article>
           {% endfor %}
 
           <!--div class="cover-bottom-link">

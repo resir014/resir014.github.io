@@ -9,7 +9,22 @@ paginate:
 
 <div class="posts">
   {% for post in paginator.music %}
-    {% include html/archives/music.html %}
+    <article class="post">
+      <h2 class="post-title">
+        <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>{{ post.title }}</a>
+        {% if post.redirect_to or post.external_url %}
+          &gt;
+        {% endif %}
+      </h2>
+
+      {% if post.date %}
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      {% endif %}
+
+      <p>
+        {{ post.content }}
+      </p>
+    </article>
   {% endfor %}
 </div>
 

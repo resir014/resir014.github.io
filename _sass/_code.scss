@@ -5,14 +5,14 @@
 
 code,
 pre {
-  font-family: $font-stack-monospace;
+  font-family: $code-font-family;
 }
 
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: $code-text-color;
-  background-color: $code-background-color;
+  color: $code-color;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 
@@ -34,7 +34,7 @@ pre code {
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: $code-pygments-background-color;
+  background-color: #f9f9f9;
   border-radius: .25rem;
 
   pre {
@@ -46,7 +46,7 @@ pre code {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-right: .75rem;
     padding-left: .25rem;
-    color: $code-pygments-lineno-text-color;
+    color: #999;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;

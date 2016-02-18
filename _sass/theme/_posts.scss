@@ -1,0 +1,21 @@
+// Post previews
+//
+// Blog posts sorted in an archive layout.
+
+.posts {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+// Tags
+
+.label-tag {
+  margin-right: .5rem;
+  font-size: 85%;
+  color: #9a9a9a;
+  text-decoration: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

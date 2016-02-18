@@ -21,12 +21,22 @@ title: Tags
     <section id="{{ tag[0] }}" class="tagged-posts">
       <h2>
         <a class="tag" href="/tags/{{ tag[0] | prepend: '#' }}">{{ tag[0] | prepend: '#' }}</a>
-        <a href="#"><i class="fa fa-level-up"></i></a>
+        <a href="#">({{ tagged_posts.size }})</a>
       </h2>
 
       <div class="archive">
         {% for post in tagged_posts %}
-          {% include html/archives/list.html %}
+          <a href="{{ post.url }}"{% if post.redirect_to %} target="_blank"{% endif %}>
+            <div class="archive-item">
+              <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date_to_string }}
+              </time>
+              <span class="archive-title">{{ post.title }}</span>
+              {% if post.redirect_to or post.external_url %}
+                &gt;
+              {% endif %}
+            </div>
+          </a>
         {% endfor %}
       </div>
     </section>

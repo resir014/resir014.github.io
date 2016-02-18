@@ -1,78 +1,35 @@
-// Base layout
-$container-width: 44rem;
-$container-width-em: 44em;
-$grid-breakpoint: 38em;
-$grid-breakpoint-md: 34em;
-$grid-breakpoint-sm: 30em;
-$grid-gutter: 1.5rem;
-$border-radius-base: 4px;
+$gray-1: #f9f9f9;
+$gray-2: #ccc;
+$gray-3: #767676;
+$gray-4: #515151;
+$gray-5: #313131;
 
-// Typography
-$font-stack: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-stack-serif: "Merriweather"; // temporary fix for Chrome
-$font-stack-monospace: Menlo, Monaco, "Consolas", "Courier New", monospace;
-$font-size-base: 16px;
-$line-height-base: 1.5;
+$red: #ac4142;
+$orange: #d28445;
+$yellow: #f4bf75;
+$green: #90a959;
+$cyan: #75b5aa;
+// $blue: #268bd2;
+$blue: #6a9fb5;
+$brown: #8f5536;
 
-// Colors
-$text-color-primary: #515151;
-$text-color-heading: #313131;
-$text-color-strong: #303030;
-$text-color-muted: #999;
-$text-color-post-date: #9a9a9a;
-$accent-color: #268bd2;
-$background-color-primary: #fff;
-$background-color-secondary: #e5e5e5;
-$border-color: #eee;
+$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+$root-font-size: 16px;
+$root-line-height: 1.5;
 
-// Brand colors
+$body-color: #515151;
+$body-bg: #fff;
+$link-color: $blue;
+
+$border-color: #e5e5e5;
+
+$large-breakpoint: 38em;
+$large-font-size: 20px;
+
+$code-font-family: Menlo, Monaco, "Courier New", monospace;
+$code-color: #bf616a;
+
 $brand-color-tumblr: #36465d;
 $brand-color-twitter: #55acee;
 $brand-color-google-plus: #dc4e41;
 $brand-color-github: #333;
-
-// Tables
-$table-border-color: $border-color;
-$table-odd-background-color: #f9f9f9;
-
-// Horizontal rules
-$hr-top-color: #eee;
-$hr-bottom-color: #fff;
-
-// Abbreviation
-$abbr-text-color: #555;
-$abbr-border-color: #e5e5e5;
-
-// Blockqote
-$blockquote-text-color: #7a7a7a;
-$blockquote-border-color: #e5e5e5;
-
-// Masthead
-$masthead-text-color: #505050;
-$masthead-double-slash-color: $text-color-heading;
-$masthead-small-text-color: #c0c0c0;
-$masthead-link-color: $masthead-text-color;
-
-// Cover
-$cover-background-color: darken($table-odd-background-color, 1%);
-
-// Message
-$message-text-color: #717171;
-$message-background-color: #f9f9f9;
-
-// Code
-$code-text-color: #bf616a;
-$code-background-color: #f9f9f9;
-$code-pygments-background-color: #f9f9f9;
-$code-pygments-lineno-text-color: #999;
-
-// Posts
-$post-title-color: #303030;
-$post-date-color: #9a9a9a;
-$post-related-border-color: #eee;
-$post-related-small-text-color: #999;
-
-// Pagination
-$pagination-text-color: #ccc;
-$pagination-item-border-color: #eee;
-$pagination-item-hover-background-color: #f5f5f5;

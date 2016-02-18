@@ -25,13 +25,13 @@ You're right, they looked for it themselves.
 
 Because you'll never go to Tumblr and instantly, some lesbian porn appeared on your front-page. Nope. The front page of Tumblr, for those who never logged in, is just a simple sign-up page.
 
-![chrome_2016-02-17_15-00-37]({{ site.baseurl }}/assets/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-00-37.png)
+![chrome_2016-02-17_15-00-37]({{ site.baseurl }}/public/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-00-37.png)
 
 Once you sign up, you see a blank dashboard. This will remain empty, until you start to follow a bunch of people whose posts you find interested in. Now, you'll find that your Tumblr dashboard becomes colourful, full of beautiful scenery photos, memes, and the like.
 
 When I log in, now I have food in my dashboard.
 
-![chrome_2016-02-17_15-12-55]({{ site.baseurl }}/assets/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-12-55.png)
+![chrome_2016-02-17_15-12-55]({{ site.baseurl }}/public/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-12-55.png)
 
 Do *you* have food in your Tumblr dashboard? No? Didn't think so.
 
@@ -39,7 +39,7 @@ What you just did is search for "porn" on the searchbox and things come out. Min
 
 Speaking of the Community Guidelines, in the "What Tumblr is not for" section, they included lists of things which should not be allowed on Tumblr, which in that case, take a look at this.
 
-![chrome_2016-02-17_15-19-32]({{ site.baseurl }}/assets/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-19-32.png)
+![chrome_2016-02-17_15-19-32]({{ site.baseurl }}/public/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-19-32.png)
 
 The community guidelines explicitly disallows blogs that post NSFW content that aren't marked as such. When a blog is marked for having NSFW, Tumblr puts safeguards in place that screens your blog's content from Tumblr users who would prefer not to see NSFW material.
 
@@ -53,11 +53,11 @@ I did mention about the Internet Positif being "borderline censorship" earlier. 
 
 Because you see, when you visit the official [government website](http://trustpositif.kominfo.go.id/) and look up their database, this is the only information you will get.
 
-![chrome_2016-02-17_15-41-01]({{ site.baseurl }}/assets/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-41-01.png)
+![chrome_2016-02-17_15-41-01]({{ site.baseurl }}/public/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-41-01.png)
 
 So what do I get from this? What do `kajian/domains`, `pengaduan/domains` and `porn/domains` even mean? There's no evidence on whether or not they have done some research on these domains. There's no place to download the entire database. of blocked websites. It seems that their most prized work is the "report" page, which also looks very dodgy.
 
-![chrome_2016-02-17_15-45-18]({{ site.baseurl }}/assets/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-45-18.png)
+![chrome_2016-02-17_15-45-18]({{ site.baseurl }}/public/images/blog/2016/tumblr-and-the-internet-positif-hammer/chrome_2016-02-17_15-45-18.png)
 
 In short, lack of transparency == censorship. There's no transparency given, and it could be misused for [political reasons](http://tekno.kompas.com/read/2016/01/26/15345707/Kemenkominfo.Kembali.Blokir.24.Situs.Radikal), which in turn could be used to suppress freedom of speech. I don't care if you're blocking websites related to terrorism/radicalism, if you block websites, you're still violating freedom of speech.
 

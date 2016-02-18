@@ -4,7 +4,7 @@
 
 .cover {
   margin-bottom: 4rem;
-  background-color: $cover-background-color;
+  background-color: $gray-1;
 
   .masthead {
     margin-bottom: 0;
@@ -23,31 +23,8 @@
   }
 }
 
-// Logo
-.cover-logo {
-  margin-bottom: 1rem;
-
-  a {
-    position: relative;
-    display: block;
-    font-size: 85%;
-    font-weight: 300;
-    line-height: 40px;
-  }
-
-  img {
-    max-width: 8rem;
-    max-height: 8rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #e5e5e5;
-    border-radius: 0;
-  }
-}
-
 .cover-title {
   margin-top: 0;
-  font-family: $font-stack;
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -76,7 +53,7 @@
 .cover-tagline {
   font-weight: 300;
 
-  @media (min-width: $grid-breakpoint) {
+  @media (min-width: $large-breakpoint) {
     font-size: 1.25rem;
   }
 }
@@ -89,7 +66,7 @@
   a {
     padding: 0;
     margin: 0 .5rem;
-    color: $masthead-small-text-color;
+    color: $gray-2;
     text-decoration: none;
 
     &:hover {
@@ -115,35 +92,5 @@
 // 'Read More' button
 .read-more {
   font-weight: bold;
-  color: $text-color-strong;
-}
-
-// More posts button
-.cover-bottom-link {
-  margin: 1rem (-$grid-gutter);
-  overflow: hidden; // clearfix
-  font-family: $font-stack;
-  color: $pagination-text-color;
-  text-align: center;
-
-  .btn-more {
-    display: block;
-    padding: 1rem;
-    border: solid $pagination-item-border-color;
-    border-width: 1px 0;
-
-    &:hover {
-      // text-decoration: none;
-      background-color: $pagination-item-hover-background-color;
-    }
-
-    @media (min-width: 30em) {
-      border-width: 1px;
-      border-radius: $border-radius-base;
-    }
-  }
-
-  @media (min-width: 30em) {
-    margin: 3rem 0;
-  }
+  color: #303030;
 }

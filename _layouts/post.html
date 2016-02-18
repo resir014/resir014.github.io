@@ -3,28 +3,9 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">
-    {% if page.external_url %}
-      <a href="{{ page.external_url }}">{{ page.title }}</a>
-      <i class="fa fa-external-link"></i>
-    {% elsif page.internal_url %}
-      <a href="{{ page.internal_url | prepend: site.baseurl }}">{{ page.title }}</a>
-      <i class="fa fa-link"></i>
-    {% else %}
-      {{ page.title }}
-      {% if post.redirect_to %}
-        <i class="fa fa-external-link"></i>
-      {% endif %}
-    {% endif %}
-  </h1>
-  {% if page.date %}
-  <div class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-  </div>
-  {% endif %}
-
+  <h1 class="post-title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
-
   {% unless page.tags.size == 0 %}
   <section class="tags">
     {% for tag in page.tags %}
@@ -34,32 +15,16 @@ layout: default
   {% endunless %}
 </article>
 
-{% if page.comments %}
-<section class="comments">
-  {% include disqus-thread.html %}
-</section>
-{% endif %}
-
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h2>Related Posts</h2>
+  <h3>Related posts</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
-        <h3>
-          {% if post.external_url %}
-          <a href="{{ post.external_url }}" target="_blank">
-            {{ post.title }}
-            <i class="fa fa-external-link"></i>
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-          {% else %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-          {% endif %}
-        </h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        </a>
       </li>
     {% endfor %}
   </ul>

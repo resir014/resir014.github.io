@@ -1,43 +1,19 @@
 # Permalinks
-permalink:            pretty
-
-# Dependencies
-markdown:             kramdown
-highlighter:          rouge
+permalink:           pretty
 
 # Setup
-title:                double-slash
-tagline:              "writings, ramblings, and projects of @resir014"
-url:                  https://resir014.github.io
-baseurl:              ""
+title:               double-slash
+tagline:             "writings, ramblings, and projects of @resir014"
+url:                 https://resir014.github.io
+baseurl:             ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json", "bower.json"]
-
-# Disqus comments
-disqus_shortname:     resir014
-
-# Jekyll plugins
-gems:
-  - jekyll-gist
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - octopress-paginate
-
-# Don't automatically trigger page build on GitHub
-include:
-  - .nojekyll
-
-# Plugin: octopress-paginate
-pagination:
-  limit:              false
-  per_page:           1
-  permalink:          /page/:num/
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:           _sass
-  style:              :compressed
+  sass_dir:          _sass
+  style:            :compressed
 
 # List of time zones supported in the TZ database
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -45,9 +21,31 @@ timezone:             Asia/Jakarta
 
 # About/contact
 author:
-  name:               Resi Respati
-  url:                https://twitter.com/resir014
-  email:              resir014@gmail.com
+  name:              Resi Respati
+  url:               https://twitter.com/resir014
+  email:             resir014@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Don't automatically trigger page build on GitHub
+include:
+  - .nojekyll
+
+# Gems
+gems:
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - octopress-paginate
+
+# Plugin: octopress-paginate
+pagination:
+  limit:              false
+  per_page:           1
+  permalink:          /page/:num/
 
 # Navigational menus
 nav:
@@ -55,8 +53,10 @@ nav:
     url: /about
   - title: projects
     url: /projects
-  - title: pages
-    url: /pages
+  - title: music
+    url: /music
+  - title: stuff
+    url: /etc
 
 # Collections
 collections:

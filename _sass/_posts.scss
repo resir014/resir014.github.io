@@ -6,50 +6,39 @@
 .page,
 .post {
   margin-bottom: 4em;
+
+  li + li {
+    margin-top: .25rem;
+  }
 }
 
 // Blog post or page title
 .page-title,
 .post-title,
-.page-title a,
 .post-title a {
-  color: $post-title-color;
+  color: #303030;
 }
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
-// Meta data line below post & page title
-.post-meta,
-.page-meta {
+// Meta data line below post title
+.post-date {
+  display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  font-family: $font-stack;
-  color: $post-date-color;
+  color: #9a9a9a;
 }
 
-.post-meta {
-  a {
-    color: inherit;
-  }
-
-  .divider:before {
-    margin-left: .5rem;
-    margin-right: .5rem;
-    content: "\00b7";
-  }
-}
-
-.page-meta {
-  display: block;
-}
 
 // Related posts
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid $post-related-border-color;
+  margin-bottom: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .related-posts {
@@ -62,14 +51,12 @@
 
   li {
     small {
-      font-family: $font-stack;
       font-size: 75%;
-      font-weight: 400;
-      color: $post-related-small-text-color;
+      color: #999;
     }
 
     a:hover {
-      color: $accent-color;
+      color: #268bd2;
       text-decoration: none;
 
       small {
@@ -77,22 +64,4 @@
       }
     }
   }
-}
-
-// Tags
-.label-tag {
-  margin-right: .5rem;
-  font-size: 85%;
-  color: $post-date-color;
-  text-decoration: none;
-
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-// Post comments
-.comments {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
 }
