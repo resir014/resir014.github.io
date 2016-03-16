@@ -1,87 +1,53 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      <h1 class="post-title">
+        <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>{{ post.title }}</a>
+        {% if post.redirect_to or post.external_url %}
+          &gt;
+        {% endif %}
+      </h1>
 
-  <body>
+      {% if post.date %}
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      {% endif %}
 
-    {% if paginator.page == 1 %}
-    <div class="cover">
-      <div class="container">
+      <p>
+        {% if post.lead %}
+          {{ post.lead }}
+        {% else %}
+          {{ post.excerpt | strip_html | truncatewords: 35, '…' }}
+        {% endif %}
+      </p>
 
-        {% include html/masthead.html %}
+      {% unless post.tags.size == 0 %}
+      <section class="tags">
+        {% for tag in post.tags %}
+        <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
+        {% endfor %}
+      </section>
+      {% endunless %}
+    </article>
+  {% endfor %}
 
-        <div class="cover-wrapper">
-          <div class="cover-inner">
-            <h1 class="cover-title">{{ site.title }}</h1>
-            <p class="lead">{{ site.tagline }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% else %}
-    <div class="container">
-      {% include html/masthead.html %}
-    </div>
-    {% endif %}
+  <!--div class="cover-bottom-link">
+    <a class="btn-more" href="{{ site.baseurl }}/blog">View more posts &rarr;</a>
+  </div-->
+</div>
 
-    <main>
-      <div class="container">
-        <div class="posts">
-          {% for post in paginator.posts %}
-            <article class="post">
-              <h1 class="post-title">
-                <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>{{ post.title }}</a>
-                {% if post.redirect_to or post.external_url %}
-                  &gt;
-                {% endif %}
-              </h1>
-
-              {% if post.date %}
-              <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-              {% endif %}
-
-              <p>
-                {% if post.lead %}
-                  {{ post.lead }}
-                {% else %}
-                  {{ post.excerpt | strip_html | truncatewords: 35, '…' }}
-                {% endif %}
-              </p>
-
-              {% unless post.tags.size == 0 %}
-              <section class="tags">
-                {% for tag in post.tags %}
-                <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
-                {% endfor %}
-              </section>
-              {% endunless %}
-            </article>
-          {% endfor %}
-
-          <!--div class="cover-bottom-link">
-            <a class="btn-more" href="{{ site.baseurl }}/blog">View more posts &rarr;</a>
-          </div-->
-        </div>
-
-        <div class="pagination">
-          {% if paginator.next_page %}
-            <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-          {% else %}
-            <span class="pagination-item older">Older</span>
-          {% endif %}
-          {% if paginator.previous_page %}
-            <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-          {% else %}
-            <span class="pagination-item newer">Newer</span>
-          {% endif %}
-        </div>
-
-        {% include html/footer.html %}
-
-      </div>
-    </main>
-
-  </body>
-
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

@@ -2,11 +2,13 @@
 permalink:           pretty
 
 # Setup
-title:               double-slash
-tagline:             "writings, ramblings, and projects of @resir014"
+title:               "@resir014"
+tagline:             "Thoughts on life."
 url:                 https://resir014.github.io
 baseurl:             ""
-exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json", "bower.json"]
+paginate:            5
+paginate_path:       "/page/:num/"
+exclude:             ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json", "bower.json"]
 
 # Assets
 #
@@ -33,22 +35,14 @@ version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-# Don't automatically trigger page build on GitHub
-include:
-  - .nojekyll
-
 # Gems
 gems:
   - jekyll-gist
+  - jekyll-mentions
+  - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
-  - octopress-paginate
-
-# Plugin: octopress-paginate
-pagination:
-  limit:             false
-  per_page:          1
-  permalink:         /page/:num/
+  - jekyll-paginate
 
 # Navigational menus
 nav:

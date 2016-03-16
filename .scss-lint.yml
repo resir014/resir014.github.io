@@ -8,11 +8,11 @@
 # This config is a slightly modified version of
 # https://github.com/primer/primer/blob/master/scss/.scss-lint.yml
 
-scss_files: '_sass/**/*.scss'
+scss_files: '_sass/theme/*.scss'
 
 exclude:
-  - '_sass/base/*.scss'
-  - '_sass/vendor/*.scss'
+  - 'styles.scss'
+  - '_sass/theme/_third-party.scss'
 
 linters:
   BangFormat:

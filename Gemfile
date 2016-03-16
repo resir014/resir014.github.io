@@ -1,14 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5.3'
-gem 'rouge'
-gem 'scss_lint'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-group :jekyll_plugins do
-  gem 'jekyll-gist'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-sitemap'
-  gem 'octopress-paginate'
-end
+gem 'github-pages', versions['github-pages']
+gem 'scss_lint'
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
