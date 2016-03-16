@@ -7,18 +7,6 @@ module.exports = function(grunt) {
     // Project configuration
     pkg: grunt.file.readJSON('package.json'),
 
-    // Handle vendor prefixing
-    postcss: {
-      options: {
-        processors: [
-          require('autoprefixer')({ browsers: ['last 2 versions', 'ie 8', 'ie 9'] })
-        ]
-      },
-      build: {
-        src: '_site/**/*.css'
-      }
-    },
-
     // Optimise/minify images
     imagemin: {
       publish: {
@@ -64,46 +52,6 @@ module.exports = function(grunt) {
           drafts: false
         }
       }
-    },
-
-    // Starts a local server with LiveReload instance
-    connect: {
-      server: {
-        options: {
-          livereload: true,
-          open: true,
-          base: '_site/',
-          hostname: '*',
-          port: 9001
-        }
-      }
-    },
-
-    // Watch for changes in files
-    watch: {
-      options: {
-        livereload: true
-      },
-      jekyll: {
-        files: ['**/*', '!_site/**'],
-        tasks: ['build']
-      }
-    },
-
-    // Publish site to GitHub Pages
-    buildcontrol: {
-      options: {
-        dir: '_site',
-        commit: true,
-        push: true,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-      },
-      publish: {
-        options: {
-          remote: 'git@github.com:resir014/resir014.github.io.git',
-          branch: 'master'
-        }
-      }
     }
   });
 
@@ -116,6 +64,6 @@ module.exports = function(grunt) {
   // Start a local server
   grunt.registerTask('serve', ['jekyll:serve']);
 
-  // Publish to GitHub
-  grunt.registerTask('publish', ['jekyll:publish', 'postcss', 'imagemin', 'buildcontrol']);
+  // Minify images
+  grunt.registerTask('publish', ['imagemin']);
 };
