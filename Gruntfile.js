@@ -65,5 +65,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['jekyll:serve']);
 
   // Minify images
-  grunt.registerTask('publish', ['imagemin']);
+  grunt.registerTask('optimise', ['imagemin']);
 };

@@ -43,10 +43,10 @@ Or you can use grunt:
 $ grunt serve
 ```
 
-To publish the site to the Master branch, use the following command.
+To optimise image files before pushing to the repo, run this command.
 
 ```bash
-$ grunt publish
+$ grunt optimise
 ```
 
 ## License
