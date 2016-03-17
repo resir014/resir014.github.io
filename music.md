@@ -5,7 +5,7 @@ redirect_from:
   - /music/2015/11/27/saint-pepsi-skylar-spence-fiona-coyne/
 ---
 
-The following page contains some of the nice songs that I've come across. Songs are sorted by the year I first listened to them.
+The following page contains some of the more interesting songs that I've come across throughout the year. Songs are sorted by the year I first listened to them.
 
 ## 2016
 
