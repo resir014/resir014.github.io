@@ -12,13 +12,13 @@
 
   <meta name="author" content="{{ site.author.name }} || {{ site.author.url }}">
   {% if page.title == "Home" %}
-  <meta name="description" content="{{ site.tagline }}">
+  <meta name="description" content="{{ site.description }}">
   {% elsif page.lead %}
   <meta name="description" content="{{ page.lead }}">
   {% elsif page.url contains "/blog/" %}
   <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}">
   {% else %}
-  <meta name="description" content="{{ site.tagline }}">
+  <meta name="description" content="{{ site.description }}">
   {% endif %}
   <meta name="google-site-verification" content="zXPHGyXggG0IRVPXhgo7AuPiyA4ItE4LyGtOMj7YeBk">
 
@@ -29,13 +29,13 @@
   <meta content="{{ site.title | xml_escape }}" property="og:title">
   {% endif %}
   {% if page.title == 'Home' %}
-  <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  <meta content="{{ site.description | xml_escape }}" property="og:description">
   {% elsif page.lead %}
   <meta content="{{ page.lead | xml_escape }}" property="og:description">
   {% elsif page.category == 'blog' %}
   <meta content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}" property="og:description">
   {% else %}
-  <meta content="{{ site.tagline | xml_escape }}" property="og:description">
+  <meta content="{{ site.description | xml_escape }}" property="og:description">
   {% endif %}
   {% if page.url %}
   <meta content="{{ page.url | replace: 'index.html', '/' | prepend: site.baseurl | prepend: site.url }}" property="og:url">
