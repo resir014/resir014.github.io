@@ -1,14 +1,14 @@
 # Permalinks
-permalink:           pretty
+permalink:          pretty
 
 # Setup
-title:               "@resir014"
-tagline:             "Thoughts on life."
-description:         "Writings, ramblings, and projects of Resi Respati (@resir014)."
-url:                 https://resir014.github.io
-baseurl:             ""
-paginate:            5
-paginate_path:       "/page/:num/"
+title:              "@resir014"
+tagline:            "Thoughts on life."
+description:        "Writings, ramblings, and projects of Resi Respati (@resir014)."
+url:                https://resir014.github.io
+baseurl:            ""
+paginate:           5
+paginate_path:      "/page/:num/"
 
 # Exclude these files from Jekyll build
 exclude:
@@ -26,21 +26,21 @@ exclude:
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:             :compressed
+  sass_dir:         _sass
+  style:            :compressed
 
 # List of time zones supported in the TZ database
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:            Asia/Jakarta
+timezone:           Asia/Jakarta
 
 # About/contact
 author:
-  name:              Resi Respati
-  url:               https://twitter.com/resir014
-  email:             resir014@gmail.com
+  name:             Resi Respati
+  url:              https://twitter.com/resir014
+  email:            resir014@gmail.com
 
 # Disqus comments
-disqus_shortname:    resir014
+disqus_shortname:   resir014
 
 # Gems
 gems:
@@ -65,11 +65,11 @@ nav:
 # Collections
 collections:
   stuff:
-    output:           true
-    permalink:        /:path/
+    output: true
+    permalink: /:path/
   projects:
-    output:           true
-    permalink:        /:collection/:path/
+    output: true
+    permalink: /:collection/:path/
   etc:
-    output:           true
-    permalink:        /:collection/:path/
+    output: true
+    permalink: /:collection/:path/
