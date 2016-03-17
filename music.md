@@ -9,6 +9,7 @@ The following page contains some of the nice songs that I've come across. Songs 
 
 ## 2016
 
+* [Big Black Delta - Kid Icarus](https://www.youtube.com/watch?v=OWJADVFUAKk){:target="_blank"}
 * [M83 - Do It, Try It](https://www.youtube.com/watch?v=ryh9rkIRGUs){:target="_blank"}
 * [Machinedrum - Take Flight (IpaGhost Remix)](https://soundcloud.com/ipaghost/vote-machinedrum-take-flight-ipaghost-remix){:target="_blank"}
 
