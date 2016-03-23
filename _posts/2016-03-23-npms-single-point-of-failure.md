@@ -28,7 +28,7 @@ A more general problem that arises is that people just trust the developer of a 
 
 ---
 
-The fact that the unpublishing of a small npm package with only 17 lines of code leads to packages breaking all over the place is a serious single point of failure, which really needs to be addressed properly. But unfortunately, nothing has been done, even after the whole `rimrafall` fiasco. In fact, there have been attempts to add [package verification using GPG into npm](https://github.com/npm/npm/pull/4016){:target="_blank"} after that, but unfortunately, the pull request was rejected.
+The fact that the unpublishing of a small npm package with only 17 lines of code leads to packages breaking all over the place is a serious single point of failure, which really needs to be addressed properly. But unfortunately, nothing has been done, even after the whole `rimrafall` fiasco. In fact, there has been an attempt to add [package verification using GPG into npm](https://github.com/npm/npm/pull/4016){:target="_blank"}, but unfortunately, the pull request was rejected.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You could literally write leftPad in the time it takes &#39;npm install left-pad&#39; to complete.</p>&mdash; Krøstian (@cjno) <a href="https://twitter.com/cjno/status/712553941066711040">March 23, 2016</a></blockquote>
 
