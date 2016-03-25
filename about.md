@@ -3,20 +3,6 @@ layout: page
 title: About
 ---
 
-{{ site.title }} is a collection of writings, ramblings, and projects of Resi Respati, better known on the internets as resir014.
-
-This Jekyll website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/) and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
-
-The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
-  <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" />
-</a>
-
-The source code is available [here](https://github.com/resir014/resir014.github.io). Everything that I write (the stuff I put under `_posts`, and image files under `assets/images/blog`) are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>, except where otherwise noted.
-
-## About me.
-
 Hi, call me Resi! I'm a 21-year-old Indonesian college student currently living in Jakarta.
 
 I'm an aspiring web developer. I started getting into web development when I self-learned HTML and CSS back in high school. I've done quite a few little design projects for my friends' websites, and I have designed several Tumblr themes for my side blogs, some of which I still actively maintain.
@@ -31,3 +17,15 @@ If you want to get in touch with me, even just to say hi, feel free to do so.
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
 * GitHub: [resir014](https://github.com/resir014)
 * Email: **resir014@gmail.com** ([keybase](https://keybase.io/resir014))
+
+## About this website
+
+This Jekyll website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/) and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
+
+The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
+  <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" />
+</a>
+
+The source code is available [here](https://github.com/resir014/resir014.github.io). Everything that I write (the stuff I put under `_posts`, and image files under `assets/images/blog`) are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>, except where otherwise noted.
