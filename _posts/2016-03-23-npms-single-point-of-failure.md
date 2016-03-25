@@ -41,3 +41,5 @@ Until then, just be careful about what you `npm install`.
 ---
 
 *Thanks to @hexdefined for his help on this post!*
+
+*Discuss on [Lobste.rs](https://lobste.rs/s/i5etp7/npm_s_single_point_of_failure){:target="_blank"}*
