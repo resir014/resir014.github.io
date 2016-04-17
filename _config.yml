@@ -57,8 +57,8 @@ nav:
     url: /about
   - title: projects
     url: /projects
-  - title: music
-    url: /music
+  - title: tags
+    url: /tags
   - title: stuff
     url: /etc
 
