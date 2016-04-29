@@ -45,7 +45,6 @@ disqus_shortname:   resir014
 # Gems
 gems:
   - jekyll-gist
-  - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
