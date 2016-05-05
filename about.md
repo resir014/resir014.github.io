@@ -24,8 +24,8 @@ This Jekyll website, hosted on [GitHub Pages](https://pages.github.com/) uses a 
 
 The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
-  <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 </a>
 
-The source code is available [here](https://github.com/resir014/resir014.github.io). Everything that I write (the stuff I put under `_posts`, and image files under `assets/images/blog`) are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>, except where otherwise noted.
+The source code is available [here](https://github.com/resir014/resir014.github.io). Everything that I write (the stuff I put under `_posts`, and image files under `assets/images/blog`) are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where otherwise noted.
