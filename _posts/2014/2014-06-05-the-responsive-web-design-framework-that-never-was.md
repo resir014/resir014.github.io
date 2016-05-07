@@ -162,4 +162,4 @@ In the meantime, I shall work hard on brushing up on my HTML, CSS and Javascript
 
 ***
 
-**Update:** A good friend of mine [@veiraz](https://github.com/veiraz){:target="_blank"} made a fork of NineSevenThree called [thirtyone](https://github.com/veiraz/thirtyone){:target="_blank"}. You should give it a try.
+**Update:** A good friend of mine [@veiraz](https://github.com/veiraz) made a fork of NineSevenThree called [thirtyone](https://github.com/veiraz/thirtyone). You should give it a try.

@@ -15,7 +15,7 @@ But I'm gonna try and highlight some of those things so... here goes.
 
 2015 has actually been a total shift in how I use, consume, and interact with social media (more on that in a future post, probably). My Twitter timeline now contains some of the weirdest, funniest, best folks I've found while scouring the whole Twitterverse. Some of them are just by pure luck, while others are made from a network of friends of friends.
 
-This whole shift in social media interaction has really been putting me in a better state, specifically mentally. I've learned to be myself most of the time, while also trying to moderate my time well so that I won't go insane with all the stream of endless information coming at me. For more on this, check out this [wonderful post](https://medium.com/@katikrause/facebook-s-mental-health-problem-9c48374c1bd8){:target="_blank"} by Kati Krause on Medium.
+This whole shift in social media interaction has really been putting me in a better state, specifically mentally. I've learned to be myself most of the time, while also trying to moderate my time well so that I won't go insane with all the stream of endless information coming at me. For more on this, check out this [wonderful post](https://medium.com/@katikrause/facebook-s-mental-health-problem-9c48374c1bd8) by Kati Krause on Medium.
 
 ## ...and then lost some.
 
@@ -25,13 +25,13 @@ It took me almost half a year to recover from everything that happened, and I st
 
 ## I got a job?
 
-Among few of the "firsts" that I've had in 2015 was the first time I've landed a job experience. I was grateful enough to become a part of [Influx Inc.](https://influx.com/){:target="_blank"} for a quick 2-month summer contract. There, I took role as a Customer Support Engineer, in which I was a member of a team that handles customer support for their clients which focus on developing themes for WordPress.
+Among few of the "firsts" that I've had in 2015 was the first time I've landed a job experience. I was grateful enough to become a part of [Influx Inc.](https://influx.com/) for a quick 2-month summer contract. There, I took role as a Customer Support Engineer, in which I was a member of a team that handles customer support for their clients which focus on developing themes for WordPress.
 
 While taking that role, I got fair amounts of experience working remotely as a team, and also some experience with getting around helpdesk dashboards, such as Zendesk and HelpScout.
 
 ## I listened to some neat songs.
 
-2015 is also the year where my music taste expanded even more, partly thanks to my discovery of [vaporwave](https://en.wikipedia.org/wiki/Vaporwave){:target="_blank"}, but also with the discovery of some cool bands like [SONOIO](https://www.youtube.com/watch?v=S4HT1Mu7zNk){:target="_blank"}, neat vaporwave subgenres like future funk, old songs that I just discovered this year, and lots of other things.
+2015 is also the year where my music taste expanded even more, partly thanks to my discovery of [vaporwave](https://en.wikipedia.org/wiki/Vaporwave), but also with the discovery of some cool bands like [SONOIO](https://www.youtube.com/watch?v=S4HT1Mu7zNk), neat vaporwave subgenres like future funk, old songs that I just discovered this year, and lots of other things.
 
 I will further outline my highlights in music in the next post, but for now, have some good future funk.
 

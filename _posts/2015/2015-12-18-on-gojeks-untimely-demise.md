@@ -7,7 +7,7 @@ tags:
 - go-jek
 ---
 
-Most Indonesians were caught in shock when yesterday night, the Ministry of Transportation has pretty much decided to [ban all car and motorcycle-based ride-sharing services from operating in Indonesia](http://megapolitan.kompas.com/read/2015/12/17/21242351/Kemenhub.Apa.Pun.Namanya.Go-Jek.Grab-Bike.Dilarang.Beroperasi). This was subsequently followed the next morning by the Minister itself apparently [lifting the ban](http://inet.detik.com/read/2015/12/18/112424/3099280/399/menhub-jonan-cabut-larangan-persilakan-go-jek-dkk-tetap-beroperasi){:target="_blank"}.
+Most Indonesians were caught in shock when yesterday night, the Ministry of Transportation has pretty much decided to [ban all car and motorcycle-based ride-sharing services from operating in Indonesia](http://megapolitan.kompas.com/read/2015/12/17/21242351/Kemenhub.Apa.Pun.Namanya.Go-Jek.Grab-Bike.Dilarang.Beroperasi). This was subsequently followed the next morning by the Minister itself apparently [lifting the ban](http://inet.detik.com/read/2015/12/18/112424/3099280/399/menhub-jonan-cabut-larangan-persilakan-go-jek-dkk-tetap-beroperasi).
 
 Behind the decision was a statement from the Ministry of Transportation that reads:
 
@@ -19,7 +19,7 @@ The statement was signed on the 9th of November by the Minister of Transportatio
 
 The decision came suddenly, much to the dismay and outrage of Indonesian netizens, including yours truly. [Angry tweets](https://twitter.com/jokoanwar/status/677681572141793281) were everywhere, it made the morning news, and even someone made a [petition](https://www.change.org/p/ignasius-jonan-tinjau-ulang-larangan-pemerintah-terhadap-layanan-ojek-dan-taksi-berbasis-online-daring) for it. What actually caused this decision to come in effect, and where is the reasoning behind this banning?
 
-This article was written partly in response to [Tom Pepinsky](https://twitter.com/TomPepinsky)'s post [*GO-JEK: from 'Disruptive Innovation' to 'Disrupted Innovation'*](http://tompepinsky.com/2015/12/17/go-jek-from-disruptive-innovation/){:target="_blank"}, while at the same time calling out the lack of logic that has made this decision to come in effect.
+This article was written partly in response to [Tom Pepinsky](https://twitter.com/TomPepinsky)'s post [*GO-JEK: from 'Disruptive Innovation' to 'Disrupted Innovation'*](http://tompepinsky.com/2015/12/17/go-jek-from-disruptive-innovation/), while at the same time calling out the lack of logic that has made this decision to come in effect.
 
 ## Background
 
