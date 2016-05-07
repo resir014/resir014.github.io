@@ -11,9 +11,9 @@ It's a weird world of technology that we live in nowadays.
 
 15 years ago, we had never thought that a cellphone could do things like browse the internet, send and receive emails, play games with graphics that can rival computer graphics, and even answer every single question that we throw at them. And yet, here we are.
 
-Nowadays, we have phones that are powerful enough to do almost everything that used to be run only by a computer. Your phones can now be used in a number of ways, be it to browse the internet, post on Twitter, send messages all over the world, hell, even [run a Linux terminal](https://termux.com/){:target="_blank"}.
+Nowadays, we have phones that are powerful enough to do almost everything that used to be run only by a computer. Your phones can now be used in a number of ways, be it to browse the internet, post on Twitter, send messages all over the world, hell, even [run a Linux terminal](https://termux.com/).
 
-You can literally just ask your phone, "where should we eat tonight?" and on your screen, there will be a list of restaurants, which are tailored based on visitor reviews, relative location, and even your dietary requirements. Also, we've always long depended on our phones in storing all of our photos, music, message histories, cloud backups, you name it. The phone, in a sense, has become [an extension of yourself](https://www.youtube.com/watch?v=e-ZpsxnmmbE){:target="_blank"}.
+You can literally just ask your phone, "where should we eat tonight?" and on your screen, there will be a list of restaurants, which are tailored based on visitor reviews, relative location, and even your dietary requirements. Also, we've always long depended on our phones in storing all of our photos, music, message histories, cloud backups, you name it. The phone, in a sense, has become [an extension of yourself](https://www.youtube.com/watch?v=e-ZpsxnmmbE).
 
 Thanks to these wonders of he modern technology, we've always thought that technology is a tool of endless possibilities. However, they have since been overshadowed by a bigger problem.
 
@@ -27,12 +27,12 @@ The whole privacy/ecryption debate has always been a middle ground for me. On on
 
 However, there's quite a lot of nasty sides of the privacy and encryption battle. On the internet, discussions about this issue has alway been a heated one, with a lot of ego coming into play as time goes. Some of these people are usually always feel so smug about their "privacy tool" of choice, so they downplay them like they're part of the establishment, then force those tools to everyone else.
 
-There's a term that I love to use to describe these people, "PrivacyBros", a term coined by [@SwiftOnSecurity](https://twitter.com/SwiftOnSecurity){:target="_blank"}.
+There's a term that I love to use to describe these people, "PrivacyBros", a term coined by [@SwiftOnSecurity](https://twitter.com/SwiftOnSecurity).
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I call these people PrivacyBros. They have no real-world experience with actual threats or telemetry so it&#39;s all one big conspiracy to them.</p>&mdash; SecuriTay (@SwiftOnSecurity) <a href="https://twitter.com/SwiftOnSecurity/status/684197149203017728">January 5, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This can be seen often in their reception towards operating systems like Windows 10. Seeing the privacy concerns that people have given regarding its telemetry services, people have ever since been blindly following, or giving out their own "privacy tips", without any considerations that it [may do more harm than good](https://twitter.com/SwiftOnSecurity/status/684195496978595841){:target="_blank"} to your computer. These people are nothing more than jumping on the bandwagon instead of adding something constructive about how we should protect our data.
+This can be seen often in their reception towards operating systems like Windows 10. Seeing the privacy concerns that people have given regarding its telemetry services, people have ever since been blindly following, or giving out their own "privacy tips", without any considerations that it [may do more harm than good](https://twitter.com/SwiftOnSecurity/status/684195496978595841) to your computer. These people are nothing more than jumping on the bandwagon instead of adding something constructive about how we should protect our data.
 
 ---
 
@@ -44,7 +44,7 @@ To put my viewpoint in perspective, let's say that you told me that you have not
 
 In a modern age, having "nothing to hide" is relative. Sure, you can say that you have nothing to hide, whilst forgetting that you have that dark moment in your past lives which you just wanted to erase. And what I've learned over the past few months regarding this whole debate is that you have to have *something* to hide, to an extent.
 
-However, another quirk of the privacy debate is how people would start to take people's arguments about this out of context, purporting that the opposing party stated that they have nothing to hide, which means it's the perfect time to pull the ["I have nothing to hide" fallacy](https://twitter.com/SoatokDhole/status/691704485933105152){:target="_blank"}. This has happened a lot of times that I start to find this fallacious in of itself.
+However, another quirk of the privacy debate is how people would start to take people's arguments about this out of context, purporting that the opposing party stated that they have nothing to hide, which means it's the perfect time to pull the ["I have nothing to hide" fallacy](https://twitter.com/SoatokDhole/status/691704485933105152). This has happened a lot of times that I start to find this fallacious in of itself.
 
 ---
 
@@ -62,7 +62,7 @@ My whole take on privacy is inspired from a really long YouTube comment I've rea
 >
 > Think of it as layers of onion. These stuffs are what you peel from inside of your mind, and those at the very inner layer are less likely to be peeled out. If I trust someone enough, then I'll slowly open up those layers and share it with them.
 
-However, this does not mean that I give a kumbaya approach to privacy as well. Ever since the government put [tighter]({{ site.baseurl }}/2016/02/17/tumblr-and-the-internet-positif-hammer/){:target="_blank"} and [tigher]({{ site.baseurl }}/2016/02/18/they-did-it-they-said-the-c-word/){:target="_blank"} controls on our internet, I've started to find ways to make my online activities much more secure and private. I've started using [Tor](https://www.torproject.org/){:target="_blank"} instead of the standard incognito mode to gain access to websites that are blocked within any public network, even changing my home DNS to [OpenNIC](https://www.opennicproject.org/){:target="_blank"} to prevent logging and censoring. I've recently switched from the Nexus 4 to the Nexus 5X, which had its storage encrypted by default.
+However, this does not mean that I give a kumbaya approach to privacy as well. Ever since the government put [tighter](https://resir014.github.io/2016/02/17/tumblr-and-the-internet-positif-hammer/) and [tigher](https://resir014.github.io/2016/02/18/they-did-it-they-said-the-c-word/) controls on our internet, I've started to find ways to make my online activities much more secure and private. I've started using [Tor](https://www.torproject.org/) instead of the standard incognito mode to gain access to websites that are blocked within any public network, even changing my home DNS to [OpenNIC](https://www.opennicproject.org/) to prevent logging and censoring. I've recently switched from the Nexus 4 to the Nexus 5X, which had its storage encrypted by default.
 
 Hell, I've remained as paranoid as I was in letting people use my laptop, even to the point where everyone who wants to plug in a USB stick has to pass it through me first so I can run the necessary scans.
 
