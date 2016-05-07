@@ -51,7 +51,7 @@ Found in NPR's *All Songs Considered* podcast, this track has a subtle glimmer o
 
 Skylar Spence (previously Saint Pepsi) has matured really well since their Vaporwave phase with this release, Fiona Coyne, featured on their first album under the new name.
 
-Album: [Prom King](http://store.carparkrecords.com/products/551753-cak107-skylar-spence-prom-king){:target="_blank"}
+Album: [Prom King](http://store.carparkrecords.com/products/551753-cak107-skylar-spence-prom-king)
 
 ## Professor Kliq - Space Pace Ace
 
@@ -61,7 +61,7 @@ Album: [Prom King](http://store.carparkrecords.com/products/551753-cak107-skylar
 
 I've developed a weird liking to Professor Kliq, especially after hearing one of his songs from the [TrackMania2: Canyon trailer](https://www.youtube.com/watch?v=77r-ghIOQso). He's released two new albums in the year 2015, and this is my favourite from one of the albums, *28 Days With The OP-1*.
 
-Album: [28 Days With The OP-1](http://store.professorkliq.com/album/28-days-with-the-op-1){:target="_blank"}
+Album: [28 Days With The OP-1](http://store.professorkliq.com/album/28-days-with-the-op-1)
 
 ## Professor Kliq - Sky Stage
 
@@ -71,7 +71,7 @@ Album: [28 Days With The OP-1](http://store.professorkliq.com/album/28-days-with
 
 Favourite track from Professor Kliq's other 2015 album, *The Scientific Method, Vol. III*.
 
-Album: [The Scientific Method, Vol. III](http://store.professorkliq.com/album/the-scientific-method-vol-iii){:target="_blank"}
+Album: [The Scientific Method, Vol. III](http://store.professorkliq.com/album/the-scientific-method-vol-iii)
 
 ## saib. - Souvenirs
 
@@ -81,7 +81,7 @@ Album: [The Scientific Method, Vol. III](http://store.professorkliq.com/album/th
 
 I've always loved Cult Classic Records for their jazzy hip-hop beats, and this track (and the whole album itself) has become what has been resonating with me throughout the year.
 
-Album: [Ipanema EP](https://cultclassicrecords.bandcamp.com/album/ipanema-ep){:target="_blank"}
+Album: [Ipanema EP](https://cultclassicrecords.bandcamp.com/album/ipanema-ep)
 
 ## マクロスMACROSS 82-99 - Rainbow Roads (w Timid Soul)
 
@@ -91,7 +91,7 @@ Album: [Ipanema EP](https://cultclassicrecords.bandcamp.com/album/ipanema-ep){:t
 
 All hail Future Funk! マクロスMACROSS 82-99 has pretty much made it one of my favourite subgenres of Vaporwave out there, and as much as the classic Vaporwave is dead, future funk is pretty much the one breathing new life into vaporwave.
 
-Album: [CHAM!](https://macross82-99.bandcamp.com/album/cham){:target="_blank"}
+Album: [CHAM!](https://macross82-99.bandcamp.com/album/cham)
 
 ## MNDR - Lock & Load (feat. Killer Mike)
 
@@ -101,4 +101,4 @@ Album: [CHAM!](https://macross82-99.bandcamp.com/album/cham){:target="_blank"}
 
 This song from the 60fps *Grand Theft Auto V* trailer has been stuck to me since the first time I've heard it.
 
-Album: [The Alchemist and Oh No Present: Welcome to Los Santos](https://itunes.apple.com/us/album/alchemist-oh-no-present-welcome/id979725556){:target="_blank"}
+Album: [The Alchemist and Oh No Present: Welcome to Los Santos](https://itunes.apple.com/us/album/alchemist-oh-no-present-welcome/id979725556)
