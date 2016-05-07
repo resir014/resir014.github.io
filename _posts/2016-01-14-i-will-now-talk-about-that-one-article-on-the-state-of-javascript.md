@@ -17,7 +17,7 @@ But, for the sake of doing so, I have taken upon myself to pull out several less
 
 <figure>
   <img src="{{ site.baseurl }}/public/images/blog/2016/i-will-now-talk-about-that-one-article-on-the-state-of-javascript/CWeYEUvWoAA5Z3V.png" alt="Photo">
-  <figcaption>Photo credit: <a href="https://twitter.com/ericdfields/status/677677470590570496" target="_blank">@ericdfields</a></figcaption>
+  <figcaption>Photo credit: <a href="https://twitter.com/ericdfields/status/677677470590570496">@ericdfields</a></figcaption>
 </figure>
 
 ---
