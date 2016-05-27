@@ -24,19 +24,9 @@ layout: default
         {% endif %}
       </p>
 
-      {% unless post.tags.size == 0 %}
-      <section class="tags">
-        {% for tag in post.tags %}
-        <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
-        {% endfor %}
-      </section>
-      {% endunless %}
+      <a class="read-more" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>Read more &gt;&gt;</a>
     </article>
   {% endfor %}
-
-  <!--div class="cover-bottom-link">
-    <a class="btn-more" href="{{ site.baseurl }}/blog">View more posts &rarr;</a>
-  </div-->
 </div>
 
 <div class="pagination">
