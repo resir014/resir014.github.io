@@ -20,7 +20,7 @@ If you want to get in touch with me, even just to say hi, feel free to do so.
 
 ## About this website
 
-This Jekyll website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/) and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
+This [Jekyll](https://jekyllrb.com/) website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/) and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games. The source code is available [here](https://github.com/resir014/resir014.github.io).
 
 The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
 
@@ -28,4 +28,4 @@ The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT
   <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 </a>
 
-The source code is available [here](https://github.com/resir014/resir014.github.io). Everything that I write (the stuff I put under `_posts`, and image files under `assets/images/blog`) are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where otherwise noted.
+Except where otherwise noted, all works published on this site are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
