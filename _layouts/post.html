@@ -7,11 +7,11 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
   {% unless page.tags.size == 0 %}
-  <section class="tags">
+  <div class="tags">
     {% for tag in page.tags %}
     <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
     {% endfor %}
-  </section>
+  </div>
   {% endunless %}
 </article>
 
