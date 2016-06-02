@@ -7,7 +7,7 @@ tagline:            "Thoughts on life."
 description:        "Writings, ramblings, and projects of Resi Respati (@resir014)."
 url:                https://resir014.github.io
 baseurl:            ""
-paginate:           5
+paginate:           1
 paginate_path:      "/page/:num/"
 
 # Exclude these files from Jekyll build
@@ -56,8 +56,8 @@ nav:
     url: /about
   - title: projects
     url: /projects
-  - title: tags
-    url: /tags
+  - title: pages
+    url: /pages
   - title: stuff
     url: /etc
 

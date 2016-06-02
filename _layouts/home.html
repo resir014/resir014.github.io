@@ -16,15 +16,13 @@ layout: default
       <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
       {% endif %}
 
-      <p>
-        {% if post.lead %}
+      {% if post.lead %}
+        <p class="lead">
           {{ post.lead }}
-        {% else %}
-          {{ post.excerpt | strip_html | truncatewords: 35, '…' }}
-        {% endif %}
-      </p>
+        </p>
+      {% endif %}
 
-      <a class="read-more" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>Read more &gt;&gt;</a>
+      {{ post.content }}
     </article>
   {% endfor %}
 </div>

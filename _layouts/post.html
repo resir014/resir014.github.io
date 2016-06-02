@@ -5,14 +5,14 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+
+  {% if page.lead %}
+    <p class="lead">
+      {{ page.lead }}
+    </p>
+  {% endif %}
+
   {{ content }}
-  {% unless page.tags.size == 0 %}
-  <div class="tags">
-    {% for tag in page.tags %}
-    <a class="label-tag" href="{{ site.baseurl }}{{ tag | prepend: '/tags#' }}">{{ tag | prepend: '#' }}</a>
-    {% endfor %}
-  </div>
-  {% endunless %}
 </article>
 
 {% if page.comments %}
