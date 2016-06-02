@@ -13,7 +13,7 @@ layout: default
       <div class="archive">
       {% capture year %}{{ currentyear }}{% endcapture %}
     {% endif %}
-    <a href="{{ post.url }}"{% if post.redirect_to %} target="_blank"{% endif %}>
+    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
       <div class="archive-item">
         <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date_to_string }}
