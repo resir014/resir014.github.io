@@ -3,27 +3,27 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <h1 class="post-title">
-        <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>{{ post.title }}</a>
+  {% for post in site.posts %}
+    {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% if currentyear != year %}
+      {% unless forloop.first %}
+        </div>
+      {% endunless %}
+      <h1>{{ currentyear }}</h1>
+      <div class="archive">
+      {% capture year %}{{ currentyear }}{% endcapture %}
+    {% endif %}
+    <a href="{{ post.url }}"{% if post.redirect_to %} target="_blank"{% endif %}>
+      <div class="archive-item">
+        <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+        </time>
+        <span class="archive-title">{{ post.title }}</span>
         {% if post.redirect_to or post.external_url %}
           &gt;
         {% endif %}
-      </h1>
-
-      {% if post.date %}
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-      {% endif %}
-
-      {% if post.lead %}
-        <p class="lead">
-          {{ post.lead }}
-        </p>
-      {% endif %}
-
-      {{ post.content }}
-    </article>
+      </div>
+    </a>
   {% endfor %}
 </div>
 
