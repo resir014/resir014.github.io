@@ -5,6 +5,13 @@ title: /etc/ - the land of 'anything goes'
 
 These are some random, maybe dumb stuffs that I used to do some time ago. I am solely not responsible for what might happen to your sanity after viewing these.
 
+## 2016
+
+<dl>
+  <dt><a href="{{ site.baseurl }}/etc/dnscrypt">DNSCrypt Field Guide</a></dt>
+  <dd>A crash course guide on <a href="https://dnscrypt.org/">DNSCrypt</a>, a protocol designed to improve your DNS security.</dd>
+</dl>
+
 ## 2015
 
 <dl>
