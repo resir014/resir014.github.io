@@ -56,8 +56,6 @@ nav:
     url: /about
   - title: projects
     url: /projects
-  - title: pages
-    url: /pages
   - title: stuff
     url: /etc
 
