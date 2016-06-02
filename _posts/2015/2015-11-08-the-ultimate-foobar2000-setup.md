@@ -14,7 +14,9 @@ Of course, I did run into some concerns that it won't be able to do the things t
 
 So I started looking around for custom components and toyed around with them a bit, and this is what I came up with.
 
-[![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png)]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png)
+<a href="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png" target="_blank">
+  <img src="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png" alt="foobar2000">
+</a>
 
 Here's a guide on how to make your foobar2000 look more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
 
@@ -127,7 +129,7 @@ $puts(notplayed,$rgb(200,200,200)- n/a -)
 $ifgreater(%_dynamic_rating%,0,$get(display),$get(notplayed))
 {% endhighlight %}
 
-This will give you a nice visual of the rating, with dots, as seen below. If you want to just use the actual number for this column, just type `%_dynamic_rating` into the same textfield.
+This will give you a nice visual of the rating, with dots, as seen below. If you want to just use the actual number for this column, just type `%_dynamic_rating%` into the same textfield.
 
 ![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-20_23-41-37.png)
 
@@ -149,7 +151,9 @@ The first grouping rule in that window is included by default. But we're gonna t
 
 Save your changes, and there you go, a 100%-working Top Tracks playlist.
 
-[![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png)]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png)
+<a href="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png" target="_blank">
+  <img src="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png" alt="foobar2000">
+</a>
 
 ## Organising your music
 
