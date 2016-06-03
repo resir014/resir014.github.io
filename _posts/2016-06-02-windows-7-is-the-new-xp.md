@@ -46,3 +46,7 @@ These were the reasons why, even though Windows 10 is slowly gaining its ground,
 Microsoft has irreversibly ruined the Windows name with Windows 10. Most of the customer's trust has pretty much eroded. Which was a shame, since Windows 10 had the potential to be an exceptional OS. This is what frustrates me about Microsoft at this point. Not the forced upgrades. Not the alleged "spyware". But the lack amount of work given by Microsoft to address all of its customer's issues, especially the most dire ones which I brought up in this post.
 
 And unfortunately for Microsoft, this means that Windows 7's market share will most likely stay at the top until its support ends in 2020.
+
+---
+
+*Discuss on [Lobsters](https://lobste.rs/s/n8ggih/windows_7_is_new_xp)*
