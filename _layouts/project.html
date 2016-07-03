@@ -6,14 +6,14 @@ layout: default
   <h1 class="page-title">
     {% if page.project_url %}
       <a href="{{ page.project_url }}" target="_blank">{{ page.title }}</a>
-      &gt;
+      &raquo;
     {% elsif page.external_url %}
       <a href="{{ page.external_url }}" target="_blank">{{ page.title }}</a>
-      &gt;
+      &raquo;
     {% else %}
       {{ page.title }}
       {% if post.redirect_to %}
-        &gt;
+        &raquo;
       {% endif %}
     {% endif %}
   </h1>
