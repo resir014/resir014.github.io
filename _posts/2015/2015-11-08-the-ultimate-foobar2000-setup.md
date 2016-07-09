@@ -2,7 +2,10 @@
 layout: post
 title: "The Ultimate foobar2000 Setup*"
 lead: "*) Well, according to me, at least."
-redirect_from: /blog/2015/11/08/the-ultimate-foobar2000-setup/
+redirect_from:
+  - /blog/2015/11/08/the-ultimate-foobar2000-setup/
+  - /foobar2000
+  - /fb2k
 tags:
   - music
   - foobar2000
@@ -36,7 +39,7 @@ First off, you will need the following additional components. The version number
 
 The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [thumbnail toolbars]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-07_00-03-28.png)[^fn-thumbbars].
 
-When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and it also adds [that thing]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-07_00-03-28.png)[^fn-thumbbars] to your taskbar, without any additional components needed. Talk about a multi-purpose UI kit.
+When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and it also adds thumbnail toolbars to your taskbar, without any additional components needed. Talk about a multi-purpose UI kit.
 
 After you've finished installing Columns UI and set it as your default UI, you will be presented with this screen.
 
