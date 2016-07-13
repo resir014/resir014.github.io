@@ -10,7 +10,10 @@
   "author": "Resi Respati <resir014@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "grunt test"
+    "grunt": "grunt",
+    "test": "grunt test",
+    "serve": "grunt serve",
+    "optimise": "grunt optimise"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
