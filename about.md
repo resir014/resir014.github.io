@@ -16,7 +16,7 @@ If you want to get in touch with me, even just to say hi, feel free to do so.
 * Twitter: [@resir014](https://twitter.com/resir014)
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
 * GitHub: [resir014](https://github.com/resir014)
-* Email: **resir014@gmail.com** ([keybase](https://keybase.io/resir014))
+* Email: **resir014 [at] gmail [dot] com** ([keybase](https://keybase.io/resir014))
 
 ## About this website
 
