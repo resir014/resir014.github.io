@@ -4,29 +4,37 @@ title: blog entries
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if currentyear != year %}
-      {% unless forloop.first %}
+  {% assign post_count = site.posts | size %}
+  {% if post_count > 0 %}
+    {% for post in site.posts %}
+      {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% if currentyear != year %}
+        {% unless forloop.first %}</div>{% endunless %}
+
+        <h2>{{ currentyear }}</h2>
+        <div class="archive">
+        {% capture year %}{{ currentyear }}{% endcapture %}
+      {% endif %}
+      <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
+        <div class="archive-item">
+          <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date_to_string }}
+          </time>
+          <span class="archive-title">{{ post.title }}</span>
+          {% if post.redirect_to or post.external_url %}
+            &raquo;
+          {% endif %}
         </div>
-      {% endunless %}
-      <h2>{{ currentyear }}</h2>
-      <div class="archive">
-      {% capture year %}{{ currentyear }}{% endcapture %}
-    {% endif %}
-    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
+      </a>
+      {% if forloop.last %}</div>{% endif %}
+    {% endfor %}
+  {% else %}
+    <div class="archive">
       <div class="archive-item">
-        <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date_to_string }}
-        </time>
-        <span class="archive-title">{{ post.title }}</span>
-        {% if post.redirect_to or post.external_url %}
-          &raquo;
-        {% endif %}
+        <span class="text-muted">No posts available.</span>
       </div>
-    </a>
-    {% if forloop.last %}</div>{% endif %}
-  {% endfor %}
+    </div>
+  {% endif %}
 </div>
 
 {% if site.paginate %}
