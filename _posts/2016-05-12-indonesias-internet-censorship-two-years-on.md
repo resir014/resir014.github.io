@@ -1,7 +1,9 @@
 ---
+category: blog
 layout: post
 title: "Indonesia's internet censorship, two years on"
 lead: "Slowly but surely, we're curving away from total net neutrality."
+external_url: https://medium.com/southeast-asian-social-critique/indonesias-internet-censorship-two-years-on-41831c6c16b4
 tags:
 - personal
 - indonesia

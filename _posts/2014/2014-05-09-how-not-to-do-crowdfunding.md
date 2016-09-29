@@ -1,9 +1,9 @@
 ---
+category: blog
 layout: post
 title: How NOT to do crowdfunding
 lead: "In which I tear through quite possibly one of the worst Indiegogo projects ever made."
 external_url: https://medium.com/p/25d06ba83d53
-redirect_from: /blog/2014/05/09/how-not-to-do-crowdfunding/
 tags:
   - gaming
   - indonesia

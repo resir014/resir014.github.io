@@ -1,9 +1,9 @@
 ---
+category: blog
 layout: post
 title: "The Ultimate foobar2000 Setup*"
 lead: "*) Well, according to me, at least."
 redirect_from:
-  - /blog/2015/11/08/the-ultimate-foobar2000-setup/
   - /foobar2000
   - /fb2k
 tags:

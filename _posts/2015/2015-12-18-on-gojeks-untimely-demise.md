@@ -1,7 +1,7 @@
 ---
+category: blog
 layout: post
 title: "Go-Jek and the Government: an unfortunate love-hate relationship"
-redirect_from: /blog/2015/12/18/on-gojeks-untimely-demise/
 tags:
 - indonesia
 - go-jek

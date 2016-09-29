@@ -1,8 +1,7 @@
 ---
+category: blog
 layout: post
 title: Looking back on 2015
-redirect_from:
-- /blog/2015/12/28/looking-back-on-2015/
 tags:
 - personal
 ---

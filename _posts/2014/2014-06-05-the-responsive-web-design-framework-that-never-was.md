@@ -1,7 +1,7 @@
 ---
+category: blog
 layout: post
 title: The responsive web design framework that never was
-redirect_from: /blog/2014/06/05/the-responsive-web-design-framework-that-never-was/
 tags:
   - dev
   - post-mortem

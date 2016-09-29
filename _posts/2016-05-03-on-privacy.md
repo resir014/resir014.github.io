@@ -1,4 +1,5 @@
 ---
+category: blog
 layout: post
 title: "On privacy"
 lead: "After the Snowden revelations, our trust in technology is at an all-time low. At the same time, the debate on privacy and encryption is getting even more heated."

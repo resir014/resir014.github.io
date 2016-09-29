@@ -1,7 +1,7 @@
 ---
+category: blog
 layout: post
 title: Content curation with Jekyll & GitHub Pages
-redirect_from: /blog/2015/12/04/content-curation-with-jekyll-github-pages/
 comments: true
 tags:
 - dev

@@ -1,4 +1,5 @@
 ---
+category: blog
 layout: post
 title: They did it. They said the C-word.
 lead: After major backlash, the Ministry of Communications reversed their decision on blocking Tumblr. But not long after I found some things about it that sound... fishy.

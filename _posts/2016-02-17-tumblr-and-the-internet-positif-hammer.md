@@ -1,4 +1,5 @@
 ---
+category: blog
 layout: post
 title: Tumblr and the Internet Positif hammer
 lead: Or, the Indonesian government still not understanding how technology works.
