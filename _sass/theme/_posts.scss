@@ -1,21 +1,61 @@
-// Post previews
-//
-// Blog posts sorted in an archive layout.
+.page,
+.post {
+  margin-top: 2em;
+  margin-bottom: 4em;
 
-.posts {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  li + li {
+    margin-top: .25rem;
+  }
 }
 
-// Tags
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+  color: $heading-color;
+}
 
-.label-tag {
-  margin-right: .5rem;
-  font-size: 85%;
-  color: #9a9a9a;
-  text-decoration: none;
+.post-date {
+  color: $body-color-muted;
+}
 
-  &:last-child {
-    margin-right: 0;
+// Posts archive
+.archive {
+  margin: 1rem 0;
+
+  a {
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+
+      .archive-title {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.archive-item {
+  display: block;
+  margin: .5rem 0;
+
+  .archive-category {
+    color: $heading-color;
+
+    &::after {
+      content: ':';
+    }
+  }
+
+  .archive-date {
+    display: block;
+    color: $body-color-muted;
+
+    @media (min-width: 34em) {
+      float: right;
+      margin-left: .5rem;
+    }
   }
 }

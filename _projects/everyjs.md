@@ -1,6 +1,5 @@
 ---
 layout: project
-category: other
 name: everyjs
 title: "@everyjs"
 details: An everyword-like Twitter bot appending ".js" to every word.

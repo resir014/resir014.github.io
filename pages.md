@@ -3,5 +3,5 @@ layout: page
 title: Pages
 ---
 
-* [/music/]({{ site.baseurl }}/music) - stuff I listen to
+* [timeless games]({{ site.baseurl }}/timeless-games) - a list of games
 * [/etc/]({{ site.baseurl }}/etc) - the land of 'anything goes'

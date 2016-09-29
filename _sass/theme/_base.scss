@@ -1,13 +1,13 @@
-// Body resets
-//
-// Additional styles for global and foundational resets.
-
-figure {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+table {
+  border: 1px solid $border-color;
 }
 
-figcaption {
-  text-align: center;
-  font-size: 80%;
+td,
+th {
+  border: 1px solid $border-color;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: $table-odd-background-color;
 }

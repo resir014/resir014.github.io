@@ -2,43 +2,14 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if currentyear != year %}
-      {% unless forloop.first %}
-        </div>
-      {% endunless %}
-      <h1>{{ currentyear }}</h1>
-      <div class="archive">
-      {% capture year %}{{ currentyear }}{% endcapture %}
-    {% endif %}
-    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
-      <div class="archive-item">
-        <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date_to_string }}
-        </time>
-        <span class="archive-title">{{ post.title }}</span>
-        {% if post.redirect_to or post.external_url %}
-          &raquo;
-        {% endif %}
-      </div>
-    </a>
-    {% if forloop.last %}</div>{% endif %}
-  {% endfor %}
-</div>
+<h2>latest posts</h2>
 
-{% if site.paginate %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-    {% else %}
-      <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-    {% else %}
-      <span class="pagination-item newer">Newer</span>
-    {% endif %}
-  </div>
-{% endif %}
+{% include html/archives/home.html %}
+
+<a href="{{ site.baseurl }}/blog">Read more &rarr;</a>
+
+<hr>
+
+<main>
+  {{ content }}
+</main>

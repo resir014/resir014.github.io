@@ -52,8 +52,10 @@ gems:
 nav:
   - title: about
     url: /about
-  - title: projects
-    url: /projects
+  - title: blog
+    url: /blog
+  - title: timeless games
+    url: /timeless-games
   - title: stuff
     url: /etc
 
@@ -62,9 +64,6 @@ collections:
   stuff:
     output: true
     permalink: /:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
   etc:
     output: true
     permalink: /:collection/:path/

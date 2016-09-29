@@ -1,7 +1,11 @@
+@import "helpers";
 @import "base";
+@import "type";
+@import "syntax";
 @import "code";
+@import "layout";
 @import "masthead";
-@import "cover";
 @import "posts";
-@import "archive";
-@import "third-party";
+@import "pagination";
+@import "message";
+@import "home";
