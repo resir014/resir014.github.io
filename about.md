@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 ---
 
 Hi, call me Resi! I'm a 21-year-old Indonesian college student currently living in Jakarta.
