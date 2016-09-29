@@ -64,6 +64,12 @@ collections:
   stuff:
     output: true
     permalink: /:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   etc:
+    output: true
+    permalink: /:collection/:path/
+  timeless-games:
     output: true
     permalink: /:collection/:path/
