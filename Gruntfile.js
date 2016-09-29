@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   // Load all tasks matching the `grunt-*` pattern
   require('load-grunt-tasks')(grunt);
@@ -18,9 +18,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '_site/public',
+          cwd: 'public',
           src: ['**/*.{png,jpg,gif}'],
-          dest: '_site/public'
+          dest: 'public'
         }]
       },
     },
@@ -45,11 +45,6 @@ module.exports = function(grunt) {
         options: {
           drafts: true,
           serve: true
-        }
-      },
-      publish: {
-        options: {
-          drafts: false
         }
       }
     }
