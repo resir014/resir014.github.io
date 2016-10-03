@@ -11,3 +11,14 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $table-odd-background-color;
 }
+
+// Figure elements
+figure {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 80%;
+}
