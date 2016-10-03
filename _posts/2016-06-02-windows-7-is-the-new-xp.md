@@ -3,6 +3,7 @@ category: blog
 layout: post
 title: "Windows 7 is the new XP"
 lead: "Microsoft's tone-deafness regarding the Windows 10 upgrade nag and several other issues left a majority of users out in the cold."
+redirect_from: /2016/06/02/windows-7-is-the-new-xp/
 tags:
 - windows
 - rant
@@ -16,7 +17,7 @@ Windows 10 was met with staunch resistance from quite a lot of average users. As
 
 Let me start by getting this out of the way: Windows 10 is a *fine* operating system. I use it as my daily driver. It's not *great*, but it's *fine*. The new features being introduced in the initial release of Windows 10, such as Cortana and Action Center, had some great ambitions, even though the end results are rather half-baked. There are also features included in the upcoming Anniversary Update which caught some attention, such as Windows Subsystems for Linux, complete with Bash on Windows(!), Windows Ink Workspace, and much more.
 
-Windows 10 was initially introduced to fix the mess that Windows 8 and 8.1 had brought up. You see, Windows 8 was a mess. It's not as much of a mess as Windows Vista was, but it was still a mess nonetheless. Then out came Windows 10, which fixes all of the man issues with Windows 8, complete with lots of promising new features, security improvements, and so on. And to make up with their past, Microsoft offered Windows 10 to consumers as a free upgrade, which applies for the first year of its existence.
+Windows 10 was initially introduced to fix the mess that Windows 8 and 8.1 had brought up. You see, Windows 8 was a mess. It's not as much of a mess as Windows Vista was, but it was still a mess nonetheless. Then out came Windows 10, which fixes all of the main issues with Windows 8, complete with lots of promising new features, security improvements, and so on. And to make up with their past, Microsoft offered Windows 10 to consumers as a free upgrade, which applies for the first year of its existence.
 
 However, there's one problem with it: Microsoft *forced* the free upgrade on everyone. People weren't given much of a choice to upgrade on their own terms, and Microsoft [resorted to using "malware-like" tactics](http://www.theregister.co.uk/2016/03/17/microsoft_windows_10_upgrade_gwx_vs_humanity/) to push Windows 10 out to everyone. There's about a month left before the free upgrade offer ends, and we can see Microsoft is trying to push it even more before it ends. The whole push has become so viral, it has often been turned into a meme.
 
