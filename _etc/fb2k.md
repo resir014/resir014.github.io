@@ -1,15 +1,14 @@
 ---
-category: blog
-layout: post
+layout: page
 title: "The Ultimate foobar2000 Setup*"
-lead: "*) Well, according to me, at least."
 redirect_from:
+  - /blog/2015/11/08/the-ultimate-foobar2000-setup/
+  - /2015/11/08/the-ultimate-foobar2000-setup/
   - /foobar2000
   - /fb2k
-tags:
-  - music
-  - foobar2000
 ---
+
+<p class="lead">*) Well, according to me, at least.</p>
 
 If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
@@ -17,8 +16,8 @@ Of course, I did run into some concerns that it won't be able to do the things t
 
 So I started looking around for custom components and toyed around with them a bit, and this is what I came up with.
 
-<a href="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png" target="_blank">
-  <img src="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-23-02.png" alt="foobar2000">
+<a href="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-23-02.png" target="_blank">
+  <img src="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-23-02.png" alt="foobar2000">
 </a>
 
 Here's a guide on how to make your foobar2000 look more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
@@ -37,17 +36,17 @@ First off, you will need the following additional components. The version number
 
 ## Interface - Columns UI
 
-The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [thumbnail toolbars]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-07_00-03-28.png)[^fn-thumbbars].
+The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [thumbnail toolbars]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_00-03-28.png)[^fn-thumbbars].
 
 When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and it also adds thumbnail toolbars to your taskbar, without any additional components needed. Talk about a multi-purpose UI kit.
 
 After you've finished installing Columns UI and set it as your default UI, you will be presented with this screen.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-07_22-25-11.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_22-25-11.png)
 
 Here you can choose a number of quick UI presets for you to get started, but if needed, you can later customize it from `Preferences > Display > Columns UI > Layout`.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-07_22-36-35.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_22-36-35.png)
 
 Unfortunately, I've never touched this section, so look up on how you play around with this section yourself, I guess. Although the next few parts will explain why I chose to use Columns UI.
 
@@ -70,7 +69,7 @@ You will need these two components:
 
 First, open `File > Preferences > Media Library > Dynamic Fields`, click on the Add Field (+) button, and name this field `dynamic_rating`.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-20_23-21-32.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-20_23-21-32.png)
 
 Then, on the "Title formatting expression" textfield, paste the following:
 
@@ -113,7 +112,7 @@ Now, to add the column to our playlist view, go to `File > Preferences > Display
 
 Add a column at the very end. Let's call it "Rating."
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-20_23-37-20.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-20_23-37-20.png)
 
 Now, click on the Scripts tag, and paste the following into the textfield on the "Display" tab.
 
@@ -134,7 +133,7 @@ $ifgreater(%_dynamic_rating%,0,$get(display),$get(notplayed))
 
 This will give you a nice visual of the rating, with dots, as seen below. If you want to just use the actual number for this column, just type `%_dynamic_rating%` into the same textfield.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-20_23-41-37.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-20_23-41-37.png)
 
 Congrats, you now have the DADA rating installed!
 
@@ -146,16 +145,16 @@ If you take a look at my first screenshot, the "All Music" playlist are grouped 
 
 If you open `Preferences > Playlist View > Grouping`, you will see this.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-17-37.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-17-37.png)
 
 The first grouping rule in that window is included by default. But we're gonna tweak it a bit by double clicking on it. Then, on the playlist filters, select "Hide on playlists" from the dropdown, and add the playlists that you want the grouping rules to be ignored at, separated by semicolons. Here's an example.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-19-46.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-19-46.png)
 
 Save your changes, and there you go, a 100%-working Top Tracks playlist.
 
-<a href="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png" target="_blank">
-  <img src="{{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-13-37.png" alt="foobar2000">
+<a href="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-13-37.png" target="_blank">
+  <img src="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-13-37.png" alt="foobar2000">
 </a>
 
 ## Organising your music
@@ -170,7 +169,7 @@ Fortunately, there's a built-in component that does more or less the same thing.
 
 First thing to do would be to set up your FileOps configs. Right click on any track and go to `File Operations > Move to > ...`.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-26-49.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-26-49.png)
 
 Here, you can add, remove, or save presets for FileOps. The most important option here would be "File name pattern". I use the following pattern, to make it look more like iTunes:
 
@@ -182,7 +181,7 @@ You can learn more about defining file name patterns on this [wiki page](http://
 
 In order to organise new music in your library, first you **must** move your new music into a placeholder directory inside your main library folder, like `_unsorted`. Then head over to `Library > Album List`, then right click on "All Music", then head over to `File Operations > Move to` then select your saved preset, like so.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_00-35-07.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-35-07.png)
 
 You will now see a preview of the changes made in your directory. Click "Run" to confirm your changes.
 
@@ -194,17 +193,17 @@ Well, good news: `foo_discogs` does exist. Unfortunately, before you want to use
 
 To use this component, right click on any track/album, and head over to `Tagging > Discogs > Write Tags`. It will then look up the Discogs database for your album details.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_01-03-47.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_01-03-47.png)
 
 Once found, choose the appropriate release for the album, and click Next. (You can also manually type the Release ID, if you know it.)
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_01-05-57.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_01-05-57.png)
 
 Review your changes in the next dialog box, and click on "Write Tags" to write the new ID3 tags to your tracks.
 
 Though keep in mind that this only saves the album art into the album directory *without* writing it into the ID3 tags too. To do so, right click on the tracks again, and go to `Tagging > Batch attach pictures`.
 
-![foobar2000]({{ site.baseurl }}/public/images/blog/2015/the-ultimate-foobar2000-setup/2015-11-08_01-08-51.png)
+![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_01-08-51.png)
 
 Choose to overwrite the album art already attached to the track if necessary, then click "OK" to save your changes.
 
@@ -222,5 +221,5 @@ But feel free to use this guide as you wish. Customisation is one of foobar2000'
 
 It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014) if you need help in your setup procedure.
 
-[^fn-thumbbars]: [\[Source\]](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars)
-[^fn-discogs-oauth]: [\[Source\]](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow)
+[^fn-thumbbars]: [Source](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars)
+[^fn-discogs-oauth]: [Source](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow)

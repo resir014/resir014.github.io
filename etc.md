@@ -20,3 +20,7 @@ My very own foobar2000 tweaking guide.
 ### [DO IT MOTHERFUCKER DOT COM](https://resir014.github.io/doitmotherfucker){:target="_blank"}
 
 Re-hosted version of the legendary <a href="http://www.doitmotherfucker.com/">DO IT MOTHERFUCKER DOT COM</a>, which has sadly been offline for quite a while.
+
+### [TweetDeck on the phone](https://resir014.github.io/etc/tweetdeck-mobile/)
+
+Yes, I tried using TweetDeck from my phone.
