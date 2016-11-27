@@ -1,0 +1,49 @@
+{% assign project_count = site.projects | size %}
+{% if project_count > 0 %}
+  {% assign projects_sorted = site.projects | sort:"year" | reverse %}
+  {% for project in projects_sorted %}
+    {% capture currentyear %}{{ project.year }}{% endcapture %}
+    {% if currentyear != year %}
+      {% unless forloop.first %}</div>{% endunless %}
+
+      <h3>{{ currentyear }}</h3>
+      <div class="archive">
+      {% capture year %}{{ currentyear }}{% endcapture %}
+    {% endif %}
+    {% if project.project_url %}
+      <div class="archive-item">
+        <a href="{{ project.project_url }}" target="_blank">
+          <span class="archive-title">{{ project.title }}</span>
+          &raquo;
+        </a>
+        <p class="archive-details">
+          {% if project.details %}
+            {{ project.details }}
+          {% else %}
+            {{ project.content }}
+          {% endif %}
+        </p>
+      </div>
+    {% else %}
+      <div class="archive-item">
+        <a href="{{ project.url }}">
+          <span class="archive-title">{{ project.title }}</span>
+        </a>
+        <p class="archive-details">
+          {% if project.details %}
+            {{ project.details }}
+          {% else %}
+            {{ project.content }}
+          {% endif %}
+        </p>
+      </div>
+    {% endif %}
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+{% else %}
+  <div class="archive">
+    <div class="archive-item">
+      <span class="text-muted">No projects available.</span>
+    </div>
+  </div>
+{% endif %}

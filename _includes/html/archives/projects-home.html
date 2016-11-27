@@ -1,0 +1,44 @@
+{% assign project_count = site.projects | size %}
+{% if project_count > 0 %}
+  <div class="archive">
+    {% assign projects_sorted = site.projects | sort:"year" | reverse %}
+    {% for project in projects_sorted limit:3 %}
+      {% if project.project_url %}
+        <div class="archive-item">
+          <a href="{{ project.project_url }}" target="_blank">
+            <span class="archive-date">
+              {{ project.year }}
+            </span>
+            <span class="archive-title">{{ project.title }}</span>
+            &raquo;
+          </a>
+          <p class="archive-details">
+            {% if project.details %}
+              {{ project.details }}
+            {% endif %}
+          </p>
+        </div>
+      {% else %}
+        <div class="archive-item">
+          <a href="{{ project.url }}">
+            <span class="archive-date">
+              {{ project.year }}
+            </span>
+            <span class="archive-title">{{ project.title }}</span>
+          </a>
+          <p class="archive-details">
+            {% if project.details %}
+              {{ project.details }}
+            {% endif %}
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="archive">
+    <div class="archive-item">
+      <span class="text-muted">No projects available.</span>
+    </div>
+  </div>
+{% endif %}

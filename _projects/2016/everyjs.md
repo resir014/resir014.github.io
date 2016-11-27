@@ -2,8 +2,8 @@
 layout: project
 name: everyjs
 title: "@everyjs"
+year: 2016
 details: An everyword-like Twitter bot appending ".js" to every word.
-project_url: https://twitter.com/everyjs
 redirect_from:
   - /projects/other/everyjs/
 ---

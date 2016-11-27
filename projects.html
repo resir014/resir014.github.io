@@ -3,27 +3,9 @@ layout: page
 title: Projects
 ---
 
-{% for project in site.projects %}
-  <h3 class="project-name">
-    {% if project.external_url %}
-    <a href="{{ project.external_url }}" target="_blank">
-      {{ project.title }}
-      &raquo;
-    </a>
-    {% else %}
-    <a href="{{ project.url }}">
-      {{ project.title }}
-    </a>
-    {% endif %}
-  </h3>
-  <p class="project-details">
-    {% if project.details %}
-      {{ project.details }}
-    {% else %}
-      {{ project.content }}
-    {% endif %}
-  </p>
-{% endfor %}
+{% include html/archives/projects.html %}
+
+<hr>
 
 <h2>Random works</h2>
 

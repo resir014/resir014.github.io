@@ -54,6 +54,8 @@ nav:
     url: /about
   - title: blog
     url: /blog
+  - title: projects
+    url: /projects
   - title: timeless games
     url: /timeless-games
   - title: stuff
