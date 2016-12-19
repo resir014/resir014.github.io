@@ -26,6 +26,14 @@
   border: 0;
 }
 
+.related-posts {
+  li {
+    a:hover {
+      color: $link-color;
+    }
+  }
+}
+
 // Posts archive
 .archive {
   margin: 1rem 0;
