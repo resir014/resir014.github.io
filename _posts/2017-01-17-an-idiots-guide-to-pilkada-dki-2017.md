@@ -11,7 +11,7 @@ lead: "Find out what the fuss is all about the 2017 Jakarta Local Elections, as 
 
 Before I start, let me just get this out of the way. I'm an idiot. I have been abstaining from national news and media for nearly a couple months now, thanks to [the sorry state that the Indonesian media has thrown themselves into](https://twitter.com/remotivi/status/796607405077495808){:target="_blank"} over the past few years. So I pretty much know jack shit about the current goings-on in this country. And I like it so far. Being away from the noise actually helped my mental state a bit.
 
-But unfortunately, there is one major even that's about to occur on 15 February 2017 that I couldn't just ignore.
+But unfortunately, there is one major event that's about to occur on 15 February 2017 that I couldn't just ignore.
 
 That's right, the 2017 Indonesian local elections is just right around the corner. This pain-inducing, mouth-watering, traffic-jam-causing, piece of shit of an election has become the spotlight of many Jakartans, or, many people who come from other towns and cities pretending to be Jakartans. Including me. Because I actually live in South Tangerang. Sue me.
 
