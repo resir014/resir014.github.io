@@ -23,7 +23,7 @@ So, without further ado, let's begin.
 
 <figure>
   <img src="{{ site.baseurl }}/public/images/blog/2017/an-idiots-guide-to-pilkada-jakarta-2017/Large_bonfire.jpg" alt="An actual picture of my Twitter timeline.">
-  <figcaption>An actual picture of my Twitter timeline. <a href="https://en.wikipedia.org/wiki/File:Large_bonfire.jpg" target="_blank">Fir0002/Wikipedia, CC-BY-SA 3.0</a></figcaption>
+  <figcaption>An actual picture of my Twitter timeline.<br>[<a href="https://en.wikipedia.org/wiki/File:Large_bonfire.jpg" target="_blank">Fir0002/Wikipedia, CC-BY-SA 3.0</a>]</figcaption>
 </figure>
 
 ## So, what is it?
@@ -34,7 +34,7 @@ Even when there are roughly half a dozen other provinces holding their own local
 
 <figure>
   <img src="{{ site.baseurl }}/public/images/blog/2017/an-idiots-guide-to-pilkada-jakarta-2017/jakarta23.gif" alt="Actual map of Indonesia.">
-  <figcaption>Actual map of Indonesia</figcaption>
+  <figcaption>Actual map of Indonesia.</figcaption>
 </figure>
 
 ## Who's involved?
