@@ -112,3 +112,7 @@ So if you're legally a Jakarta citizen, and are eligible to vote, just go out th
 Yeah, I know. I still have no fucking idea what's happening, either.
 
 I'm still high on caffeine, too.
+
+---
+
+*This post has been updated to clarify that the GNPF is not "officially" controlled by the MUI.*
