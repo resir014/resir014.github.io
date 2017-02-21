@@ -7,6 +7,7 @@ genre:
   - indie
   - sandbox
   - open-world
+redirect_to: https://tilde.town/~resir014/timeless-games/minecraft/
 ---
 
 There's no other game that has made as much of an impact on my life as Minecraft. This was the first ever game that made me determined to explore games of any genre. The simplicity of the design, and the endless possibilities of the open-world, sandbox experience are bound to make your time in the game worthwile.
