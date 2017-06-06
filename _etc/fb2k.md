@@ -8,37 +8,39 @@ redirect_from:
   - /fb2k
 ---
 
-<p class="lead">*) Well, according to me, at least.</p>
-
-If there's something that I've learned in the past year or two, is that [foobar2000](http://www.foobar2000.org/) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
-
-Of course, I did run into some concerns that it won't be able to do the things that I always found useful on iTunes, like organising your songs neatly into their own folders based on artist, album, and the like. And with foobar2000's bare, customisation-focused experience, it does certainly look unappealing to the casual music listeners, and it *really* involves a lot of tweaking to really make your daily listening session a pleasant one.
-
-So I started looking around for custom components and toyed around with them a bit, and this is what I came up with.
-
-<a href="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-23-02.png" target="_blank">
-  <img src="{{ site.baseurl }}/public/images/etc/fb2k/2015-11-08_00-23-02.png" alt="foobar2000">
-</a>
-
-Here's a guide on how to make your foobar2000 look more like mine, which I find to be really neat. Sure, this might not be the best setup there is, but at least it makes your foobar2000 experience more bearable.
+<p class="lead">*) Well, at least for me.</p>
 
 ---
 
-## Components
+(Last updated: 06 June 2017)
 
-First off, you will need the following additional components. The version numbers might not be the latest when you're reading this off in the future, but as of the writing of this post, the version numbers are confirmed to be the most stable.
+[foobar2000](http://www.foobar2000.org/) (fb2k) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
-* [Columns UI (v0.3.9.1)](http://yuo.be/columns.php)
-* [Dynamic Fields (v1 beta 4)](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
-* [Playback Statistics (v3.0.2)](http://www.foobar2000.org/components/view/foo_playcount)
-* [Queue Contents Editor (v0.5.1)](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents))
-* [Discogs Tagger (v1.55)](https://www.foobar2000.org/components/view/foo_discogs)
+Of course, I did initially run into some concerns that it won't be able to do the things that I always found useful on iTunes. And with fb2k's bare, customisation-focused experience, it does certainly look unappealing to the casual music listeners, and it *really* involves a lot of tweaking to really improve the user experience.
+
+<a href="{{ site.baseurl }}/public/images/etc/fb2k/2017-06-06_06-29-39.png" target="_blank">
+  <img src="{{ site.baseurl }}/public/images/etc/fb2k/2017-06-06_06-29-39.png" alt="foobar2000">
+</a>
+
+Here's a guide on how to make your fb2k look more like the one above. Sure, this might not be the best setup there is, but at least it makes your fb2k experience more bearable.
+
+---
+
+## Requirements
+
+First off, you will need the following plugins (or "components", as fb2k calls them).
+
+* [Columns UI](http://yuo.be/columns.php)
+* [Dynamic Field](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
+* [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount)
+* [Queue Contents Editor](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents))
+* [Discogs Tagge](https://www.foobar2000.org/components/view/foo_discogs)
 
 ## Interface - Columns UI
 
-The default foobar2000 interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and, most importantly, [thumbnail toolbars]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_00-03-28.png)[^fn-thumbbars].
+The default fb2k interface is fine, but unfortunately it lacks some pretty important features, like customizable playlist views, and most importantly, [thumbnail toolbars](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars) with [playback controls]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_00-03-28.png) like most other music players have.
 
-When I started transitioning to foobar2000, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of foobar2000's user experience, and it also adds thumbnail toolbars to your taskbar, without any additional components needed. Talk about a multi-purpose UI kit.
+When I started transitioning to fb2k, a friend of mine recommended that I use [Columns UI](http://yuo.be/columns.php), and I loved it at first sight. It improves much of fb2k's user experience, and it also adds thumbnail toolbars to your taskbar, without any additional components needed. It's pretty much a multi-purpose UI kit for fb2k.
 
 After you've finished installing Columns UI and set it as your default UI, you will be presented with this screen.
 
@@ -48,13 +50,11 @@ Here you can choose a number of quick UI presets for you to get started, but if 
 
 ![foobar2000]({{ site.baseurl }}/public/images/etc/fb2k/2015-11-07_22-36-35.png)
 
-Unfortunately, I've never touched this section, so look up on how you play around with this section yourself, I guess. Although the next few parts will explain why I chose to use Columns UI.
+Unfortunately, I've never touched this section, so look up on how you play around with this section yourself, I guess. The next few parts will explain why I chose to use Columns UI.
 
 ## DADA algorithm - automated track ratings
 
-One other thing that foobar2000 lacks is a rating system. I've tried looking for some random components that does this but most of the time they do this thing where it will store the rating in your ID3 metadata, which is a big no.
-
-So I tried looking up for something again, and came across [this article](http://www.giantpygmy.net/gpa/index.php?id=dada-autorating) on an automated rating system for foobar2000, known as the Date and Duration Adjusted (DADA) auto-rating algorithm.
+One other thing that fb2k lacks is a rating system. I've tried looking for some random components that does this but none of them do what I wanted. Then I came across [this article](http://www.giantpygmy.net/gpa/index.php?id=dada-autorating) on an automated rating system for fb2k, known as the Date and Duration Adjusted (DADA) auto-rating algorithm.
 
 The article above provides an in-depth explanation on how the algorithm works. It does take a while to understand how the algorithm makes any sense, but four or five months in, you'll start to see it really kick in.
 
@@ -73,7 +73,7 @@ First, open `File > Preferences > Media Library > Dynamic Fields`, click on the 
 
 Then, on the "Title formatting expression" textfield, paste the following:
 
-{% highlight text %}
+```
 $puts(pc,%play_count%)
 $puts(x,$add($date_diff(%added%),2))
 $puts(y,$date_diff(%added%,%last_played%))
@@ -104,9 +104,9 @@ $puts(r2a,$ifgreater($get(r2),0,$get(r2),1))
 $puts(r3,$sub($get(r2),$div($mul($get(r2a),$get(z),3),50000)))
 $puts(r4,$add($get(r3),$get(b1)))
 $ifgreater($get(pc),0,$num($get(r4),5),-----)
-{% endhighlight %}
+```
 
-Then set your recalculation interval in the dropdown at the top. I usually set it to 5 minutes. Then click "Okay" twice, and foobar2000 will restart.
+Then set your recalculation interval in the dropdown at the top. I usually set it to 5 minutes. Then click "Okay" twice, and fb2k will restart.
 
 Now, to add the column to our playlist view, go to `File > Preferences > Display > Columns UI > Playlist View`, then click on the Columns tab.
 
@@ -116,7 +116,7 @@ Add a column at the very end. Let's call it "Rating."
 
 Now, click on the Scripts tag, and paste the following into the textfield on the "Display" tab.
 
-{% highlight text %}
+```
 $puts(maxdar,10000)
 $puts(mindar,5000)
 $puts(maxsub,$sub($get(maxdar),0))
@@ -129,7 +129,7 @@ $puts(darind3,$ifgreater($get(darind2),1,$get(darind2),1))
 $puts(display,$rgb(100,100,100)$repeat($char(9679),$get(darind3))$rgb(220,220,220)$repeat($char(9679),$sub(10,$get(darind3))))
 $puts(notplayed,$rgb(200,200,200)- n/a -)
 $ifgreater(%_dynamic_rating%,0,$get(display),$get(notplayed))
-{% endhighlight %}
+```
 
 This will give you a nice visual of the rating, with dots, as seen below. If you want to just use the actual number for this column, just type `%_dynamic_rating%` into the same textfield.
 
@@ -163,9 +163,9 @@ This section will be broken down in two parts. In the first part, I will explain
 
 ### File Operations
 
-If there's one thing to love from iTunes, is that I love how it organises your music collection neatly into their own folders, separated by artist and album. It really has been what made me stuck with iTunes for too long, and when I made the switch to foobar2000, I just had to research on whether foobar2000 would be able to do the same.
+If there's one thing to love from iTunes, is that I love how it organises your music collection neatly into their own folders, separated by artist and album. It really has been what made me stuck with iTunes for too long, and when I made the switch to fb2k, I just had to research on whether fb2k would be able to do the same.
 
-Fortunately, there's a built-in component that does more or less the same thing. File Operations (`foo_fileops`) is a built-in component that is included if you choose to install foobar2000 with some additional components.
+Fortunately, there's a built-in component that does more or less the same thing. File Operations (`foo_fileops`) is a built-in component that is included if you choose to install fb2k with some additional components.
 
 First thing to do would be to set up your FileOps configs. Right click on any track and go to `File Operations > Move to > ...`.
 
@@ -207,19 +207,18 @@ Though keep in mind that this only saves the album art into the album directory 
 
 Choose to overwrite the album art already attached to the track if necessary, then click "OK" to save your changes.
 
-## Backing up your foobar2000 installation.
+## Backing up your fb2k installation.
 
-If in some cases you'll need to reinstall your computer, and you couldn't afford to lose your sick foobar2000 setup, you can back up your foobar2000 installation and transfer it to another computer. [This article on How-To Geek](http://www.howtogeek.com/howto/19035/backup-and-transfer-foobar2000-to-a-new-computer/) will explain how.
+If in some cases you'll need to reinstall your computer, and you couldn't afford to lose your sick fb2k setup, you can back up your fb2k installation and transfer it to another computer. [This article on How-To Geek](http://www.howtogeek.com/howto/19035/backup-and-transfer-foobar2000-to-a-new-computer/) will explain how.
 
 ---
 
 ## Conclusion
 
-In conclusion: yes, you *can* actually make your foobar2000 experience to be more bearable. Yes, foobar2000 is the one of the best, most customisable music players out there, and yes, you *should* use it yourself too.
+In conclusion: yes, you *can* actually make your fb2k experience to be more bearable. Yes, fb2k is the one of the best, most customisable music players out there, and yes, you *should* use it yourself too.
 
-But feel free to use this guide as you wish. Customisation is one of foobar2000's prime experience, in fact, I *encourage* you to improve on this setup yourself. The setup demonstrated here is what has always worked for me, and people's tastes can be different, so feel free to change things up here and there if you don't like how some stuff works.
+Feel free to use this guide as you wish. Customisation is one of fb2k's prime experience, in fact, I *encourage* you to improve on this setup yourself. The setup demonstrated here is what has always worked for me, and people's preferences can be different, so feel free to change things up here and there if you don't like how some stuff works.
 
 It's a tedious process at first, but trust me, it really *will* be worth it at the end of the day. Feel free to [tweet at me](https://twitter.com/resir014) if you need help in your setup procedure.
 
-[^fn-thumbbars]: [Source](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#thumbbars)
 [^fn-discogs-oauth]: [Source](https://www.discogs.com/developers/#page:authentication,header:authentication-discogs-auth-flow)
