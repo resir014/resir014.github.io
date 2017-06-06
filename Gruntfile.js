@@ -1,7 +1,6 @@
 module.exports = function (grunt) {
-
   // Load all tasks matching the `grunt-*` pattern
-  require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt)
 
   grunt.initConfig({
     // Project configuration
@@ -22,18 +21,32 @@ module.exports = function (grunt) {
           src: ['**/*.{png,jpg,gif}'],
           dest: 'public'
         }]
-      },
+      }
     },
 
     // Lint SCSS files
     scsslint: {
       test: [
-        '_scss/**/*.scss',
+        '_scss/**/*.scss'
       ],
       options: {
         bundleExec: true,
         config: '.scss-lint.yml'
+      }
+    },
+
+    postcss: {
+      options: {
+        map: false,
+        processors: [
+          require('pixrem')(),
+          require('autoprefixer')({ browsers: 'last 2 versions' }),
+          require('cssnano')({ preset: 'default' })
+        ]
       },
+      dist: {
+        src: 'css/*.css'
+      }
     },
 
     // Builds Jekyll website to `_site` directory
@@ -48,17 +61,17 @@ module.exports = function (grunt) {
         }
       }
     }
-  });
+  })
 
   // Default task
-  grunt.registerTask('default', ['test']);
+  grunt.registerTask('default', ['test'])
 
   // Lint SCSS files
-  grunt.registerTask('test', ['scsslint']);
+  grunt.registerTask('test', ['scsslint'])
 
   // Start a local server
-  grunt.registerTask('serve', ['jekyll:serve']);
+  grunt.registerTask('serve', ['jekyll:serve'])
 
   // Minify images
-  grunt.registerTask('optimise', ['imagemin']);
-};
+  grunt.registerTask('optimise', ['imagemin'])
+}
