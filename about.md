@@ -3,15 +3,15 @@ layout: page
 title: about
 ---
 
-Hi, call me Resi! I'm a 22-year-old Indonesian college student currently living in Jakarta.
+Hi, call me Resi! I'm a web developer.
 
-I'm an aspiring web developer. I started getting into web development when I self-learned HTML and CSS back in high school. I've done quite a few little design projects for my friends' websites, and I have designed several Tumblr themes for my side blogs, some of which I still actively maintain.
+I started getting into web development when I self-learned HTML and CSS back in high school. I currently work as a junior web developer for [CekAja.com](https://www.cekaja.com/), a well-known player in the Indonesian fintech industry.
 
-I also have a number of other interests, including video games, motorsports, photography, and music, and I'm also trying my best to reflect these interests on my website. Though most of the stuff here are mostly dedicated to my works, if you want more random stuff from me you should probably check my [Twitter](https://twitter.com/resir014).
+My other interests include, video games, motorsports, photography, and music. I keep a catalogue of interests on my [tilde.town page](https://tilde.town/~resir014/). Be sure to check them out, we might have some things in common!
 
 ## Stalk me.
 
-If you want to get in touch with me, even just to say hi, feel free to do so.
+I *might* do some freelance work over time, so if you want to get in touch with me, even if you just want to say hi, feel free to do so.
 
 * Twitter: [@resir014](https://twitter.com/resir014)
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
@@ -20,7 +20,7 @@ If you want to get in touch with me, even just to say hi, feel free to do so.
 
 ## About this website
 
-This [Jekyll](https://jekyllrb.com/) website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/) and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games. The source code is available [here](https://github.com/resir014/resir014.github.io).
+This [Jekyll](https://jekyllrb.com/) website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/). The source code is available [here](https://github.com/resir014/resir014.github.io).
 
 The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
 
