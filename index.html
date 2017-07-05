@@ -3,21 +3,23 @@ layout: home
 title: Home
 ---
 
-<h1>get in touch</h1>
+<div class="widget">
+  <h1 class="widget-title">Get in touch</h1>
 
-<h3><a href="https://twitter.com/resir014" target="_blank">Twitter</a></h3>
-<p>Where I mostly shitpost about computers and other generic things.</p>
+  <h3><a href="https://twitter.com/resir014" target="_blank">Twitter</a></h3>
+  <p>Where I mostly shitpost about computers and other generic things.</p>
 
-<h3><a href="https://github.com/resir014" target="_blank">GitHub</a></h3>
-<p>The dumping ground for most of my failed projects.</p>
+  <h3><a href="https://github.com/resir014" target="_blank">GitHub</a></h3>
+  <p>The dumping ground for most of my failed projects.</p>
 
-<h3><a href="https://tilde.town/~resir014/" target="_blank">tilde.town</a></h3>
-<p>Random words, artistry, and the like.</p>
+  <h3><a href="https://tilde.town/~resir014/" target="_blank">tilde.town</a></h3>
+  <p>Random words, artistry, and the like.</p>
+</div>
 
-<hr>
+<div class="widget">
+  <h1 class="widget-title">Projects</h1>
 
-<h1>projects</h1>
+  {% include html/archives/projects-home.html %}
 
-{% include html/archives/projects-home.html %}
-
-<a href="{{ site.baseurl }}/projects">More projects &rarr;</a>
+  <a href="{{ site.baseurl }}/projects">More projects &rarr;</a>
+</div>

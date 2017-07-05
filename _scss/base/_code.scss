@@ -5,20 +5,21 @@
 
 code,
 pre {
-  font-family: $code-font-family;
+  font-family: $font-family-monospace;
 }
 
 code {
   padding: .25em .5em;
   font-size: 85%;
   color: $code-color;
-  background-color: #f9f9f9;
+  background-color: $code-background-color;
   border-radius: 3px;
 }
 
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
+  overflow-x: auto;
 }
 
 pre code {
@@ -34,7 +35,6 @@ pre code {
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
   border-radius: .25rem;
 
   pre {
@@ -46,33 +46,10 @@ pre code {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-right: .75rem;
     padding-left: .25rem;
-    color: #999;
+    color: $code-linenos-color;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
   }
 }
-
-
-// Gist via GitHub Pages
-// .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
-// }
-// .gist .markdown-body {
-//   padding: 15px;
-// }
-// .gist pre {
-//   padding: 0;
-//   background-color: transparent;
-// }
-// .gist .gist-file .gist-data {
-//   font-size: .8rem !important;
-//   line-height: 1.4;
-// }
-// .gist code {
-//   padding: 0;
-//   color: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-// }

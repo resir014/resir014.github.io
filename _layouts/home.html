@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<h1>latest posts</h1>
-
-{% include html/archives/home.html %}
-
-<a href="{{ site.baseurl }}/blog">Read more &rarr;</a>
-
-<hr>
-
 <main>
+  <div class="widget">
+    <h1 class="widget-title">Latest posts</h1>
+
+    {% include html/archives/home.html %}
+
+    <a href="{{ site.baseurl }}/blog">Read more &rarr;</a>
+  </div>
+
   {{ content }}
 </main>
