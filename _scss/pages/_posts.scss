@@ -10,6 +10,16 @@
   li + li {
     margin-top: .25rem;
   }
+
+  figure {
+    text-align: center;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 // Wrapper for post/page header
