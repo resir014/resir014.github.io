@@ -22,15 +22,28 @@
   }
 
   .masthead-title {
-    margin: 0;
-    padding: 0 .5rem;
+    @include highlighted-text($masthead-title-background-color);
+    display: inline-block;
     color: $masthead-title-color;
-    background-color: $masthead-title-background-color;
 
     @include on-event {
       color: $masthead-title-hover-color;
       text-decoration: none;
     }
+  }
+}
+
+.masthead-flavor {
+  margin-top: .25rem;
+
+  span {
+    @include highlighted-text($masthead-title-background-color);
+    line-height: 1.6;
+  }
+
+  @media (min-width: $media-breakpoint-md) {
+    display: inline-block;
+    margin-top: 0;
   }
 }
 
@@ -43,16 +56,19 @@
   a {
     display: inline-block;
     padding: .25rem .5rem;
-    background-color: $masthead-link-background-color;
-    color: $masthead-link-color;
 
     &:not(:last-child) {
       margin-right: 1.25rem;
     }
 
-    @include on-event {
-      text-decoration: none;
-      background-color: darken($masthead-link-background-color, 5%);
+    @media (min-width: $media-breakpoint-md) {
+      background-color: $masthead-link-background-color;
+      color: $masthead-link-color;
+
+      @include on-event {
+        text-decoration: none;
+        background-color: darken($masthead-link-background-color, 5%);
+      }
     }
   }
 
@@ -65,9 +81,9 @@
     }
   }
 
-  @media (min-width: $media-breakpoint-md) {
-    float: right;
-    margin-top: .25rem;
-    margin-bottom: .25rem;
-  }
+  // @media (min-width: $media-breakpoint-md) {
+  //   float: right;
+  //   margin-top: .25rem;
+  //   margin-bottom: .25rem;
+  // }
 }

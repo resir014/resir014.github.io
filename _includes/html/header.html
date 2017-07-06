@@ -1,9 +1,9 @@
 <header class="masthead">
   <div class="container">
     <a class="masthead-title" href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-    {% if site.tagline %}
-    <small>{{ site.tagline }}</small>
-    {% endif %}
+    <div class="masthead-flavor">
+      <span id="flavorText"></span>
+    </div>
     <nav class="masthead-nav">
     {% for link in site.nav %}
       {% if link.title %}

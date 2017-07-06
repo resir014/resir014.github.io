@@ -31,5 +31,5 @@
   var flavorText = document.getElementById('flavorText')
 
   flavorText.innerHTML = flavors[flavorIndex]
-  flavorText.className = colors[colorIndex]
+  flavorText.className = 'masthead-flavor ' + colors[colorIndex]
 })()
