@@ -37,13 +37,13 @@ And to avoid the sticker permalinks being rendered using the `pretty` format, wh
 
 Which means I had to do the annoying `permalink` setup on each of the page's frontmatter.
 
-{% highlight text %}
+```
 ---
 layout: page
 title: about
 permalink: /about/
 ---
-{% endhighlight %}
+```
 
 You can also use the old way of creating a directory with the page's slug as its name, and putting an `index.html` file inside containing the page.
 

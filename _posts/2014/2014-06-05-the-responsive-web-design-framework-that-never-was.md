@@ -29,7 +29,7 @@ For the responsive grids I researched about implementing responsiveness in web d
 
 Firstly, we have the base box-sizing reset and height resets which are set globally, and some other CSS hacks.
 
-{% highlight css %}
+```css
 /* Base Styles */
 
 *, *:before, *:after {
@@ -51,7 +51,7 @@ html, body {
 .pull-left {
   float: left !important;
 }
-{% endhighlight %}
+```
 
 As you can see, I've imported the `.pull-right` and `.pull-left` class from Bootstrap as it's a pretty useful feature. I've also inluded a hack for the `html` and `body` element which allows me to design a full-screen header as you can see on my homepage.
 
@@ -61,7 +61,7 @@ The grids were heavily based on Adam's responsive grids CSS, with some mixed ele
 
 The containers and rows were taken from Bootstrap, mainly the column padding and gutters and a built-in clearfix at the `.row` classes.
 
-{% highlight css %}
+```css
 /**
  * Grid System
  */
@@ -85,11 +85,11 @@ The containers and rows were taken from Bootstrap, mainly the column padding and
 .row:after {
   clear: both;
 }
-{% endhighlight %}
+```
 
 The columns I use here are an expanded version of Adam Kaplan's grid.css, slightly modified to make it have that Bootstrap feel. I settled for the 12-grid fluid columns layout, and class names are designed to closely follow Bootstrap's naming standards.
 
-{% highlight css %}
+```css
 .col {
   position: relative;
   min-height: 1px;
@@ -131,13 +131,13 @@ The columns I use here are an expanded version of Adam Kaplan's grid.css, slight
 .clearfix:after {
   clear: both;
 }
-{% endhighlight %}
+```
 
 This CSS actually requires to load the `.col` class first, though it may sound redundant, but it helps to minimize the work of replacing column class names. There's also a `.col-push` class if you want to switch the order of the columns over.
 
 A typical grid layout may look like this:
 
-{% highlight html %}
+```html
 <div class="container">
   <div class="row">
     <div class="col col-9">
@@ -148,7 +148,7 @@ A typical grid layout may look like this:
     </div>
   </div>
 </div>
-{% endhighlight %}
+```
 
 ## So, what happened to it?
 
