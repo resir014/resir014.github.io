@@ -1,39 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
   {% include head.html %}
 
   <body>
 
-    <div class="container content">
-      <header class="masthead">
-        <a class="masthead-brand" href="{{ site.baseurl }}/" title="Home">
-          {{ site.title }}
-        </a>
-        <nav class="masthead-nav">
-          {% for link in site.nav %}
-            {% if link.title %}
-            {% assign current = '' %}
-            {% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
-            <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </nav>
-      </header>
+    {% include html/header.html %}
 
-      <hr>
+    <div class="container content">
 
       <main>
         {{ content }}
       </main>
 
-      <hr>
+      {% include html/footer.html %}
 
-      <footer class="footer">
-        <small>
-          Except where otherwise noted, contents are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-        </small>
-      </footer>
     </div>
 
     {% include scripts.html %}

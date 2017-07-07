@@ -13,8 +13,7 @@
     {% if project.project_url %}
       <div class="archive-item">
         <a href="{{ project.project_url }}" target="_blank">
-          <span class="archive-title">{{ project.title }}</span>
-          &raquo;
+          <span class="archive-title is-external">{{ project.title }} &raquo;</span>
         </a>
         <p class="archive-details">
           {% if project.details %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 ---
 
 Hi, call me Resi! I'm a web developer.
