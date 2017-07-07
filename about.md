@@ -29,9 +29,7 @@ echo 'C6D:C_`co8>2:=]4@>' | tr '!-~' 'P-~!-O'
 
 ## About this website
 
-This [Jekyll](https://jekyllrb.com/) website, hosted on [GitHub Pages](https://pages.github.com/) uses a heavily-modified version of [Poole](http://getpoole.com/). The source code is available [here](https://github.com/resir014/resir014.github.io).
-
-The [Poole theme](http://getpoole.com/) is &copy; Mark Otto, licensed under [MIT](https://github.com/poole/poole/blob/master/LICENSE.md).
+This [Jekyll](https://jekyllrb.com/) website, hosted on [GitHub Pages](https://pages.github.com/) uses a slightly-modified version of [Roundabout](http://blvd.space/roundabout), a theme initially designed to be the base of all my websites. It's also available for everyone, so feel free to give it a try!
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
   <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
