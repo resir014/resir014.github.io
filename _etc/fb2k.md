@@ -8,11 +8,13 @@ redirect_from:
   - /fb2k
 ---
 
-<p class="lead">*) Well, at least for me.</p>
+<div class="post-subtitle">
+  <span>*) Well, at least for me.</span>
+</div>
 
 ---
 
-(Last updated: 06 June 2017)
+(Last updated: 07 July 2017)
 
 [foobar2000](http://www.foobar2000.org/) (fb2k) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
