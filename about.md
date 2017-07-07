@@ -16,7 +16,16 @@ I *might* do some freelance work over time, so if you want to get in touch with 
 * Twitter: [@resir014](https://twitter.com/resir014)
 * Tumblr: [resir014.tumblr.com](http://resir014.tumblr.com/)
 * GitHub: [resir014](https://github.com/resir014)
-* Email: **resir014 [at] gmail [dot] com** ([keybase](https://keybase.io/resir014))
+
+## Email
+
+Due to the increasing email spam that I get nowadays, you will have to solve this simple puzzle in order to get my email address:
+
+```
+echo 'C6D:C_`co8>2:=]4@>' | tr '!-~' 'P-~!-O'
+```
+
+([You can also verify my Keybase PGP key here.](https://keybase.io/resir014))
 
 ## About this website
 
