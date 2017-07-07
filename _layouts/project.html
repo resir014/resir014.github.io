@@ -27,7 +27,11 @@ layout: default
     </div>
   </header>
 
-  {% if page.category == "webdesign" %}
+  {% if page.header_image_url %}
+  <figure class="hidden-md">
+    <img src="{{ site.baseurl }}{{ page.header_image_url }}" alt="{{ page.title }}">
+  </figure>
+  {% elsif page.category == "webdesign" %}
   <figure>
     {% if page.project_url %}
     <a class="project-link" href="{{ page.project_url }}" target="_blank">
