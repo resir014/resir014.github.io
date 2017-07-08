@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "The Ultimate foobar2000 Setup*"
+header_image_url: /public/images/etc/fb2k/2017-06-06_06-29-39.png
 redirect_from:
   - /blog/2015/11/08/the-ultimate-foobar2000-setup/
   - /2015/11/08/the-ultimate-foobar2000-setup/
@@ -12,17 +13,11 @@ redirect_from:
   <span>*) Well, at least for me.</span>
 </div>
 
----
-
-(Last updated: 07 July 2017)
+(Last updated: 09 July 2017)
 
 [foobar2000](http://www.foobar2000.org/) (fb2k) is the most lightweight, powerful, customizable music player I've ever used. I switched over from iTunes, as I was getting tired of the bloat it has become, and I have never turned back ever since.
 
 Of course, I did initially run into some concerns that it won't be able to do the things that I always found useful on iTunes. And with fb2k's bare, customisation-focused experience, it does certainly look unappealing to the casual music listeners, and it *really* involves a lot of tweaking to really improve the user experience.
-
-<a href="{{ site.baseurl }}/public/images/etc/fb2k/2017-06-06_06-29-39.png" target="_blank">
-  <img src="{{ site.baseurl }}/public/images/etc/fb2k/2017-06-06_06-29-39.png" alt="foobar2000">
-</a>
 
 Here's a guide on how to make your fb2k look more like the one above. Sure, this might not be the best setup there is, but at least it makes your fb2k experience more bearable.
 
@@ -36,7 +31,7 @@ First off, you will need the following plugins (or "components", as fb2k calls t
 * [Dynamic Field](https://www.hydrogenaud.io/forums/index.php?showtopic=86853&start=0&p=744320&#entry744320)
 * [Playback Statistics](http://www.foobar2000.org/components/view/foo_playcount)
 * [Queue Contents Editor](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components/Queue_Contents_Editor_(foo_queuecontents))
-* [Discogs Tagge](https://www.foobar2000.org/components/view/foo_discogs)
+* [Discogs Tagger](https://www.foobar2000.org/components/view/foo_discogs)
 
 ## Interface - Columns UI
 
