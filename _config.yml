@@ -8,6 +8,9 @@ description:        "Writings, ramblings, and projects of Resi Respati (@resir01
 url:                https://resir014.github.io
 baseurl:            ""
 
+# Google Analytics (uncomment if you have any)
+analytics_id:       "UA-11448343-3"
+
 # Exclude these files from Jekyll build
 exclude:
   - "Makefile"
