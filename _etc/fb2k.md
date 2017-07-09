@@ -170,9 +170,9 @@ First thing to do would be to set up your FileOps configs. Right click on any tr
 
 Here, you can add, remove, or save presets for FileOps. The most important option here would be "File name pattern". I use the following pattern, to make it look more like iTunes:
 
-{% highlight text %}
+```
 %album artist%/%album%/[%discnumber%-]%tracknumber% %title%
-{% endhighlight %}
+```
 
 You can learn more about defining file name patterns on this [wiki page](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_operations).
 
