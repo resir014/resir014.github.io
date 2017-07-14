@@ -54,7 +54,7 @@ If you're really concerned about your privacy and want to stay anonymous, consid
 
 ## Guide for Windows
 
-In this section, we'll cover some ways to install DNSCrypt into your Windows machine.
+In this section, we'll cover some ways to install DNSCrypt into your Windows machine. The easiest way would be to install a GUI client that will help you set it up, or if you're a little more advanced, you can [skip forward](#the-hard-way-command-line) for a guide on setting it up on the command line.
 
 ### The easy way (GUI client)
 
@@ -94,7 +94,7 @@ Run the DNS leak test again, and your DNS resolver should work normally again!
 
 ### The hard way (command line)
 
-If you want more control of the DNSCrypt service, you can always set it up from the command line. [Dominus Temporis](https://dominustemporis.com/2014/05/dnscrypt-on-windows-update/) has a nice guide to get the DNSCrypt service running through the command line.
+If you're an advanced user and you want more control of the DNSCrypt service, you can always set it up from the command line. [Dominus Temporis](https://dominustemporis.com/2014/05/dnscrypt-on-windows-update/) has a nice guide to get the DNSCrypt service running through the command line.
 
 ---
 
