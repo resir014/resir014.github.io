@@ -3,9 +3,18 @@ layout: page
 title: DNSCrypt Field Guide
 ---
 
+---
+
 The following page is a quick guide to [DNSCrypt](https://dnscrypt.org/), a protocol designed to improve your DNS security.
 
-*This page is still a work-in-progress. More information will be added when available.*
+English &#124; Bahasa Indonesia (coming soon!)
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [What is DNSCrypt?](#what-is-dnscrypt)
+* [Guide for Windows](#guide-for-windows)
+* [Guide for macOS](#guide-for-macos)
 
 ---
 
@@ -27,13 +36,15 @@ As you can see, the default DNS server from my own ISP is now showing instead of
 
 ---
 
-## What DNSCrypt does
+## What is DNSCrypt?
+
+### What it does
 
 DNSCrypt solves the DNS leak problem mentioned above. It uses cryptographic signatures to verify that responses originate from the chosen DNS resolver and haven't been tampered with.
 
 If you're worried about your internet service provider intercepting your DNS resolver, and have them swap it with their own DNS resolver, be it for logging purposes, or to inject advertising to your browsing activity, then this is the right tool for you to use.
 
-## What DNSCrypt doesn't do
+### What it doesn't do
 
 Please be aware that DNSCrypt is **not a VPN**, or a replacement for it. It does not anonymize your connection at all. DNSCrypt is just a protocol used to verify and authenticate your connection with your DNS resolver, as explained above.
 
@@ -41,11 +52,11 @@ If you're really concerned about your privacy and want to stay anonymous, consid
 
 ---
 
-## Getting it to work
+## Guide for Windows
 
-For now, the following guides are only available for Windows. However, feel free to [let me know](https://twitter.com/resir014) if you can get a quick guide for other operating systems, and I'll add them here.
+In this section, we'll cover some ways to install DNSCrypt into your Windows machine.
 
-### Windows (the easy way)
+### The easy way (GUI client)
 
 If you don't know how to set up DNSCrypt through a command line, a few DNSCrypt clients are available for Windows:
 
@@ -81,6 +92,16 @@ And lastly, click on a network adapter to activate the service for that adapter.
 
 Run the DNS leak test again, and your DNS resolver should work normally again!
 
-### Windows (the hard way)
+### The hard way (command line)
 
 If you want more control of the DNSCrypt service, you can always set it up from the command line. [Dominus Temporis](https://dominustemporis.com/2014/05/dnscrypt-on-windows-update/) has a nice guide to get the DNSCrypt service running through the command line.
+
+---
+
+## Guide for macOS
+
+Coming soon!
+
+---
+
+Hope this guide helps! Feel free to [tweet at me](https://twitter.com/resir014) if you need any help setting it up.
