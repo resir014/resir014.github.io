@@ -26,7 +26,7 @@ However, at some times, these alternate DNS servers might be intercepted by your
 
 For instance, here's a test run by someone using the Google Public DNS, run on a different network from mine.
 
-![google-dns-nm]({{ site.baseurl }}/public/images/etc/dnscrypt/2mga42Z.jpg)
+![google-dns-nm]({{ site.baseurl }}/public/images/etc/dnscrypt/2mga42Z.png)
 
 However, when running the same test using the same DNS provider through my own network, I see this.
 
