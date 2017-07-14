@@ -20,7 +20,7 @@ English &#124; Bahasa Indonesia (coming soon!)
 
 ## Introduction
 
-There comes a time where you would use an alternate DNS server over the DNS servers provided by your ISP, be it to improve your Internet performance, get around filters, etc. How-To Geek has [a good article](http://www.howtogeek.com/167239/7-reasons-to-use-a-third-party-dns-service/) explaining why you would prefer to use an alternate DNS service. A few popular alternate DNS servers include [Google Public DNS](https://developers.google.com/speed/public-dns/), [Cisco OpenDNS](https://www.opendns.com/) or [OpenNIC](https://www.opennicproject.org/).
+There comes a time where you would use an alternate Domain Name System (DNS) server over the DNS servers provided by your internet service provider (ISP), be it to improve your Internet performance, get around filters, etc. How-To Geek has [a good article](http://www.howtogeek.com/167239/7-reasons-to-use-a-third-party-dns-service/) explaining why you would prefer to use an alternate DNS service. A few popular alternate DNS servers include [Google Public DNS](https://developers.google.com/speed/public-dns/), [Cisco OpenDNS](https://www.opendns.com/) or [OpenNIC](https://www.opennicproject.org/).
 
 However, at some times, these alternate DNS servers might be intercepted by your ISP, allowing your ISP to be able to log your Internet activities again. This is called a **DNS leak**. A good way to test this is through the [DNS leak test](https://dnsleaktest.com/).
 
@@ -42,7 +42,9 @@ As you can see, the default DNS server from my own ISP is now showing instead of
 
 DNSCrypt solves the DNS leak problem mentioned above. It uses cryptographic signatures to verify that responses originate from the chosen DNS resolver and haven't been tampered with.
 
-If you're worried about your internet service provider intercepting your DNS resolver, and have them swap it with their own DNS resolver, be it for logging purposes, or to inject advertising to your browsing activity, then this is the right tool for you to use.
+Your ISP often intercepts the DNS resolvers you use, and then swap them with their own DNS resolver. This can be used to do various things, whether it's to log their customers' activities, inject ads to your browser, or even block certain domains.
+
+If you're worried about the things mentioned above, then this is the right tool for you.
 
 ### What it doesn't do
 
