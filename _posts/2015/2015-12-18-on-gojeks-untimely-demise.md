@@ -73,3 +73,5 @@ As for the current state of our public transport, as long as it remains however 
 
 [^fn-cite-1]: [\[Source\]](http://tompepinsky.com/2015/08/03/on-the-disruption-of-go-jek/)
 [^fn-cite-2]: [\[Source\]](http://megapolitan.kompas.com/read/2015/09/01/14043961/Pertemukan.Pengemudi.Ojek.Pangkalan.dan.Aplikasi.Jokowi.Minta.Bersaing.Sehat)
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -47,3 +47,5 @@ I still can't comprehend the fact that in an era where net neutrality is becomin
 Did anyone say, 1984?
 
 These acts of censorship must be stopped, but unfortunately there are still no local organisations which fully support, and fight for the freedom of information, on the Internet, in this country. Until then, I can only hope for the best. Or just move out of this country should opportunities arise.
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

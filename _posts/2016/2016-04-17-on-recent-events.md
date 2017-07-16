@@ -23,3 +23,5 @@ This has actually been brought into light by one of my friends online who have b
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I don&#39;t blindly follow what others have said about that person, not even both parties. As the facts unfold and enough has been gathered &gt;&gt;</p>&mdash; ️ (@resir014) <a href="https://twitter.com/resir014/status/721401527257018368">April 16, 2016</a></blockquote>
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">from both sides, I will surely be able to make my own judgement without any form of conflict of interest.</p>&mdash; ️ (@resir014) <a href="https://twitter.com/resir014/status/721401720857755648">April 16, 2016</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
