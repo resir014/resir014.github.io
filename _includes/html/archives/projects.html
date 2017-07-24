@@ -4,45 +4,30 @@
   {% for project in projects_sorted %}
     {% capture currentyear %}{{ project.year }}{% endcapture %}
     {% if currentyear != year %}
-      {% unless forloop.first %}</div>{% endunless %}
 
-      <h3>{{ currentyear }}</h3>
-      <div class="archive">
+      <h2>{{ currentyear }}</h2>
       {% capture year %}{{ currentyear }}{% endcapture %}
     {% endif %}
     {% if project.project_url %}
-      <div class="archive-item">
-        <a href="{{ project.project_url }}" target="_blank">
-          <span class="archive-title is-external">{{ project.title }} &raquo;</span>
-        </a>
-        <p class="archive-details">
-          {% if project.details %}
-            {{ project.details }}
-          {% else %}
-            {{ project.content }}
-          {% endif %}
-        </p>
-      </div>
+      <h3><a href="{{ project.project_url }}" target="_blank">{{ project.title }} &raquo;</a></h3>
+      <p class="archive-details">
+        {% if project.details %}
+          {{ project.details }}
+        {% else %}
+          {{ project.content }}
+        {% endif %}
+      </p>
     {% else %}
-      <div class="archive-item">
-        <a href="{{ project.url }}">
-          <span class="archive-title">{{ project.title }}</span>
-        </a>
-        <p class="archive-details">
-          {% if project.details %}
-            {{ project.details }}
-          {% else %}
-            {{ project.content }}
-          {% endif %}
-        </p>
-      </div>
+      <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+      <p class="archive-details">
+        {% if project.details %}
+          {{ project.details }}
+        {% else %}
+          {{ project.content }}
+        {% endif %}
+      </p>
     {% endif %}
-    {% if forloop.last %}</div>{% endif %}
   {% endfor %}
 {% else %}
-  <div class="archive">
-    <div class="archive-item">
-      <span class="text-muted">No projects available.</span>
-    </div>
-  </div>
+  <span class="text-muted">No projects available.</span>
 {% endif %}
