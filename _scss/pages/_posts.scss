@@ -114,7 +114,7 @@
   }
 
   span {
-    @include highlighted-text($theme-accent3, 0, .25rem);
+    @include highlighted-text($post-subtitle-highlight-color, 0, .25rem);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.75;
