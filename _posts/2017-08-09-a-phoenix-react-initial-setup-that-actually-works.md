@@ -5,6 +5,8 @@ title: "A Phoenix+React initial setup that actually works"
 subtitle: "I got tired of following guides on connecting React with Phoenix that never seem to work, so I made my own."
 ---
 
+*This post is also published on [Medium](https://medium.com/@resir014/a-phoenix-react-initial-setup-that-actually-works-c943e48f1e9e){:target="_blank"}.*
+
 I've been playing around with [Elixir](https://elixir-lang.org/) a lot lately. Recently a friend showed me [this blog post](https://blog.discordapp.com/scaling-elixir-f9b8e1e7c29b) by the Discord engineering team about how they could scale their platform through the power of Elixir, and after reading it I was convinced to give it a try. If you're about to learn the language, and you came from Node.js like me, I suggest you go watch [this introductory video](https://www.youtube.com/watch?v=q8wueg2hswA).
 
 A research into the Elixir ecosystem pointed me to the [Phoenix](http://phoenixframework.org/) framework. If Ruby had [Rails](http://rubyonrails.org/), and PHP had [Laravel](https://laravel.com/), then Elixir has Phoenix. If you've ever used Rails before, you'll feel right at home. It has the bare essentials of your typical MVC framework, although it has some neat additional features like [Channels](https://hexdocs.pm/phoenix/channels.html).
