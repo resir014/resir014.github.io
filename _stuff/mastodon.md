@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://tilde.town/~resir014/mastodon
+  - https://resir014.xyz/mastodon
 ---
