@@ -1,16 +1,6 @@
 # Permalinks
 permalink:          pretty
 
-# Setup
-title:              "@resir014"
-tagline:            "Thoughts on life."
-description:        "Writings, ramblings, and projects of Resi Respati (@resir014)."
-url:                https://resir014.github.io
-baseurl:            ""
-
-# Google Analytics (uncomment if you have any)
-analytics_id:       "UA-11448343-3"
-
 # Exclude these files from Jekyll build
 exclude:
   - "Makefile"
@@ -23,46 +13,9 @@ exclude:
   - "package.json"
   - "bower.json"
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:         _scss
-  style:            :compressed
-
-# List of time zones supported in the TZ database
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Jakarta
-
-# About/contact
-author:
-  name:             Resi Respati
-  url:              https://twitter.com/resir014
-  email:            resir014@gmail.com
-
-# Disqus comments
-disqus_shortname:   resir014
-
 # Gems
 gems:
-  - jekyll-gist
-  - jemoji
   - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-paginate
-
-# Navigational menus
-nav:
-  - title: about
-    url: /about
-  - title: blog
-    url: /blog
-  - title: projects
-    url: /projects
-  - title: timeless games
-    url: /timeless-games
-  - title: stuff
-    url: /etc
 
 # Collections
 collections:
@@ -73,8 +26,5 @@ collections:
     output: true
     permalink: /:collection/:path/
   etc:
-    output: true
-    permalink: /:collection/:path/
-  timeless-games:
     output: true
     permalink: /:collection/:path/
